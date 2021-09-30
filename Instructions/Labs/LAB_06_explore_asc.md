@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Explore Azure Security Center'
-    module: 'Module 3 Lesson 2: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Azure'
----
-
 
 # Lab: Explore Azure Security Center 
 
