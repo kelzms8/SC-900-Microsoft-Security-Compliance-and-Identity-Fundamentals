@@ -116,19 +116,15 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 1. Under the **Apply a Default label to documents**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
     ![](../Images/module4/lab13/17.png)
-
 1. Under the **Apply a Default label to emails**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
     ![](../Images/module4/lab13/18.png)
-
 1. Under the **Apply a default label to Power BI content**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
     ![](../Images/module4/lab13/19.png)
-
 1. The last configuration option is to name your policy. Enter the policy name as **IT-Department-Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
     ![](../Images/module4/lab13/20.png)
-    
 1. Review the settings and click on **Finish** and then select **Done**.
 
     ![](../Images/module4/lab13/21.png)
