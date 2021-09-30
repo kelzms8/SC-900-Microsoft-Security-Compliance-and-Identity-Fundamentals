@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Explore the Microsoft 365 Defender portal'
-    module: 'Module 3 Lesson 5: Describe the capabilities of Microsoft security solutions: Describe security management capabilities of Microsoft 365'
----
-
 
 # Lab: Explore the Microsoft 365 Defender portal
 
