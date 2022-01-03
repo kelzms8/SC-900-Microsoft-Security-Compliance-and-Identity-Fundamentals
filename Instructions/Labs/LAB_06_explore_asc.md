@@ -1,14 +1,14 @@
 
-# Lab: Explore Azure Security Center 
+# Lab: Explore Microsoft Defender for Cloud
 
 ## Lab scenario
-In this lab, you will explore Azure Security Center and learn how Azure Secure Score can be used to improve your organization's security posture.
+In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture.
 
   
 
 **Estimated Time**: 10-15 minutes
 
-#### Task 1: In this task you will take a brief tour of Azure Security Center.
+#### Task 1: In this task you will take a brief tour of Microsoft Defender for Cloud.
 1.	Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
 1. Sign in with your admin credentials.
@@ -36,7 +36,7 @@ In this lab, you will explore Azure Security Center and learn how Azure Secure S
 
    ![alt text](https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Security-Immersion/main/Labs/Images/installagents1.png)
    
-1. Return to Azure security Center blade. Notice the information available on the Security center overview page.  
+1. Return to Microsoft Defender for Cloud blade. Notice the information available on the Security center overview page.  
 
     ![alt text](https://raw.githubusercontent.com/Azure/Azure-Security-Center/main/Labs/Images/asc-dashboard-overview.gif)
 
