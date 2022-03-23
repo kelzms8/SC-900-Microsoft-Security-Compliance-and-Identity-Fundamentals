@@ -80,9 +80,9 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 #### Task 3:  In this task you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data. Note: it can take a bit time to show the connected status of a connector (~30 minutes, depending on the tenant).
 
-1. In the Filter services box of the All services page, enter **Log Analytics Workspace**, then select **Azure Sentinel** from the results list. 
+1. In the Filter services box of the All services page, enter **Microsoft Sentinel**, then select **Microsoft Sentinel**, from the results list. 
 
-2. From the Azure Sentinel page, select the workspace you created with the instance of Azure Sentinel, **SC900-LogAnalytics-workspace**.
+2. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
 3. The first step with Azure Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
