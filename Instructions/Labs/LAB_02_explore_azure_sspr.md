@@ -127,8 +127,6 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
    ![](../Images/more-info.png)
 
-   ![](../Images/default-secure.png)
-
    ![](../Images/stay-sign-in.png)
 
 6. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
