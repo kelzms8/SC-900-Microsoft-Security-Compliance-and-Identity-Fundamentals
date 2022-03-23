@@ -100,11 +100,11 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-2.png)
 
-8. From the Next steps tab, note the list of recommended workbooks.   Under recommended workbooks, select **Azure Sign-in logs** (additional workbooks can be chosen).
+8. From the Next steps tab, note the list of recommended workbooks.   Under recommended workbooks, select **Azure AD Sign-in logs** (additional workbooks can be chosen).
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-3.png)
 
-9. From the workbooks page and with the templates tab selected (underlined), select **Azure Sign-in logs**. 
+9. From the workbooks page and with the templates tab selected (underlined), select **Azure AD Sign-in logs**. 
 
 10. From the Azure AD Sign-in logs window that opens, review the description, and select **View template**.  Exit out of the template, by selecting the **X** on the top-right corner of the screen.  Select **Save** from the bottom of the page, then select **OK** to save the workbook to the default location.
 
