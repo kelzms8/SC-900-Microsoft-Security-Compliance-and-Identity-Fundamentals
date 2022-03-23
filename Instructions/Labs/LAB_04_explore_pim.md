@@ -169,7 +169,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
    ![](../Images/bianca-licences.png)
 
-1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. Under Select licenses, select **Office 365 E5** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
    ![](../Images/update-licence.png)
 
