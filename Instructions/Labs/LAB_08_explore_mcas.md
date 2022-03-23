@@ -23,7 +23,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1. From the bottom of the left navigation panel of the Microsoft 365 Defender page, select **More resources**.
 
-1. On the **Microsoft Cloud App Security** card, select **Open**.  A new browser page opens to the Cloud App Security Dashboard.  Note the information cards that are available.  It is possible you may not see any information on the cards, as this is a preconfigured lab tenant environment that has not been actively used.
+1. On the **Microsoft Defender for Cloud Apps** card, select **Open**.  A new browser page opens to the Cloud App Security Dashboard.  Note the information cards that are available.  It is possible you may not see any information on the cards, as this is a preconfigured lab tenant environment that has not been actively used.
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/8-7.png)
 
