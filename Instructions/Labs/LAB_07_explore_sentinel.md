@@ -21,9 +21,9 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 3. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
 
-4. In the filter services box, enter **Sentinel**, then select **Azure Sentinel** from the list.
+4. In the filter services box, enter **Microsoft Sentinel**, then select **Microsoft Sentinel** from the list.
 
-5. From the Azure Sentinel page, select **Create Azure Sentinel**.
+5. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
 
 6. From the Add Azure Sentinel to a workspace page, select **Create a new workspace**.
 
