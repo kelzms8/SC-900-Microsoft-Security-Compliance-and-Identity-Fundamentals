@@ -39,7 +39,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. From the Properties page, under the option Self-service password reset enabled, select **Select group**
 
-1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, then choose Select.
+1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
    ![](../Images/aad-password-reset.png)
 
