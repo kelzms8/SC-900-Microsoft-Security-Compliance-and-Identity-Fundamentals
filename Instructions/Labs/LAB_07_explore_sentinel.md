@@ -32,11 +32,9 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
     1. Resource group: select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (leave this default)
-    1. Select **Next: Pricing tier >**
+ 
 
     ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/15.png)
-
-8. For the Pricing Tier, leave the default settings: **Pay-as-you-go (per GB 2018)**, then select **Next: Tags >**.
 
 9. For the Tags, you can leave this blank, then select **Review + Create**.
 
