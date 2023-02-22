@@ -110,9 +110,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 1. Keep this page open, as you'll use it in the next task
     
 
-### Task 4
-
-In this task, you'll walk through some of the options available in Sentinel.
+### Task 4 : In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
 
@@ -131,7 +129,6 @@ In this task, you'll walk through some of the options available in Sentinel.
 1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
 1. Close all the open browser tabs.
-
 
 ### Review
 
