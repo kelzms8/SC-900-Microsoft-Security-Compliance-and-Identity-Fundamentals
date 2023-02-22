@@ -22,8 +22,7 @@ In this lab, you will explore the function of network security groups in Azure. 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/1.png)
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
-    1. Subscription: verify the default setting to be Azure Pass – Sponsorship.
-
+    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
     1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
     1. Virtual machines name:  enter **SC900-WinVM**.
     1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
@@ -41,39 +40,36 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
     1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
 
-    1. Select **Next:  Management >**.
-1. You are now in the Management tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
-1. You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
-1. You are now in the Tags tab for the VM configuration.  Leave all settings to the default and select **Next: Review + Create>**.
-1. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
-1. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
-1. Once the VM deployment is complete, select **Go to resource**.
+1. Select **Next:  Management >**.
+1. You are now in the Management tab for the VM configuration.  Leave all settings to the default and select **Next: Monitoring>**.
+1. You are now in the Monitoring tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
+3. You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
+4. You are now in the Tags tab for the VM configuration.  Leave all settings to the default and select **Next: Review + Create>**.
+5. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
+6. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
+7. Once the VM deployment is complete, select **Go to resource**.
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/4.png)
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
-1. From the top of the page, select **Connect** then from the drop-down select **RDP**.
+1. From the top of the page, select **Connect** then from the drop-down select **RDP**. 
 1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**. 
 1. Open the downloaded file and select **Connect**. 
-1. You will be prompted for your credentials.  For Username, enter **AzureUser**.  For the Password, enter **SC900AzureLabs**. 
-1. A Remote Desktop connection window opens indicating, The identity of the remote computer cannot be verified.  Do you wish to connect anyway?  Select **Yes**.
-1. You are now connected to the Windows VM you just created. Follow the prompts to complete the Windows setup. Although you connected to the VM via RDP and a commonly used RDP Port, this VM has all ports open and there is nothing that is filtering traffic. 
-1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
-1. You are now back in the SC900-WinVM page in the Azure portal.  Leave this browser tab open for the next task.
+
+**Note: The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.**
 
 #### Task 2:  Create a network security group and assign the network interface of the VM to that NSG.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
-1. From the top-left corner of the page, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon), then select **All Services**.
-1. In the Filter services box next to where it says All services, enter **Network security groups** then from the results, select **Network security groups** (do not select Network security groups classic).
-1. From the top of Network security groups page, select **+ Create**.
-1. On the Basics tab of the Create network security group page, specify the following settings:
-    1. Subscription:  Azure Pass – Sponsorship
-
-    1. Resource group:  **LabsSC900**
-    1. Name:  **NSG-SC900**
-    1. Region:  leave the default **(US) East US**
-    1. Select **Review + create** then select **Create**.
+1. In the blue search bar on the top of the page, enter **Network security groups** groups. From the results, select **Network security groups** (do not select Network security groups classic).
+3. From the top of Network security groups page, select **+ Create**.
+4. On the Basics tab of the Create network security group page, specify the following settings:
+    
+    1. Subscription: Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
+     1. Resource group:  **LabsSC900**
+    3. Name:  **NSG-SC900**
+    4. Region:  leave the default **(US) East US**
+    5. Select **Review + create** then select **Create**.
     
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/5.png)
 
@@ -143,8 +139,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Source port ranges:  *
     1. Destination:  **Service Tag**
     1. Destination service tag:  **Internet**
-    1. Service:  **Custom** (leave the default)
     1. Destination port ranges:  * (be sure to put an asterisk in the destination port ranges field)
+    1. Service:  **Custom** (leave the default)
     1. Protocol: **Any**
     1. Action: **Deny**
     1. Priority:  **4000**
@@ -155,7 +151,8 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
 1. Return to your VM
-1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.  Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
+1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.  Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Note:  Azure subscriptions in the lab environment may experience longer than normal delays.
+
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
