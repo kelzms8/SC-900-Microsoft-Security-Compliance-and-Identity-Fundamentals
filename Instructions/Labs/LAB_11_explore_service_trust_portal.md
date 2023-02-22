@@ -1,91 +1,78 @@
-# Lab: Explore the Service Trust Portal
+# Lab-11: Explore the Service Trust Portal
 
 ## Lab scenario
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-**Estimated Time**: 10-15 minutes
-
-
 #### Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
 
-1. Open Microsoft Edge. Navigate to **https://portal.azure.com/** and sign in with the user credentials provided in the environment details page.
+1. In the lab virtual machine , double click on the Azure portal shortcut on the desktop **https://portal.azure.com/** and sign in with the user credentials provided in the environment details page.
 
-   ![](../Images/98.png)
+   ![](../Images//sc-900-01.png)
 
 1. In the same window open another tab and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
 1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user (i.e. the user account with which we have signed into azure.) with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and, if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
-    ![](../Images/module4/lab11/1-1.png)
+    ![](../Images//sc-900-002.png)
 
-    ![](../Images/module4/lab11/1-2.png)
+    ![](../Images/sc-900-lab11-3.png)
     
-1. Scroll down on the page and notice the links to Audit reports, Documents & Resources and more.  Select **View all Audit Reports**.
+1. Scroll down on the page and notice the different categories of information available. From the **Certifications, Regulations, and Standards category** Select **ISO/IEC**.
 
-   ![](../Images/module4/lab11/2-1.png)
+   ![](../Images/sc-900-11-4.png)
 
-1. Scroll down to the middle of the page and you will see New and Archived Audit Reports.  You can select from a variety of categories, including Compliance Guides, ENS Audit Reports and Certificates, FAQ and White Papers, and more.
+1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings, note the different settings. Select **Save**.
 
-1. Select **ISO Reports**.  If you don’t immediately see the option for ISO Reports, select the right arrow until you see the option for ISO Report, then select it.
-
-   ![](../Images/module4/lab11/2.png)
-
-1. You will see a long list of available ISO reports, so you have the option to filter based on a date range as well as Document Type, Cloud Service, and Industries.  In this case, you are looking for available ISO reports for Azure DevOps.  Select Cloud Service and from the drop down, select Azure DevOps (aka VSTS).  The result is two documents.
-
-   ![](../Images/module4/lab11/3-1.png)
+   ![](../Images/sc-900-lab11-5-6.png)
    
-   ![](../Images/module4/lab11/3-2.png)
+   ![](../Images/sc-900-lab11-5-7.png)
    
-   ![](../Images/module4/lab11/3.png)
+   ![](../Images/sc-900-lab11-5-8.png)
 
-1. You have the option to download or Save to Library all or individual documents.  In this case, you want to save just the first document.  Select the **ellipses (…)**, then select **Save to Library**.  You will be prompted to subscribe to the document, select **Confirm**.
+1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**, view the document that we have saved.
 
-   ![](../Images/module4/lab11/4.png)
+   ![](../Images/sc-900-lab11-7.png)
    
-   ![](../Images/module4/lab11/5.png)
+   ![](../Images/sc-900-lab11-7-1.png)
 
-1. A pop-up window may appear with the option to receive email notifications when documents that are saved to your library are updated.  In this case, you don’t need to receive any notifications of updates, so leave the defaults and select **Save**.  The document is still saved to your library.
+1. From the top of the My Library page, select **Service Trust Portal** to return to the Service Trust Portal home page.
 
-   ![](../Images/module4/lab11/6.png)
-
-1. Now verify that the document is in fact in your library. Scroll up to get to get back to the top of page.  From the top navigation, select **My Library**.  If you don’t see the option for My Library, select More, then select My Library.
-
-   ![](../Images/module4/lab11/7.png)
+   ![](../Images/sc-900-lab11-8.png)
    
-   ![](../Images/module4/lab11/7-1.png)
-
-1. From the top of the Service Trust Portal page, select **Trust Documents** and note the options. Explore the information available for each of the links under Trust Documents. Selecting Audit Reports directs you to the same location that you explored in the previous task.  Explore the information available for each of the links.
-
-   ![](../Images/module4/lab11/7-2.png)
-
-1. From the top of the page, select **Industries & Regions**.  Choose **Regional Solutions**. Notice the different Regions listed.  Select **United Kingdom**. 
-
-   ![](../Images/module4/lab11/industries-regions.png)
+1. From the Service Trust Portal home page, scroll down to the **Industry and Regional Resources** category.  Note the available tiles.  Select **Financial Services**.  Scroll down to see all the available regions and countries.  Select the tile for any country to view the applicable documents.
+ 
+   ![](../Images/sc-900-lab11-9.png)
    
-   **NOTE**- If the options do not appear after selecting **Industries & Regions**, consider clearing the cache memory or try minimizing the screen using **Ctrl+Shift+(-)** button. 
+   ![](../Images/sc-900-lab11-9-1.png)
+ 
+1. Navigate back to the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
+   
+    ![](../Images/sc-900-lab11-8.png)
+    
+1. From the Service Trust Portal home page, scroll down to the **Resource for your Organization** category. Select **Resources for your Organization**.  Note that any documents listed here are based on your organization's subscription and permissions.    
 
-1. You can select from different categories.  Including GRC Assessment Reports, Compliance Guides, and more.  As with the previous task, you can filter the list of documents displayed and you can select documents to download or save documents to your library.
+   ![](../Images/sc-900-lab11-11.png)
+   
+   ![](../Images/sc-900-11-11-1.png)
+   
+1. Navigate back to the Service Trust Portal home page, select the link **Service Trust Portal** at the top of the page.
 
+   ![](../Images/sc-900-lab11-8.png)
+    
 #### Task 2: In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
-1. From the top of the Service Trust Portal page, select **Trust Center** then choose **Home**. This opens a new browser tab that takes you to the Trust Center where you find more information about security, compliance, and privacy in the Microsoft Cloud.
+1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
 
-   ![](../Images/module4/lab11/11.png)
+   ![](../Images/sc-900lab11-T1-1.png)
 
-1. From the top of the page, select **Privacy**, then select **Resources**.
+1. In addition to listing all applicable documents, there is a description of the category followed by a link to Learn more.  Select **Learn more**.
 
-   ![](../Images/module4/lab11/11-1.png)
+   ![](../Images/sc-900lab11-T1-2.png)
 
-1. Select **Additional privacy resources**.
+1. A new browser page opens to the Microsoft Trust Center where you find more information, including information about privacy and much more. Explore the contents of this page and navigate through different links.
 
-   ![](../Images/module4/lab11/9.png)
-
-1. Select **Privacy at Microsoft**.
-
-   ![](../Images/module4/lab11/10.png)
-
-1. Review the six key privacy principles.
+   ![](../Images/sc-900lab11-T1-3.png)
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
