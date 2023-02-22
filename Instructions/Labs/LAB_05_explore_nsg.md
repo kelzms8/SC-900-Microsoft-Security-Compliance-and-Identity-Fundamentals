@@ -156,16 +156,6 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-#### Task 5:  IMPORTANT: In this task you will delete the resource group and all the resources it contains. This is important to avoid additional charges.
-
-1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
-
-1. From the top-left corner of the page, select **All Services**.
-1. In the Filter services box next to where it says All services, enter **Resource groups** then from the results, select **Resource groups**.
-1. Select **LabsSC900**.
-1. From the top center of the LabsSC900 page, select **Delete resource group**.
-1. In the window that opens, enter the resource group name, **LabsSC900**, to confirm deletion the resource group and all its resources, then select **Delete** from the bottom of the page.
-1. It may take a few minutes for all the resources and resource group to be deleted.
 
 #### Review
 
