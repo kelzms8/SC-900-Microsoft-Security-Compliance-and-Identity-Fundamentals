@@ -1,12 +1,12 @@
-# Lab: Explore the Microsoft 365 compliance center & Compliance Manager
+# Lab: Explore the Microsoft Purview compliance center & Compliance Manager
 
 ## Lab scenario
-In this lab, you will explore the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
 
 **Estimated Time**: 15-20 minutes
 
-#### Task 1: Explore the Microsoft 365 compliance center home page and learn to customize the card view and the navigation panel.
+#### Task 1: Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -33,7 +33,7 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
      ![](../Images/module4/lab12/1-1.png)
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft 365 compliance center.
+1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview compliance center.
 
      ![](../Images/module4/lab12/1.png)
      
@@ -69,7 +69,7 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 #### Task 2: Learn about your organization’s compliance posture through Compliance Manager.
 
-1. From the left navigation panel of the Microsoft 365 compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 
+1. From the left navigation panel of the Microsoft Purview compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 
 
 1. If any pop-up appears, Please close it. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
@@ -122,4 +122,4 @@ In this lab, you will explore the Microsoft 365 compliance center home page and 
 
 
 #### Review
-In this lab you explored the Microsoft 365 compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+In this lab you explored the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
