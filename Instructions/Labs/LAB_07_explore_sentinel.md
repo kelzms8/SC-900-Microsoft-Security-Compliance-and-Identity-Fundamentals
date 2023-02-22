@@ -2,13 +2,13 @@
 # Lab: Explore Azure Sentinel 
 
 ## Lab scenario
-In this lab you will walk through the process of creating an Azure Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support Azure Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to your data sources, use built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
+In this lab you will walk through the process of creating an  Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support  Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Sentinel to your data sources, use built-in analytics to get notified of anything suspicious, and lastly you will explore the automation capability.  
 
   
 
-**Estimated Time**: 30-45 minutes
+**Estimated Time**: 45-60 minutes
 
-#### Task 1:  Create an Azure Sentinel instance.
+#### Task 1:  Create an  Microsoft Sentinel instance.
 
 1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
@@ -19,9 +19,7 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
     1. When prompted to stay signed- in, select **Yes**.
     
 
-3. On the top left corner of the screen, next to where it says Microsoft Azure, select the Show portal menu icon (the three horizontal lines also referred to as hamburger icon) then select **All Services**.  
-
-4. In the filter services box, enter **Microsoft Sentinel**, then select **Microsoft Sentinel** from the list.
+3. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
 5. From the Microsoft Sentinel page, select **Create Microsoft Sentinel**.
 
@@ -44,19 +42,18 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/19.png)
 
-12. Once the new workspace is added, the Azure Sentinel | News & guides page will display.  Note the three steps listed on the Get started page.
+12. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/20.png)
 
 13. Keep this page open, as you will use it in the next task.
 
-#### Task 2:  With the Azure Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Azure Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Azure Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Azure Sentinel.
+#### Task 2:  With the Microsoft Sentinel instance created, you will want to make sure that you have the necessary access to the resources that get deployed to support Microsoft Sentinel.  In this task you will go to the access control (IAM) page for the resource group that you created with the instance of Microsoft Sentinel, view the available roles, and assign yourself (MOD administrator) the required role. Assigning the role at the resource group level will ensure the role will apply to all the resources that are deployed to support Azure Sentinel.
 
-1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
+1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
 
-2. In the filter services box, enter resource groups, then from the list provided select **Resource groups**.
+3. From the Resource groups page, select the resource group that you created with Azure Sentinel, **SC900-ResourceGroup**.Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
 
-3. From the Resource groups page, select the resource group that you created with Azure Sentinel, **SC900-ResourceGroup**.
 
 4. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
@@ -78,9 +75,9 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
 8. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
-#### Task 3:  In this task you will walk through the process of connecting Azure Sentinel to your data source to begin to collect data. Note: it can take a bit time to show the connected status of a connector (~30 minutes, depending on the tenant).
+#### Task 3:  In this task you will walk through the steps oinvolved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: it can take a bit time to show the connected status of a connector (30 minutes, depending on the tenant).
 
-1. In the Filter services box of the All services page, enter **Microsoft Sentinel**, then select **Microsoft Sentinel**, from the results list. 
+1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
 2. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
@@ -88,92 +85,54 @@ In this lab you will walk through the process of creating an Azure Sentinel inst
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/23.png)
 
-4. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Azure** then from the list select **Azure Active Directory**.
+4. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
 
     ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/24.png)
 
-5. The Azure Active Directory connector window opens.  Select **Open connector page**.
+5. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
 
-6. From the Azure Active Directory connector page, review the description and note the related content which includes workbooks, queries, and Analytic rules templates.  
+1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
-7. The instructions tab in the main window, provides the perquisites for Azure Sentinel to integrate with Azure Active Directory.   Under configuration, select **Sign-in logs** then select Apply Changes (multiple connectors can be chosen).
+1. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
+    1. From the configuration section, select the empty box next to the listed subscription, **Azure HOL--DID** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
 
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-2.png)
+1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
+    1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
+   
+1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
 
-8. From the Next steps tab, note the list of recommended workbooks.   Under recommended workbooks, select **Azure AD Sign-in logs** (additional workbooks can be chosen).
+ 1. In the workspace field, select **SC900-LogAnalytics-workspace**.
+   
+   1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
+   1. From the top of the workbook page, select the **Save icon**.
+   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
 
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-3.png)
+1. Keep this page open, as you'll use it in the next task
+    
 
-9. From the workbooks page and with the templates tab selected (underlined), select **Azure AD Sign-in logs**. 
+### Task 4
 
-10. From the Azure AD Sign-in logs window that opens, review the description, and select **View template**.  Exit out of the template, by selecting the **X** on the top-right corner of the screen.  Select **Save** from the bottom of the page, then select **OK** to save the workbook to the default location.
+In this task, you'll walk through some of the options available in Sentinel.
 
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-4.png)
+1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
 
-11. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Azure Sentinel**. This returns you to the Azure Sentinel Data Connectors page.
+1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
-12. The top of the Data connectors page should display 1 connected, to reflect that you are now connected to Azure Active Directory.
+1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen, select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios. Scroll down to the README.md section and review the description. Return to the Azure tab in your browser.
 
-13. From the left navigation panel, select **Workbooks**.
+1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
-14. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you just saved is listed and available for you to view and monitor your data.
+1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
 
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/7-5.png)
+1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
 
-15. Keep this page open, as you will use it in the next task.
+1. Close the window by selecting the **X** on the top-right corner of the window.
 
-#### Task 4:  In this task you will walk through the process of using a built-in analytics rule template to create a rule to get notified when something suspicious occurs.
+1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
 
-1. From the left navigation panel, select **Analytics**.
-
-2. The Analytics page will show active rules (Advanced multistage attack detection is enabled by default) and will also provide access to Rule templates.  Select the **Rule templates** tab.  Notice the list of available templates and the different ways to filter the list.  Using built-in analytics alerts within the Azure Sentinel workspace, you’ll get notified when anything suspicious occurs.
-
-3. In the Search bar, enter **Azure Portal**.  Select **Failed login attempts to Azure Portal**.  
-
-4. From the window that opens, read the description and review the information associated with the template.  Select **Create rule** on the bottom of the page.
-
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/25.png)
-
-5. From the Analytics rule wizard, review the information, then select **Next: Set rule logic >**.
-
-6. The Set rule logic page, is where you define the logic for your new analytics rule. The template already provides some logic and predefined settings.  Scroll through the page to see the available settings.  Leave the defaults. Select **Next: Incident settings (preview)>**.
-
-7. With Incident settings, Azure Sentinel alerts can be grouped together into an Incident that should be looked into. You can set whether the alerts that are triggered by this analytics rule should generate incidents.  Leave the default settings and select **Next: Automated response >**.
-
-8. In the Automated response tab, note how you can add a playbook to automate the response.  Similarly, you can create an incident automation rule.  Select **+ Add** new under incident automation.  A window to create a new automation rule opens.  Any automation rule you create on this page is triggered by the analytics rule you are c   Note that you can add conditions and set actions for the rule.   Select **Cancel** to exit out of the window.
-
-    ![al text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/26.png)
-
-9. Select **Next: Review>** to review all the details associated with the rule and based on the chosen template. At this point, you can choose to create the rule, by selecting **Create** or exit without creating the rule by selecting **X** on the top-right corner of the page.
-
-10. Keep this page open, as you will use it in the next task.
-
-#### Task 5:  In the previous task you created an analytics rule to be alerted of suspicious activities.  Embedded in that wizard is the option to automate the response to an incident based on the specific rule.  But you can also create automation rules by going directly to the automation configuration option.
-
-1. From the left navigation panel, select **Automation**.  
-
-2. Select **+ Create**. From the drop-down note how you can select **Automation rule**.    
-
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/27.png)
-
-3. A window to create a new automation rule opens.  Note that you can add conditions and set actions for the rule.  The only distinction is that the first condition is to associate the analytics rule(s) to which you want to apply this automation rule.  This is was greyed out in the previous task because the automation was being configured for the specific rule.  Select **Cancel** to exit out the Create new automation rule window.
-
-4. Keep this page open, as you will use it in the next task.
+1. Close all the open browser tabs.
 
 
-#### Task 6:  Delete Azure Sentinel Resource group.  Azure Sentinel is billed based on the volume of data ingested for analysis in Azure Sentinel. Although the amount of data ingested as a result of this lab is minimal, it is recommended that you delete the Azure Sentinel resource group when you are done exploring the features of capabilities of Azure Sentinel.
+### Review
 
-1. From the Azure Sentinel page, on the top-left corner of the page, above where is says Azure Sentinel, select **All Services**.
-
-2. In the filter services box, enter resource groups, then from the list provided select **Resource groups**.
-
-3. From the Resource groups page, select the resource group that you created with Azure Sentinel, **SC900-ResourceGroup**.
-
-4. From the top center of the page, select **Delete resource group**.  Review the warning.  Enter the resource group name, **SC900-ResourceGroup**, then select **Delete** from teh bottom of the page.  It will take several minutes to delete the resource group.
-
-5. Once you have verified the resource group was deleted, close the browser page. 
-
-
-#### Review
-
-In this lab you walked through the process of creating an Azure Sentinel instance.  You also set up the permissions to ensure access to the resources associated with your instance of Azure Sentinel.  With your Azure Sentinel instance created, you walked through the steps for connecting Sentinel to your data sources, using built-in analytics rules to get notified of anything suspicious, and lastly you explored the automation capability. You concluded the lab by deleting the resource group associated with the instance of Azure Sentinel that you created.
+In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
