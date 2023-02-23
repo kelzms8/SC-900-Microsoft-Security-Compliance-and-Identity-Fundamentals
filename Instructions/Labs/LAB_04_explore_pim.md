@@ -11,7 +11,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
 2. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (use your username that is provided in the Environment Details tab)
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -46,7 +46,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-   ![](../Images/aad-role.png)
+   ![](../Images/identity.png)
 
 4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage Access**.
 
@@ -98,7 +98,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
 1. Sign in as Diego Siciliani.
-    1. In the Sign in window enter **DiegoS@WWLxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **DiegoS@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**.
@@ -125,7 +125,6 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
    ![](../Images/click-to-continue.png)
 
 1. You are notified that more information is required, select **Next**.
-1. Enter your password, **SC900-Lab**.
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
@@ -169,7 +168,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
    ![](../Images/bianca-licences.png)
 
-1. Under Select licenses, select **Office 365 E5** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
    ![](../Images/update-licence.png)
 
