@@ -76,12 +76,12 @@ In this lab, you will explore the function of network security groups in Azure. 
 **Note: The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.**
 
    ![Picture 1](../Images/08.png)
-
-1. From the left navigation panel, select **Networking**.  
+   
+21. From the left navigation panel, select **Networking**.  
     1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
     1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
-1. Leave this browser tab open.
+22. Leave this browser tab open.
 
 #### Task 2:  Create a network security group and assign the network interface of the VM to that NSG.nd create a new inbound rule for RDP traffic.
 
