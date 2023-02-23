@@ -3,9 +3,9 @@
 
 This lab maps to the following Learn content:
 
-Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-Module: Describe the basic services and identity types of Azure AD
-Unit: Describe the Azure AD identity types  
+1.Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
+2.Module: Describe the basic services and identity types of Azure AD
+3.Unit: Describe the Azure AD identity types  
 
 ## Lab scenario
 
@@ -34,23 +34,23 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
-   ![](../Images/aad-home.png)
-
 1. From the left navigation pane, under favorites select **Azure Active Directory**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
-   ![](../Images/add-tenant.png)
-
+ ![](../Images/adsc.png)
+ 
 1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as odl_user_xxxxx@xxxxx.onmicrosoft.com and you originally used those same credentials to redeem your Azure pass, you should be logged in as the admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
    ![](../Images/azure-portal.png)
 
-1. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.  Click on **View** below the **Manage Azure Active Directory**.
+1. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select it from there.
 
    ![](../Images/azure-portal-home.png)
 
 1. You are now seeing the Azure Active Directory for your Microsoft 365 tenant. Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Azure Active Directory where you can administer all the Azure AD services.
 
    ![](../Images/azure-portal-aad.png)
+   
+1. Keep this browser page open for the next task.
 
 #### Task 2: Creating a basic group
 
@@ -93,7 +93,7 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
     4. Last name: **Perez**.
 
-   ![](../Images/aad-create-user.png)
+   ![](../Images/usersc900.png)
 
 6. Populate the **Password** fields as follows:
 
@@ -127,15 +127,15 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
    ![](../Images/aad-user-create.png)
 
-10. Verify the user appears on the user list (names are listed in alphabetical order).
+10. Verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
 11. From the user list select the user you just created, **Sara Perez**.  The profile page opens.
 
-  ![](../Images/add-review-user.png)
+  ![](../Images/crtusersc.png)
 
-12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  Note:  you will also see another group, although we only assigned one group when we created the user.  This is a result of a preconfigured policy, in the tenant, that automatically assigns new users to the group.
+12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  
 
-  ![](../Images/aad-group-review.png)
+  ![](../Images/ops.png)
 
 13. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
 
@@ -155,6 +155,8 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 19. You have successfully created and configured a user in Azure Active Directory.
 
+20. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
+
 20.   Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
 #### Task 4:  In this task, you will sign in as Sara Perez, for the first time.
@@ -163,7 +165,7 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 2. In the address bar enter **login.microsoft.com**.
 
-3. Sign in as **sara@xxxxx.onmicrosoft.com**, (where xxxxx is your unique tenant ID provided by your lab hosting provider).
+3. Sign in as **sara@azureholxxxx.onmicrosoft.com**.
 
 4. Enter the temporary password **Naja8996**.
 
@@ -177,7 +179,7 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 7. You should now be successfully signed in to Microsoft 365.
 
-  ![](../Images/office-365-home.png)
+  ![](../Images/mshome.png)
 
 8. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
