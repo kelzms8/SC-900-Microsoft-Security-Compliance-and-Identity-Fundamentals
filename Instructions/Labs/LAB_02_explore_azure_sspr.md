@@ -13,7 +13,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 1. Open Microsoft Edge.
 
 2. In the address bar enter **portal.azure.com** and sign in with the credentials provided in the **Environment Details** Tab.
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (username which you will find in the Environment Details tab) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -51,6 +51,8 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 8. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
+   ![](../Images/sspr-add-member.png)
+   
 9. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
    ![](../Images/sspr-add-member.png)
@@ -87,13 +89,13 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 6. In the Number of methods required to rest, select **1**. Note the information box on the screen.
 
-7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them.
+7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them and click save.
 
    ![](../Images/auth-methods.png)
 
 8. From the left navigation panel of Password reset, select **Registration**.  
 
-9. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 180.   Take note of the information box on the page.
+9. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 180 and click save if any changes have been made.  Take note of the information box on the page.
 
 10. From the left navigation panel of Password reset, select **Notifications**.  
 
@@ -113,7 +115,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 2. In the address bar enter **login.microsoftonline.com**.
 
 3. Sign in as Adele Vance,
-    1. In the Sign in window enter **AdedleV@WWLxxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **adedlev@azureholLxxxxx.onmicrosoft.com**  then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
@@ -153,7 +155,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 2. In the address bar enter login.microsoftonline.com.
 
-3. Sign in as Adele Vance, by entering your email **AdeleV@WWLxxxxx.onmicrosoft.com** (where xxxxxx is your unique tenant ID provided by your lab hosting provider)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
+3. Sign in as Adele Vance, by entering your email **AdeleV@WWLxxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
 4. From the Enter password window, select **Forgot my password**. 
 
@@ -184,7 +186,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 2. In the address bar enter **portal.azure.com** 
 
 3. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@WWLxxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **odl_user_xxxxx@WWLxxxxx.onmicrosoft.com** (you will find the odl user email in the Environment Details tab) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
