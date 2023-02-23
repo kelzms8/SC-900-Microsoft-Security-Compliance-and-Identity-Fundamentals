@@ -60,7 +60,8 @@ In this lab, you will explore the function of network security groups in Azure. 
 6. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
 
 7. Once the VM deployment is complete, select **Go to resource**.
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/4.png)
+   
+   ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/4.png)
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
 
@@ -117,17 +118,19 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
 
 From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
-    1. Source:  **Any**
-    1. Source port ranges: **\***
-    1. Destination:  **Any**
-    1. Service:  **RDP**
-    1. Action:  **Allow**
-    1. Priority:  **1000**. Note: rules with lower numbers have higher priority and are processed first.
+    
+   1. Source:  **Any**
+   1. Source port ranges: **\***
+   1. Destination:  **Any**
+   1. Service:  **RDP**
+   1. Action:  **Allow**
+   1. Priority:  **1000**. Note: rules with lower numbers have higher priority and are processed first.
+   1. Name:  Leave the default name or create your own descriptive name.
+   1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
 
- ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/10.png)
+  ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/10.png)
 
-    1. Name:  Leave the default name or create your own descriptive name.
-    1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
+
 1. Select **Add**
 
 1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
