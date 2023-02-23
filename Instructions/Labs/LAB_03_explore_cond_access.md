@@ -11,7 +11,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
 2. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab provider) then select **Next**.
+    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (username that you will find in the Environment Details tab) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
