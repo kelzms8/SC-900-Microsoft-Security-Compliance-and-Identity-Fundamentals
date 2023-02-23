@@ -22,7 +22,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. From the top left of the page, select **+Create** then select **+Virtual machine**.
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/1.png)
+   ![Picture 1](../Images/1.png)
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
@@ -34,11 +34,13 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Username:  enter **AzureUser**.
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
-    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
-    1. Select **Next: Disks**. 
+       
+       ![Picture 1](../Images/2.png)
+       
+    3. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+    4. Select **Next: Disks**. 
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/2.png)
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/3.png)
+       ![Picture 1](../Images/3.png)
 
 1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
 
@@ -61,7 +63,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 7. Once the VM deployment is complete, select **Go to resource**.
    
-   ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/4.png)
+    ![Picture 1](../Images/4.png)
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
 
@@ -95,7 +97,7 @@ In this lab, you will explore the function of network security groups in Azure. 
     4. Region:  leave the default **(US) East US**
     5. Select **Review + create** then select **Create**.
     
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/5.png)
+     ![Picture 1](../Images/5.png)
 
 1. Once the deployment is complete, select **Go to resource**.
 
@@ -103,16 +105,18 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the ** Associate**, above search box.
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/6.png)
+
+     ![Picture 1](../Images/06.png)
 
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/7.png)
+
+     ![Picture 1](../Images/7.png)
 
 1. Once the interface is associated to the NSG, it will show up on the list.
 
 1. From the left navigation pane, select **Inbound security rules**.
   
-   ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-    Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/9.png)
+     ![Picture 1](../Images/9.png)
 
 
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
@@ -128,7 +132,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
    1. Name:  Leave the default name or create your own descriptive name.
    1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
 
-  ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/10.png)
+       ![Picture 1](../Images/sc900-inrule.png)
 
 
 1. Select **Add**
@@ -170,7 +174,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.
 
-    ![alt text](https://raw.githubusercontent.com/Ritu786/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/stag/Instructions/Images/11.png)
+   ![Picture 1](../Images/011.png)
 
 1. On the Add outbound security rule page, specify the following settings:
     
@@ -186,7 +190,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
     1. Name:  **DenyInternet**
     1. Select **Add**
     
-    ![alt text](https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Images/5-1.png)
+   ![Picture 1](../Images/sc900-outrule.png)
 
 1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
 
