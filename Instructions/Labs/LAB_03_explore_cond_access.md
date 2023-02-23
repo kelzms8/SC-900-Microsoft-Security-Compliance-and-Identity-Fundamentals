@@ -37,13 +37,14 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. Open the browser tab, Enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
 
-2. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Enable Security defaults to toggle to **No**, and choose the reason **My organization is using Conditional Access** for disabling and Select **Save**. You'll see confirmation that your security defaults are saved.
+2. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
+ 
+   ![](../Images/security.png)
 
-   ![](../Images/m365-properties.png)
 
 2. Go back to the Azure Active Directory Home page. From the left navigation panel, select **Security**.
 
-   ![](../Images/aad-security.png)
+   ![](../Images/aad.png)
 
 3. From the left navigation panel, select **Conditional Access**.
 
@@ -83,7 +84,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
    ![](../Images/grant-access.png)
 
-17. After a few seconds, the MFA Pilot policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
+17. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
 18. Sign out of Azure and close your browser windows.
 
@@ -123,7 +124,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. You will likely get a message indicating that your sign-in timed out.  Just enter the password **SC900-Lab** and select **Sign in**.
 
-1. You will see a window prompting you to enter the code that was sent to your phone.  Enter the code and select **Next**.  This is the experience that you, as Gerhart, will experience anytime you access a Microsoft Azure Management cloud application, such as the Azure Portal, per the MFA policy.
+1. You will see a window prompting you to enter the code that was sent to your phone.  Enter the code and select **Next**.  This is the experience that you will experience anytime you access a Microsoft Azure Management cloud application, such as the Azure Portal, per the MFA policy.
 
 1. You will see a window prompting you to enter the code that was sent to your phone.  Enter the code and select the **Verify** button.  When prompted to stay signed in, select **No**.
 
