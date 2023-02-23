@@ -46,7 +46,7 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft cloud security benchmark (verify that Microsoft cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
-       ![Picture 1](../Images/sc900-regulatorycomplience.png)
+       ![Picture 1](../Images/sc900-regulatorycom.png)
        
     1. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
         ![Picture 1](../Images/sc900-ns-10.png)
