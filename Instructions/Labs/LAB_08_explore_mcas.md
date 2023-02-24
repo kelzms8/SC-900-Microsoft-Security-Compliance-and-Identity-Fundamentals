@@ -27,13 +27,13 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1. Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
 
 1. If you don't have a log file follow the below steps to download a sample log file.
-
+ 
 1. Under overview tab, click **Next**.
     
   1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log.
-   
-   ![Picture 1](../Images/createsnapsotanddown.png)
-    
+ 
+  ![Picture 1](../Images/createsnapsotanddown.png)
+ 
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
 
 1. After the upload completes, the status message will appear at the top right corner of your screen letting you know that your log was successfully uploaded.
