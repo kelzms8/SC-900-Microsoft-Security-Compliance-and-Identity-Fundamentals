@@ -21,7 +21,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
    ![Picture 1](../Images/setting.png)
    
-   ![Picture 1](../Images/createsnapsot.png)
+   ![Picture 1](../Images/createsnapst.png)
     
 
 1. Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
