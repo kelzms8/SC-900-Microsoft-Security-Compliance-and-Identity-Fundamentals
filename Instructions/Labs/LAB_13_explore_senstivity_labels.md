@@ -1,10 +1,7 @@
-# Lab: Explore sensitivity labels in Microsoft 365
+# Lab-13: Explore sensitivity labels in Microsoft Purview
 
 ## Lab scenario
 In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
-
-
-**Estimated Time**: 20-25 minutes
 
 #### Task 1: In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
