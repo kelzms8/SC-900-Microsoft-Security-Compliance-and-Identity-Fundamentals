@@ -58,7 +58,7 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
     ![](../Images/sc-900-lab14-7.png)
 
-1. From the list of names, select **ODL Administrator**, **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
+1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
     ![](../Images/sc-900-lab14-8.png)
     
