@@ -9,7 +9,7 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 1. Open Microsoft Edge.
 
-1. In the address bar enter **admin.microsoft.com** to access the Microsoft 365 admin center.
+1. In the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
 1. Sign in with the credentials provided in the **Environment Details** Tab. 
     1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (where xxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
