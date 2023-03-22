@@ -1,19 +1,11 @@
 
 # Lab: Explore Azure Active Directory
 
-This lab maps to the following Learn content:
-
-1.Learning Path: Describe the capabilities of Azure Active Directory (Azure AD), part of Microsoft Entra
-2.Module: Describe the basic services and identity types of Azure AD
-3.Unit: Describe the Azure AD identity types  
-
 ## Lab scenario
 
 In this lab, you'll access Azure Active Directory. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
-**Estimated Time**: 10-15 minutes
-
-#### Task 1:  As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
+### Task 1:  As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. Open Microsoft Edge.
 
