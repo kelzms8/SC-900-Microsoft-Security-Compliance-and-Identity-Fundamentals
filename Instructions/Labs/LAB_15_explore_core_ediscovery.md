@@ -23,6 +23,10 @@ In this lab you will go through the steps required for setting up Core eDiscover
     1. When prompted to protect the account, Please select **Skip for now**.
 
         ![](../Images/module4/lab12/main-4.png)
+        
+    1. When prompted to Action Required, Please select **Ask later**
+
+        ![](../Images/lab14-1-3.png)          
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
