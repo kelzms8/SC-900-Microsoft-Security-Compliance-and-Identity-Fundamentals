@@ -22,7 +22,7 @@ In this lab, you will explore the features and content available from the Servic
 
    ![](../Images/sc-900-11-4.png)
 
-1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings, note the different settings. Select **Save**.
+1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings, note the different settings and select **Daily** and Select **Save**.
 
    ![](../Images/sc-900-lab11-5-6.png)
    

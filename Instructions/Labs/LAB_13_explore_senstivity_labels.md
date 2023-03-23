@@ -23,6 +23,10 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     1. When prompted to protect the account, Please select **Skip for now**.
 
         ![](../Images/module4/lab12/main-4.png)
+        
+    1. When prompted to Action Required, Please select **Ask later**
+
+        ![](../Images/lab14-1-3.png)          
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -36,17 +40,23 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     
     ![](../Images/sc-900-lab13-01.png)
 
-1. From the left navigation panel of the Microsoft Purview, under Solutions, select **Information protection**.
+1. From the left navigation panel of the Microsoft Purview, under Solutions, select **Information protection** and in the dropdown select **Overview** and click on **Turn on now**.
 
 1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
 
     ![](../Images/sc-900-lab13-001.png)
 
-1. Verify you that the **Labels** tab on the top of the page is selected (underlined). Now select **Create a label**
+1. Now select the **Labels** tab from the dropdown and then select **Create a label**
 
     ![](../Images/sc-900-lab13-2.png)
 
 1. Configuration starts provide a name and description for your label. Select **Next** at the bottom of the page.
+
+    | Setting | Action |
+    | -- | -- |
+    | **Name** text box | Enter **Confidential-Finance** |
+    | **Display name** text box | Enter **Confidential-Finance** |
+    | **Description for users** text box | Enter **Confidential-Finance Demo | 
 
     ![](../Images/sc-900-lab13-3.png)
 
@@ -62,7 +72,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     
     ![](../Images/sc-900-lab13-6.png)
   
-1. Click on **+Add User or Group**, select your user name  and **Megan Bowen** and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Click on **+Add Users or Groups**, select your **user name**  and **Megan Bowen** and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
       ![](../Images/sc-900-lab13-7.png)
       
@@ -93,14 +103,26 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 1.  Review the settings and click on **Create label**.
 
       ![](../Images/sc-900-lab13-15.png)
-    
-1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential - Finance-Demo** from label and select **Add** on the bottom of the page. And then click on **Next**.
+      
+1. Click on **Done** on next window.   
 
-     ![](../Images/sc-900-lab13-28.png)
+      ![](../Images/lab13-1-1.png)
+      
+1. Click on **Publish label** from the **Label** Window.
+
+      ![](../Images/lab13-1-2.png)     
+    
+1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
+
+     ![](../Images/lab13-1-3.png)
      
 1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
      ![](../Images/sc-900-lab13-18.png)
+     
+1. Click on **Next** on Assign Admin Units(Preview). 
+
+     ![](../Images/lab13-1-4.png)   
 
 1. Read the description under “Publish to users and groups”.  Notice the this label is available to all users.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
@@ -126,7 +148,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
     ![](../Images/sc-900-lab13-24.png)
     
-1. The last configuration option is to name your policy. Enter the policy name as **Confidential - Finance Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
+1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Finance Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
     ![](../Images/sc-900-lab13-25.png)
     
@@ -146,9 +168,9 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 #### Task 2:  In this task, you will go through the process of applying a label from the perspective of the user (in this case the user is the admin) and view the content marking that is generated by the label.
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Word icon** and select **Open in new tab**. 
+1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-      ![](/Instructions/Images/word.png) 
+      ![](/Instructions/Images/lab13-1-5.png) 
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
@@ -166,9 +188,9 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 #### Task 3 (optional): In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
-1. From the Microsoft Purview home page, select the **app launcher icon**, next to where it says Contoso Electronics. **right click on the Outlook icon** and select **Open in new tab**.
+1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
-      ![](/Instructions/Images/outlook.png)
+      ![](../Images/lab13-1-6.png)
 
 1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
 

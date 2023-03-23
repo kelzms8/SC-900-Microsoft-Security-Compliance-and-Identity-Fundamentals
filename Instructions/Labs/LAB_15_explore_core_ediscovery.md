@@ -23,6 +23,10 @@ In this lab you will go through the steps required for setting up Core eDiscover
     1. When prompted to protect the account, Please select **Skip for now**.
 
         ![](../Images/module4/lab12/main-4.png)
+        
+    1. When prompted to Action Required, Please select **Ask later**
+
+        ![](../Images/lab14-1-3.png)          
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -60,7 +64,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-1-9.png)
 
-1. From the list of names, select **ODL Administrator**, **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
+1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
     ![](../Images/sc-900-lab15-1-10.png)
     
@@ -104,7 +108,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to Adele Vance.
+#### Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
 
@@ -118,9 +122,9 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-T2-5.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange email to set the status to **On**, select **Choose users, groups, or teams**.
+1. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-UserUniqueID** user and click on **Done**
     
-    ![](../Images/sc-900-lab15-T2-6.png)
+    ![](../Images/lab15-1-1.png)
     
 1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
 
@@ -150,9 +154,11 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-T2-11.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange email to set the status to **On**, select **Choose users, groups, or teams**. then select **Next**.  No other locations will be included in this search
+1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-UserUniqueID** user and click on **Done**. 
 
-    ![](../Images/sc-900-lab15-T2-12.png)
+    ![](../Images/lab15-1-2.png)
+
+1. From the Choose locations page, select **Next**.  
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
@@ -170,36 +176,39 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. From the bottom of the page, select **Actions**.  Note the available options. By selecting **Export results**, search results can be downloaded. 
 
-      ![](../Images/sc-900-lab15-T2-17.png)
-    
       ![](../Images/sc-900-lab15-T2-18.png)
-      
-    1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on the bottom of the page.
-
-         ![](../Images/sc-900-lab15-T2-19.png)  
     
-    1. From the SC900-Test case page, select **Exports** from the top of the page.
-    1. Select **Test Hold - Sales Search_Export**
+      ![](../Images/sc-900-lab15-T2-19.png)
+      
+1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on the bottom of the page.
 
-         ![](../Images/sc-900-lab15-T2-20.png)
-    1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
+      ![](../Images/sc-900-lab15-T2-20.png)  
+    
+1. From the SC900-Test case page, select **Exports** from the top of the page.
 
-         ![](../Images/sc-900-lab15-T2-22.png)
-    1. From the top of the window, select **Download results.***(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+1. Select **Test Hold - Sales Search_Export**
 
-         ![](../Images/sc-900-lab15-T2-23.png)
+1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
+
+      ![](../Images/sc-900-lab15-T2-22.png)
+1. From the top of the window, select **Download results.***(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+
+      ![](../Images/sc-900-lab15-T2-23.png)
          
-         ![](../Images/sc-900-lab15-T2-024.png)
-    1. If this is the first time you do a download of a content search, you will be prompted to install the Microsoft Office 365 eDiscovery Export tool.  Select **Install**.
+      ![](../Images/sc-900-lab15-T2-024.png)
+1. If this is the first time you do a download of a content search, you will be prompted to install the Microsoft Office 365 eDiscovery Export tool.  Select **Install**.
 
-         ![](../Images/sc-900-lab15-T2-25.png)
+      ![](../Images/sc-900-lab15-T2-25.png)
          
-    1. Once the install is completed, the eDiscovery export tool window opens.  In the first field, paste the export key that you copied to your clipboard, paste it in now (Control V on your keyboard or right-click on your mouse and select paste).  
-    1. In the second field, select the location where you want to store the export file, then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
+1. Once the install is completed, the eDiscovery export tool window opens.  In the first field, paste the export key that you copied to your clipboard, paste it in now (Control V on your keyboard or right-click on your mouse and select paste). 
+ 
+1. In the second field, Click on **Browse** and set the location to C:\LabFiles to store the downloaded file , then select **Start**.  Once the download process is completed, select **Close** and close this browser tab.
 
-         ![](../Images/sc-900-lab15-T2-26.png)
-    1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
-    1. Check the location of your download to verify the download was successfully completed. 
+      ![](../Images/sc-900-lab15-T2-26.png)
+      
+1. You are back on the "Test Hold - Sales Search_Export" window.  Select **Close**.
+
+1. Check the location of your download to verify the download was successfully completed. 
 
 #### Review
 
