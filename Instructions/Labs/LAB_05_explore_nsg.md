@@ -69,7 +69,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. From the top of the page, select **Connect** then from the drop-down select **RDP**. 
 
-1. Verify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**. 
+1. Verify the IP address is set to Public IP address, leave the default port number and select **Download RDP file**. 
 
 1. Open the downloaded file and select **Connect**. 
 
@@ -147,7 +147,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1.  From the top of the page, select **Connect** then select **RDP**.
 
-1. erify the IP address is set to Public IP address, leave the default port number and select **Download DRP file**.
+1. Verify the IP address is set to Public IP address, leave the default port number and select **Download RDP file**.
 
 1. A Remote Desktop Connection window opens, select **Connect**.
 

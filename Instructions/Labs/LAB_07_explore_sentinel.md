@@ -87,7 +87,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 6. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
-7. The instructions tab in the main window, provides the perquisites.  Review the instructions and configuration information.
+7. The instructions tab in the main window, provides the prerequisites.  Review the instructions and configuration information.
 
    8. From the configuration section, select the empty box next to the listed subscription, **Azure HOL--DID** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
 
