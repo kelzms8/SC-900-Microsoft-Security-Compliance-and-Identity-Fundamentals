@@ -15,10 +15,16 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
        ![](../Images/module4/lab16/sign-in1.png)
      
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+    
        ![](../Images/module4/lab16/sign-in2.png)
+       
     1. When prompted to protect the account, Please select **Skip for now**.
 
        ![](../Images/module4/lab12/main-4.png)
+       
+    1. When prompted to Action Required, Please select **Ask later**
+
+        ![](../Images/lab14-1-3.png)        
      
     1. When prompted to stay signed- in, select **Yes**.
 
