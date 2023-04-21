@@ -10,22 +10,24 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 #### Task 1:  In this task, you, as the admin, will add an existing user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will also need to do a reset the user’s password so that you can do the first-time login, as the user, and register for SSPR.
 
-1. Open Microsoft Edge.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-2. In the address bar enter **portal.azure.com** and sign in with the credentials provided in the **Environment Details** Tab.
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (username which you will find in the Environment Details tab) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-3. Select **Azure Active Directory**.  
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-4. From the left navigation panel, select **Groups**.
+1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
+
+1. From the left navigation panel, select **Groups** under **Manage**.
+
 
 #### Task 2: Creating a basic group
 
 1. On the Active Directory page, select Groups and then select New group.
 
-   ![](../Images/aad-new-group2-upd.png)
+   ![](../Images/aad-new-group2-upd(1).png)
 
 1. Populate the **New Group** fields as follows and Select **Create**
 
@@ -37,45 +39,71 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. On the **Azure Active Directory** home page, select **Password reset**.
 
-1. From the Properties page, under the option Self-service password reset enabled, select **Select group**
+1. From the Properties page, under the option Self-service password reset enabled is selected and click on **Select group**
 
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
-   ![](../Images/aad-password-reset.png)
-
-5. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
-
-6. From the left navigation pane, select **Members**.
-
-7. From the top of the page, select **+ Add members**.  
-
-8. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
-
-   ![](../Images/sspr-add-member.png)
+   ![](../Images/aad-password-reset(1)-1.png)
    
-9. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
+1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
 
-   ![](../Images/sspr-add-member.png)
+1. From the left navigation pane, select **Users**. Click **+ New user** at the top of the page and from dropdown select **Create new user**.
 
-10. Return to the **Azure Active Directory** page.
+1. On the **Create new user** blade, in basics tab specify the following settings:
 
-11. From the left navigation panel select **Users**.
+    |Setting|Value|
+    |---|---|
+    |User principal name |**Adele**|
+    |Display name |**Adele Vance**|
+    |Password|Ensure that the option **Auto-generate password** is selected |
+    |Account enabled| **Selected**
+   
+    >**Note**: Record the full user name and the password.
 
-12. Select **Adele Vance** from the list of users.
+1. On the **Create new user** blade, in **Property** tab under settings specify the following settings:
+    |Setting|Value|
+    |---|---|
+    |Usage Location|**United States**|
 
-13. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
+1. Select **Review + create** and click on **Create**.
 
-14. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+1. Verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
-15. Close the password reset window by selecting the **X** at the top right corner of the page.
+1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+ 
+1. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
-   ![](../Images/adele-reset-password.png)
+1. From the left navigation pane, select **Members** under **Manage**.
 
-16. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
+1. From the top of the page, select **+ Add members**.  
 
-17. Close the Users window by selecting the **X** at the top right corner of the page.
+1. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
-18. Keep the AAD Overview window open as you will use it in the subsequent task.
+    ![](../Images/sspr-add-member(1)-1.png)
+   
+1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
+
+1. Return to the **Azure Active Directory** page.
+
+1. From the left navigation panel select **Users**.
+
+1. Select **Adele Vance** from the list of users.
+
+1. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
+
+1. When the Reset password window opens, select **Reset Password**.  
+
+    >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+
+     ![](../Images/adele-reset-password-(1)-1.png)
+
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
+
+1. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
+
+1. Close the Users window by selecting the **X** at the top right corner of the page.
+
+1. Keep the AAD Overview window open as you will use it in the subsequent task.
 
 #### Task 2: In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
@@ -91,7 +119,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 7. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them and click save.
 
-   ![](../Images/auth-methods.png)
+   ![](../Images/auth-methods-(1).png)
 
 8. From the left navigation panel of Password reset, select **Registration**.  
 
@@ -103,7 +131,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 12. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
-   ![](../Images/registration.png)
+     ![](../Images/registration-(1).png)
 
 13. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
@@ -112,10 +140,10 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
  
 1. Open Microsoft Edge.
 
-2. In the address bar enter **login.microsoftonline.com**.
+2. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
 3. Sign in as Adele Vance,
-    1. In the Sign in window enter **adedlev@azureholLxxxxx.onmicrosoft.com**  then select **Next**.
+    1. In the Sign in window enter **Adele@azureholxxxx.onmicrosoft.com**  then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
@@ -125,23 +153,23 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
     >Note:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
-   ![](../Images/default-secure.png)
+   ![](../Images/default-secure(1).png)
 
-   ![](../Images/more-info.png)
+   ![](../Images/more-info(1).png)
 
-   ![](../Images/stay-sign-in.png)
+   ![](../Images/stay-sign-in(1).png)
 
 6. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
-   ![](../Images/keep-secure.png)
+   ![](../Images/keep-secure(1).png)
 
 7. The **Keep your account secure** page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**. 
 
-   ![](../Images/keep-acc-secure.png)
+   ![](../Images/keep-acc-secure(1).png)
 
-   ![](../Images/enter-code.png)
+   ![](../Images/enter-code(1).png)
 
-   ![](../Images/sms-verified-upd.png)
+   ![](../Images/sms-verified-upd(1).png)
 
 8. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
@@ -153,19 +181,19 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter login.microsoftonline.com.
+2. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
-3. Sign in as Adele Vance, by entering your email **AdeleV@WWLxxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
+3. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
 4. From the Enter password window, select **Forgot my password**. 
 
-5. The Get back into your account window opens. Verify that the email for Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
+5. The Get back into your account window opens. Verify that the email for Adele Vance, Adele@azureholxxxx.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
 
-   ![](../Images/forget-password.png)
+   ![](../Images/sc900-forgetpassword.png)
 
 6. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.  If during the registration you selected email, the Get back into your account window will indicate You will receive an email containing a verification code at your alternate email address.  Select **Email**. 
 
-   ![](../Images/verification.png)
+   ![](../Images/verification(1).png)
 
 7. Enter the verification code then press **Next**.
 
@@ -173,7 +201,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 9. You will see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
 
-10. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
+10. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
 
 11. You should now be on the Office 365 Page.
 
@@ -183,12 +211,15 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **portal.azure.com** 
+1. In the address bar enter and sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-3. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@WWLxxxxx.onmicrosoft.com** (you will find the odl user email in the Environment Details tab) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+     * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+  
+     * Password: <inject key="AzureAdUserPassword"></inject>
+  
+     * When prompted to stay signed- in, select **Yes**.
 
 4. Select **Azure Active Directory**.  
 
@@ -198,7 +229,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 7. Select **Download**.  Note that you can format the download as CSV or JSON.  Close the window by selecting the **X** on the top right corner of the screen.
 
-   ![](../Images/audit-logs.png)
+   ![](../Images/audit-logs(1)-01.png)
 
 8. From the left navigation pane, select **Usage & insights**.
 
