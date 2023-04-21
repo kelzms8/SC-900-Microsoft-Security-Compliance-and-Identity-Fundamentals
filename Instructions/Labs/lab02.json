@@ -1,0 +1,14 @@
+[ {
+  "Name": "Explore Azure AD Authentication with self-service password reset",
+  "Language": "English",
+  "Files": [
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/CloudLabs.AI/LabIntro.md",
+        "Order": 1
+     },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Labs/LAB_02_explore_azure_sspr.md",
+      "Order": 2
+    }
+  ]
+} ]
