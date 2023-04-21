@@ -1,1 +1,14 @@
-
+[ {
+  "Name": "Explore access management in Azure AD with Conditional",
+  "Language": "English",
+  "Files": [
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/CloudLabs.AI/LabIntro.md",
+        "Order": 1
+     },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/prod/Instructions/Labs/LAB_04_explore_pim.md",
+      "Order": 2
+    }
+  ]
+} ]
