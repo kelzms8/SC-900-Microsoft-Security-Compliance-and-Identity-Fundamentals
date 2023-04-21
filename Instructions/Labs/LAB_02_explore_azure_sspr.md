@@ -27,7 +27,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. On the Active Directory page, select Groups and then select New group.
 
-   ![](../Images/aad-new-group2-upd.png)
+   ![](../Images/aad-new-group2-upd-(1).png)
 
 1. Populate the **New Group** fields as follows and Select **Create**
 
@@ -43,9 +43,9 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
-   ![](../Images/aad-password-reset.png)
+   ![](../Images/aad-password-reset-(1).png)
    
- 1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
+1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
 
 1. From the left navigation pane, select **Users**. Click **+ New user** at the top of the page and from dropdown select **Create new user**.
 
@@ -71,41 +71,39 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
-5. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+1. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
-6. From the left navigation pane, select **Members** under **Manage**.
+1. From the left navigation pane, select **Members** under **Manage**.
 
-7. From the top of the page, select **+ Add members**.  
+1. From the top of the page, select **+ Add members**.  
 
-8. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
+1. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
-    ![](../Images/sspr-add-member.png)
+    ![](../Images/sspr-add-member-(1).png)
    
-9. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
+1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
-    ![](../Images/sspr-add-member.png)
+1. Return to the **Azure Active Directory** page.
 
-10. Return to the **Azure Active Directory** page.
+1. From the left navigation panel select **Users**.
 
-11. From the left navigation panel select **Users**.
+1. Select **Adele Vance** from the list of users.
 
-12. Select **Adele Vance** from the list of users.
+1. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
 
-13. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
-
-14. When the Reset password window opens, select **Reset Password**.  
+1. When the Reset password window opens, select **Reset Password**.  
 
     >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-15. Close the password reset window by selecting the **X** at the top right corner of the page.
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
      ![](../Images/adele-reset-password.png)
 
-16. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
+1. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
 
-17. Close the Users window by selecting the **X** at the top right corner of the page.
+1. Close the Users window by selecting the **X** at the top right corner of the page.
 
-18. Keep the AAD Overview window open as you will use it in the subsequent task.
+1. Keep the AAD Overview window open as you will use it in the subsequent task.
 
 #### Task 2: In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
