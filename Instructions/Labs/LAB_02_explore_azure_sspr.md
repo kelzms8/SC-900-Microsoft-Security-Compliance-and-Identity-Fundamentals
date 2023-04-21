@@ -93,7 +93,9 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 13. Select **Reset password** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
 
-14. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+14. When the Reset password window opens, select **Reset Password**.  
+
+    >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 15. Close the password reset window by selecting the **X** at the top right corner of the page.
 
