@@ -95,9 +95,9 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
     >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-1. Close the password reset window by selecting the **X** at the top right corner of the page.
-
      ![](../Images/adele-reset-password-(1)-1.png)
+
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
 1. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
 
