@@ -213,7 +213,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **portal.azure.com** 
+2. In the address bar enter https://portal.azure.com
 
 3. Sign in with the credentials:
     1. In the Sign in window enter  Email/Username: <inject key="AzureAdUserEmail"></inject> and select **Next**.
