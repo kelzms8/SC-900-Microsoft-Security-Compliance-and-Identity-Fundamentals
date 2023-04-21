@@ -43,7 +43,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
-   ![](../Images/aad-password-reset(1).png)
+   ![](../Images/aad-password-reset(1)-1.png)
    
 1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
 
@@ -79,7 +79,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
-    ![](../Images/sspr-add-member(1).png)
+    ![](../Images/sspr-add-member(1)-1.png)
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
@@ -97,7 +97,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-     ![](../Images/adele-reset-password-(1).png)
+     ![](../Images/adele-reset-password-(1)-1.png)
 
 1. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
 
@@ -229,7 +229,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 7. Select **Download**.  Note that you can format the download as CSV or JSON.  Close the window by selecting the **X** on the top right corner of the screen.
 
-   ![](../Images/audit-logs(1).png)
+   ![](../Images/audit-logs(1)-01.png)
 
 8. From the left navigation pane, select **Usage & insights**.
 
