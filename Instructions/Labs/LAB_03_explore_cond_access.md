@@ -10,8 +10,8 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
-2. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (username that you will find in the Environment Details tab) then select **Next**.
+2. if not sign in, sign in with the credentials provided in the **Environment Details** Tab. 
+    1. In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -19,23 +19,32 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 4. From the left navigation panel select **Users**.
 
-5. Select **Debra Berger** from the list of users.
+5. Click on **+ New User > Create new user**. **Debra Berger** from the list of users.
 
-6. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
+    ![](../Images/SC-900-newuser.png)
 
-   ![](../Images/user-debra.png)
+1. Then in **Create new user** page, on basics tab provide the following credentials, then click on **Review + Create** and **Create**:-
 
-7. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+    | Setting| Value|
+    |----|----|
+    | User principal name | **Debraberger**|
+    | Display name | **Debra Berger** |
+    | Auto generated password | **unchecked** |
+    | Password | **Give unique password** |
 
-8. Close the password reset window by selecting the **X** at the top right corner of the page.
+    > **Note**: Copy and paste your password for further use.
+
+1. Now you are able to see the new user on the user's page.
+
+   > **Note**: make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+
+1. Select **Debra Berger** from the list of users.
 
 9. Close the Users window by selecting the **X** at the top right corner of the page.
 
 10. Keep this window open.
 
-#### Task 2:  In this task, you will go through the process of creating a conditional access policy in Azure AD.
-
-1. Open the browser tab, Enter portal.azure.com and sign in with your admin credentials, then select Azure Active Directory.  
+#### Task 2:  In this task, you will go through the process of creating a conditional access policy in Azure AD.  
 
 2. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
  
@@ -50,9 +59,9 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
    ![](../Images/conditional-access.png)
 
-4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **New policy**.
+4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
 
-   ![](../Images/new-policy.png)
+   ![](../Images/SC-900-policy.png)
 
 5. In the Name field, enter **MFA Test Policy**.
 
@@ -66,11 +75,11 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
    ![](../Images/select-user.png)
 
-10. Under Cloud apps or actions, select **No cloud apps or actions selected**.
+10. Under Cloud apps or actions, select **No cloud apps, actions, or authentication selected**.
 
-11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  The window to Select Cloud apps opens.
+11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
 
-12. In the search bar, enter **Azure**.  From the search results that appear under the search box, select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+12. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
    ![](../Images/select-azure.png)
 
