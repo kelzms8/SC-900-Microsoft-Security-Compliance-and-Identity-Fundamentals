@@ -10,16 +10,18 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 #### Task 1:  In this task, you, as the admin, will add an existing user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will also need to do a reset the user’s password so that you can do the first-time login, as the user, and register for SSPR.
 
-1. Open Microsoft Edge.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-2. In the address bar enter **portal.azure.com** and sign in with the credentials provided in the **Environment Details** Tab.
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (username which you will find in the Environment Details tab) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-3. Select **Azure Active Directory**.  
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-4. From the left navigation panel, select **Groups**.
+1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
+
+1. From the left navigation panel, select **Groups** under **Manage**.
+
 
 #### Task 2: Creating a basic group
 
@@ -42,7 +44,33 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
    ![](../Images/aad-password-reset.png)
+   
+ 1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
 
+1. From the left navigation pane, select **Users**. Click **+ New user** at the top of the page and from dropdown select **Create new user**.
+
+1. On the **Create new user** blade, in basics tab specify the following settings:
+
+   |Setting|Value|
+   |---|---|
+   |User principal name |**Adele**|
+   |Display name |**Adele Vance**|
+   |Password|ensure that the option **Auto-generate password** is selected |
+   |Account enabled| **Selected**
+   
+    >**Note**: Record the full user name and the password.
+
+1. On the **Create new user** blade, in **Property** tab under settings specify the following settings:
+   |Setting|Value|
+   |---|---|
+   |Usage Location|**United States**|
+
+1. Select **Review + create** and click on **Create**.
+
+1. Verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
+
+1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+ 
 5. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
 6. From the left navigation pane, select **Members**.
@@ -115,7 +143,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 2. In the address bar enter **login.microsoftonline.com**.
 
 3. Sign in as Adele Vance,
-    1. In the Sign in window enter **adedlev@azureholLxxxxx.onmicrosoft.com**  then select **Next**.
+    1. In the Sign in window enter **Adele@azureholxxxx.onmicrosoft.com**  then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
@@ -155,11 +183,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 2. In the address bar enter login.microsoftonline.com.
 
-3. Sign in as Adele Vance, by entering your email **AdeleV@WWLxxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
+3. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
 4. From the Enter password window, select **Forgot my password**. 
 
-5. The Get back into your account window opens. Verify that the email for Adele Vance, AdeleV@WWLxZZZZ.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
+5. The Get back into your account window opens. Verify that the email for Adele Vance, Adele@azurehol1381.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
 
    ![](../Images/forget-password.png)
 
@@ -173,7 +201,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 9. You will see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
 
-10. From the Pick an account information box, select **AdeleV@WWLxZZZZZZ.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
+10. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
 
 11. You should now be on the Office 365 Page.
 
@@ -185,9 +213,9 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 2. In the address bar enter **portal.azure.com** 
 
-3. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@WWLxxxxx.onmicrosoft.com** (you will find the odl user email in the Environment Details tab) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+3. Sign in with the credentials:
+    1. In the Sign in window enter  Email/Username: <inject key="AzureAdUserEmail"></inject> and select **Next**.
+    1. Enter the admin password: <inject key="AzureAdUserPassword"></inject>. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
 4. Select **Azure Active Directory**.  
