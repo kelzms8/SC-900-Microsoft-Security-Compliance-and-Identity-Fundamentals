@@ -73,7 +73,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
  
 5. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
-6. From the left navigation pane, select **Members**.
+6. From the left navigation pane, select **Members** under **Manage**.
 
 7. From the top of the page, select **+ Add members**.  
 
