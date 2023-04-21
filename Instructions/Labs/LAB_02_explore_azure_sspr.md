@@ -213,12 +213,15 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter https://portal.azure.com
+1. In the address bar enter and sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-3. Sign in with the credentials:
-    1. In the Sign in window enter  Email/Username: <inject key="AzureAdUserEmail"></inject> and select **Next**.
-    1. Enter the admin password: <inject key="AzureAdUserPassword"></inject>. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+     * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+  
+     * Password: <inject key="AzureAdUserPassword"></inject>
+  
+     * When prompted to stay signed- in, select **Yes**.
 
 4. Select **Azure Active Directory**.  
 
