@@ -51,19 +51,19 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. On the **Create new user** blade, in basics tab specify the following settings:
 
-   |Setting|Value|
-   |---|---|
-   |User principal name |**Adele**|
-   |Display name |**Adele Vance**|
-   |Password|Ensure that the option **Auto-generate password** is selected |
-   |Account enabled| **Selected**
+    |Setting|Value|
+    |---|---|
+    |User principal name |**Adele**|
+    |Display name |**Adele Vance**|
+    |Password|Ensure that the option **Auto-generate password** is selected |
+    |Account enabled| **Selected**
    
     >**Note**: Record the full user name and the password.
 
 1. On the **Create new user** blade, in **Property** tab under settings specify the following settings:
-   |Setting|Value|
-   |---|---|
-   |Usage Location|**United States**|
+    |Setting|Value|
+    |---|---|
+    |Usage Location|**United States**|
 
 1. Select **Review + create** and click on **Create**.
 
@@ -79,11 +79,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 8. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
-   ![](../Images/sspr-add-member.png)
+    ![](../Images/sspr-add-member.png)
    
 9. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
-   ![](../Images/sspr-add-member.png)
+    ![](../Images/sspr-add-member.png)
 
 10. Return to the **Azure Active Directory** page.
 
@@ -99,7 +99,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 15. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-   ![](../Images/adele-reset-password.png)
+     ![](../Images/adele-reset-password.png)
 
 16. Close the Adele Vance window by selecting the **X** at the top right corner of the page.
 
