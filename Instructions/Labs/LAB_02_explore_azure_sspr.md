@@ -142,7 +142,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
  
 1. Open Microsoft Edge.
 
-2. In the address bar enter **login.microsoftonline.com**.
+2. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
 3. Sign in as Adele Vance,
     1. In the Sign in window enter **Adele@azureholxxxx.onmicrosoft.com**  then select **Next**.
@@ -183,7 +183,7 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter login.microsoftonline.com.
+2. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
 3. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
