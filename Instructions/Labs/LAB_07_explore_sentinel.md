@@ -9,16 +9,15 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 #### Task 1:  Create an  Microsoft Sentinel instance.
 
-1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
 
-1. Sign in with your admin credentials.
-    
-    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.    
-    1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
-    
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   **Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-1. In the blue search box on the top of the page, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
+1. Now enter the following password and click on **Sign in**.
+   **Password: <inject key="AzureAdUserPassword"></inject>
+
+1. In the Azure portal, in the **Search resources, services, and docs** search for**Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
 1. From the Microsoft Sentinel page, select **Create**.
 
@@ -77,7 +76,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
 
-1. The first step with Azure Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
+1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
 1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
 
@@ -87,7 +86,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
-1. The instructions tab in the main window, provides the prerequisites.  Review the instructions and configuration information.
+1. The instructions tab in the main window, provides the prerequisites. Review the instructions and configuration information.
 
 1. From the configuration section, select the empty box next to the listed subscription, select your azure subscription so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
    
