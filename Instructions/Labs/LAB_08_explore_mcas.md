@@ -8,13 +8,14 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 #### Task 1: Explore Cloud Discovery.
 
-1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
+1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter 
+1. In the Sign in window enter
+
     * Email/Username: <inject key="AzureAdUserEmail"></inject> 
 
-    2. Enter the admin 
+1. Enter the admin 
+
     * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. Under **Discover** select **Create snapshot report**. 
@@ -33,14 +34,13 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
  
 1. Under overview tab, click **Next**.
     
-  1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log.
+  1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log formate** then Download sample log and click on **Next**.
  
   ![Picture 1](../Images/createsnapsotanddown.png)
  
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
 
-1. After the upload completes, the status message will appear at the top right corner of your screen letting you know that your log was successfully uploaded.
-
+1. After the upload completes, click on **snapshot reports** link on Create new Cloud Discovery snapshot report page.
 1. After you upload your log files, it will take some hours for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/readysr.png)
@@ -48,8 +48,8 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1 . In the New tab  enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
-    1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
+    1. In the Sign in window enter * Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
+    1. Enter the admin password * Password: <inject key="AzureAdUserPassword"></inject>
     1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
@@ -110,7 +110,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
-1. Admins can also search for apps by category.  For example, in the search for category field enter **Social network**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
+1. Admins can also search for apps by category.  For example, in the search for category field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
   ![Picture 1](../Images/yammer.png)
   
