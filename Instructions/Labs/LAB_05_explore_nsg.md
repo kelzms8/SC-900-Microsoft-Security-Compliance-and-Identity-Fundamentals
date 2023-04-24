@@ -7,45 +7,46 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 **Estimated Time**: 30-45 minutes
 
-#### Task 1:  In this task you will create a Windows 10 virtual machine.    
-1.	Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
+#### Task 1:  In this task you will create a Windows 10 virtual machine.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
+1. On the main window, under Azure Services, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
 
-    1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+   ![Picture 1](../Images/sc900-5-12.png)
 
-1. On the top there is a search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Virtual Machines** then select **Virtual Machines** from the search results.
+1. From the top left of the page, select **+Create** then select **Azure Virtual machine**.
 
-1. On the main window, under Featured, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
-
-1. From the top left of the page, select **+Create** then select **+Virtual machine**.
-
-   ![Picture 1](../Images/1.png)
+   ![Picture 1](../Images/sc900-5-1.png)
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
     1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-    1. Resource group:  select **Create new** then in the Name field enter **LabsSC900**, then select **OK**.
+    1. Resource group:  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**.
     1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 20H2 – Gen 1**.
+    1. Region : Leave the default region.
+    1. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
+    1. Security type : Select **Standard** from the drop-down.
+    1. Image:  from the drop-down, select **Windows 10 Pro, Version 21H2 – x64 Gen 2**.
     1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     1. Username:  enter **AzureUser**.
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
        
-       ![Picture 1](../Images/2.png)
+       ![Picture 1](../Images/sc900-5-2.png)
        
-    3. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
-    4. Select **Next: Disks**. 
+    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+   
+       ![Picture 1](../Images/sc900-5-3.png)
 
-       ![Picture 1](../Images/3.png)
+    1. Select **Next: Disks**. 
+    
+1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
-1. You are now in the Disks tab for the VM configuration.  Leave all settings to the default and select **Next: Networking >**.
-
+      ![Picture 1](../Images/sc900-5-4.png)
+      
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
     1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
+
+      ![Picture 1](../Images/sc900-5-11.png)
 
 1. Select **Next:  Management >**.
 
@@ -94,12 +95,12 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. On the Basics tab of the Create network security group page, specify the following settings:
     
     1. Subscription: Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-     1. Resource group:  **LabsSC900**
+     1. Resource group: Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**
     3. Name:  **NSG-SC900**
-    4. Region:  leave the default **(US) East US**
+    4. Region:  leave the default value
     5. Select **Review + create** then select **Create**.
     
-     ![Picture 1](../Images/5.png)
+     ![Picture 1](../Images/sc900-5-5.png)
 
 1. Once the deployment is complete, select **Go to resource**.
 
@@ -108,17 +109,15 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
 
-     ![Picture 1](../Images/06.png)
-
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
 
-     ![Picture 1](../Images/7.png)
+     ![Picture 1](../Images/sc900-5-6.png)
 
 1. Once the interface is associated to the NSG, it will show up on the list.
 
-1. From the left navigation pane, select **Inbound security rules**.
+1. Navigate to SC900-WinVM Overview page, select **Networking** from the left navigation pane and then select **Add inbound port rule**.
   
-     ![Picture 1](../Images/9.png)
+     ![Picture 1](../Images/sc900-5-7.png)
 
 
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
@@ -134,14 +133,14 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
    1. Name:  Leave the default name or create your own descriptive name.
    1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
 
-       ![Picture 1](../Images/sc900-inrule.png)
+       ![Picture 1](../Images/sc900-5-8.png)
 
 
 1. Select **Add**
 
 1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
-#### Task 3: in this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
+#### Task 3: In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
@@ -176,7 +175,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.
 
-   ![Picture 1](../Images/011.png)
+   ![Picture 1](../Images/sc900-5-9.png)
 
 1. On the Add outbound security rule page, specify the following settings:
     
@@ -192,7 +191,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
     1. Name:  **DenyInternet**
     1. Select **Add**
     
-   ![Picture 1](../Images/sc900-outrule.png)
+   ![Picture 1](../Images/sc900-5-10.png)
 
 1. Once the rule is provisioned, it will appear on the list of outbound rules.  Although it appears on the list, it will take a few minutes to take effect (wait a few minutes before continuing with the next steps).  
 
