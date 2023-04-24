@@ -22,22 +22,23 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
     1. Resource group:  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**.
     1. Virtual machines name:  enter **SC900-WinVM**.
-    2. Region : Leave the default region.
-    3. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
-    4. Security type : Select **Standard** from the drop-down.
-    5. Image:  from the drop-down, select **Windows 10 Pro, Version 21H2 – x64 Gen 2**.
-    6. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    7. Username:  enter **AzureUser**.
-    8. Password:  enter **SC900AzureLabs**.
-    9. Public inbounds ports:  select **None**.
+    1. Region : Leave the default region.
+    1. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
+    1. Security type : Select **Standard** from the drop-down.
+    1. Image:  from the drop-down, select **Windows 10 Pro, Version 21H2 – x64 Gen 2**.
+    1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
+    1. Username:  enter **AzureUser**.
+    1. Password:  enter **SC900AzureLabs**.
+    1. Public inbounds ports:  select **None**.
        
        ![Picture 1](../Images/sc900-5-2.png)
        
-    3. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
-    4. Select **Next: Disks**. 
-
+    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+   
        ![Picture 1](../Images/sc900-5-3.png)
 
+    1. Select **Next: Disks**. 
+    
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
       ![Picture 1](../Images/sc900-5-4.png)
@@ -139,7 +140,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
-#### Task 3: in this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
+#### Task 3: In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
