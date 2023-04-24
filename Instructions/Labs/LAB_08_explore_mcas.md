@@ -91,7 +91,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.
     
-1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft 365**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft 365**.  From the Microsoft Azure pop-up window, select **Connect Microsoft 365** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
     
     ![Picture 1](../Images/o365yellow.png)
     
