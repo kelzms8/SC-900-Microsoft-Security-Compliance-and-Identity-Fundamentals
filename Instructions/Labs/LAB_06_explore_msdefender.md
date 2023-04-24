@@ -10,15 +10,14 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 
 #### Task 1:In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
-1.	Open Microsoft Edge. In the address bar enter **portal.azure.com**.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-1. Sign in with your admin credentials.
-    
-    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.    
-    1. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
-    
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 
 1. If this is the first time you enter Microsoft Defender for Cloud with your subscription you may land on the Getting started page, and may be prompted to upgrade.  Scroll to the bottom of the page and select **Remind me later** (or **Skip**).  You'll be taken to the Overview page.
