@@ -8,32 +8,33 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 #### Task 1: In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-2. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **odl_user_xxxxx@xxxxx.onmicrosoft.com** (use your username that is provided in the Environment Details tab)
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+2. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-3. Select **Azure Active Directory**.  
+3. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
-4. From the left navigation panel select **Users**.
+4. Select **Azure Active Directory**.  
 
-5. Select **Diego Siciliani** from the list of users.
+5. From the left navigation panel select **Users**.
 
-6. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+6. Select **Diego Siciliani** from the list of users.
 
-7. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+7. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+
+8. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
    ![](../Images/user-diego.png)
 
-8. Close the password reset window by selecting the **X** at the top right corner of the page.
+9. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-9. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+10. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-10. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+11. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
 
-11. Keep the browser page open, as you will in the subsequent tasks.
+12. Keep the browser page open, as you will in the subsequent tasks.
 
 
 #### Task 2: In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
