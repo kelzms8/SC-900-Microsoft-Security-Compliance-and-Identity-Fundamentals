@@ -91,7 +91,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
    8. From the configuration section, select the empty box next to the listed subscription, **Azure HOL--DID** so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
 
-  ![Picture 1](../Images/sc900-dataconnector-msdefender-adding.png)
+     ![Picture 1](../Images/sc900-dataconnector-msdefender-adding.png)
    
 9. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
 
@@ -129,11 +129,11 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
  
-  ![Picture 1](../Images/sc900-Automation.png)
+   ![Picture 1](../Images/sc900-Automation.png)
 
 1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
   
-   ![Picture 1](../Images/sc900-Workboooks.png)
+    ![Picture 1](../Images/sc900-Workboooks.png)
   
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
