@@ -7,6 +7,22 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 **Estimated Time**: 30-45 minutes
 
 #### Task 1: In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
+ 
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure Active Directory** and press the **Enter** key.  
+
+
+2. From the left navigation panel select **Users**.
+
+3. Select **Diego Siciliani** from the list of users.
+
+4. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+
+5. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
@@ -26,7 +42,17 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 8. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-   ![](../Images/user-diego.png)
+
+   ![](../Images/save_img.png)
+
+
+6. Close the password reset window by selecting the **X** at the top right corner of the page.
+
+7. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+
+8. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+
+9. Keep the browser page open, as you will in the subsequent tasks.
 
 9. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -43,23 +69,23 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 2. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance.png)
+   ![](../Images/identity-governance10.png)
 
 3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-   ![](../Images/identity.png)
+   ![](../Images/identity10.png)
 
 4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage Access**.
 
-   ![](../Images/manage-role.png)
+   ![](../Images/manage-role10.png)
 
 5. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
-   ![](../Images/user-admin.png)
+   ![](../Images/user-admin10.png)
 
 6. From the top of the page, select **+ Assignments**.
 
-   ![](../Images/assignments.png)
+   ![](../Images/assignments10.png)
 
 7. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
@@ -71,7 +97,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
-   ![](../Images/membership.png)
+     ![](../Images/membership10.png)
 
 12. You are now on the Setting page.  Leave the Assignment type to the default setting, Eligible.
 
@@ -81,7 +107,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 15. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-   ![](../Images/permanently-eligible.png)
+     ![](../Images/permanently-eligible10.png)
 
 16. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
@@ -89,7 +115,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 18. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
 
-   ![](../Images/settings.png)
+     ![](../Images/settings10.png)
 
 19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
@@ -107,52 +133,52 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance.png)
+   ![](../Images/identity-governance100.png)
 
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-   ![](../Images/aad-role.png)
+   ![](../Images/aad-role10.png)
 
 1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
 
-   ![](../Images/my-roles.png)
+   ![](../Images/my-roles10.png)
 
 1. In the last column of the table, labeled action, select **Activate**.
 
-   ![](../Images/activate.png)
+   ![](../Images/activate10.png)
 
 1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
-   ![](../Images/click-to-continue.png)
+   ![](../Images/click-to-continue10.png)
 
 1. You are notified that more information is required, select **Next**.
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
-   ![](../Images/keep-secure.png)
+   ![](../Images/keep-secure10.png)
 
 1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
 
-   ![](../Images/keep-acc-secure.png)
+   ![](../Images/keep-acc-secure10.png)
 
 1. Enter the 6 digit code you received on your phone and select **Next**. 
 
-   ![](../Images/enter-code.png)
+   ![](../Images/enter-code10.png)
 
 1. You will see a notification that your phone was registered successfully. Select **Next**, then select **Done**.
 
-   ![](../Images/sms-verified-1.png)
+   ![](../Images/sms-verified-10.png)
 
-   ![](../Images/default-sign-in.png)
+   ![](../Images/default-sign-in10.png)
 
 1. You are asked if you want to stay signed in.  Select **Yes**.
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
-   ![](../Images/activate-role.png)
+   ![](../Images/activate-role10.png)
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
-   ![](../Images/3-stage.png)
+   ![](../Images/3-stage10.png)
 
 1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh). 
 1. Close the window, by selecting the **X** on the top right corner of the screen.
@@ -161,17 +187,17 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. You are now back on the Azure Active Directory page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
 1. From the users' list, select **Bianca Pisani**.
 
-   ![](../Images/aad-add-user-2.png)
+   ![](../Images/aad-add-user-2 10.png)
 
 1. From the left navigation panel, select **Licenses**.
 
 1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
 
-   ![](../Images/bianca-licences.png)
+   ![](../Images/bianca-licences10.png)
 
 1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-   ![](../Images/update-licence.png)
+   ![](../Images/update-licence10.png)
 
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
