@@ -97,7 +97,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
 1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
     
-    ![Picture 1](../Images/oazconnect.png)
+    ![Picture 1](../Images/update.png)
 
 1. Keep this page open, as you will use it in the next task.
 
