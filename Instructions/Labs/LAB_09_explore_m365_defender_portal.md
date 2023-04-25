@@ -74,7 +74,11 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity, Apps, Devices and Data.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
 
     ![Picture 1](../Images/sc900-mandt.png)
-
+    
+    >
+    >**Note:** If you can't see deatils on the **History** and **Metrics & treads** tabs, this is beacause after making configuration changes. it will take about 24 hours to update.
+    >
+    >For more details visit: https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score?view=o365-worldwide
     
 1. Close the browser page.
 
