@@ -17,7 +17,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-1. In the Azure portal, in the **Search resources, services, and docs** search for**Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
+1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
 1. From the Microsoft Sentinel page, select **Create**.
 
