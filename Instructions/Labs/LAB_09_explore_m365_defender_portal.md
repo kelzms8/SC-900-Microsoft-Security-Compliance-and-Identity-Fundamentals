@@ -28,7 +28,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
    
-    ![Picture 1](../Images/sc900-addcard.png)
+    ![Picture 1](../Images/sc900addcard.png)
    
     ![Picture 1](../Images/sc900-cardadded.png)
    
