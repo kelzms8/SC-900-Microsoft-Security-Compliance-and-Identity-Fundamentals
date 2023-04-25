@@ -21,7 +21,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the Microsoft Sentinel page, select **Create**.
 
-1. From Add Microsoft Sentinel to a workspace, select **Create a new workspace**.
+1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
     1. Subscription:  **Select the given subscription**   
