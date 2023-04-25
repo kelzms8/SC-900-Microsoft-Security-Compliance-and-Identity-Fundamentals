@@ -14,7 +14,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Sign in with your admin credentials.
 
-    1. In the Sign in window enter **odl_user_XXXXXX@cloudlabsai.com** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
+    1. In the Sign in window enter **** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
     2. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
     3. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -37,7 +37,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. You can also move the cards around. Hover your mouse cursor over the title bar of any card,  when you will get a cross shaped cursor select the card and move it to your desired location.
    
-    ![Picture 1](../Images/sc900-drag.png)
+    ![Picture 1](../Images/sc900drag.png)
 
 1. Selecting the title of a card will take you to additional information for that topic. You'll explore this in the next task.
 
