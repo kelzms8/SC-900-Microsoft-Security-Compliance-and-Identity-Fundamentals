@@ -29,7 +29,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (leave this default)
  
-    ![Picture 1](../Images/15.png)
+    ![Picture 1](../Images/update1-01.png)
 
 1. For the Tags, you can leave this blank, then select **Review + Create**.
 
@@ -37,7 +37,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. If you don’t see the new workspace listed, select **Refresh**, then select **Add**.
 
-     ![Picture 1](../Images/19.png)
+     ![Picture 1](../Images/19-1.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
@@ -54,7 +54,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-   ![Picture 2](../Images/7-1.png)
+   ![Picture 2](../Images/7-(1).png)
 
 1. If the the role is not owner then follow the below steps:
 
@@ -82,7 +82,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
-   ![Picture 1](../Images/sc900-dataconnector-msdefender.png)
+   ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
 
 1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
@@ -90,18 +90,19 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the configuration section, select the empty box next to the listed subscription, select your azure subscription so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
    
-   
 1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
     
-    ![Picture 1](../Images/sc900-dataconnector-msdefender-adding.png)
+    ![Picture 1](../Images/sc900-dataconnector-msdefender-adding(1).png)
 
-1. Now select the **Next steps** tab on the top of the page, to view recommended workbooks, for this data connector.  Microsoft Sentinel comes with built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source.
+1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+       
+1. From the left navigation panel, select **Workbooks** and in search bar, under templates tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+
+    ![Picture 1](../Images/templates.png)
     
-     
-1. Select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud).  This opens the workbooks page.  On the right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
+1. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
 
    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
-   
    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
    1. From the top of the workbook page, select the **Save icon**.
    1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
