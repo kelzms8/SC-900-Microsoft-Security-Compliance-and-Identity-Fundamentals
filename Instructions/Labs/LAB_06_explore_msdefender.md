@@ -25,7 +25,7 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
     
         ![Picture 1](../Images/sc900-6-5.png)
         
-         >**Note** : It will take around 1 hr to fetch all the resources inside the Inventory.
+         >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
 
     1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
     1. Note the detailed description.  Select the drop-down arrow next to Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
