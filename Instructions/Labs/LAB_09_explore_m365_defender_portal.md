@@ -45,7 +45,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 #### Task 2: In this task you will explore how Microsoft Secure Score can help an organization improve its security posture.
 
-1. 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
+1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
   ![Picture 1](../Images/sc900-sc.png)
 
@@ -61,11 +61,11 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
    ![Picture 1](../Images/sc900-recAction.png)
 
-1.  Select the **History** tab from the top of the page. Select an item from the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
+1. Select the **History** tab from the top of the page. Select an item from the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
 
    ![Picture 1](../Images/sc900-his.png)
 
-1.  From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
+1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity and/or apps.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
 
  ![Picture 1](../Images/sc900-mandt.png)
 
