@@ -61,7 +61,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
      - From the Access control page, select **+Add**, then select **Add role assignment**.
      - The Add role assignment window opens.  In **Assignment type** select **Privileged administrator roles** and click on **Next**.
      - On Add role assignment page, under **Role** tab, select **Owner** click on **Next**.
-     - On Add role assignment page, under **Members** tab, click on **+select menbers**, on select member blade select your useraccount and click on select.
+     - On Add role assignment page, under **Members** tab, click on **+ select members**, on select member blade select your useraccount and click on select.
      - Click on **Review + assign**.
     
     >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
