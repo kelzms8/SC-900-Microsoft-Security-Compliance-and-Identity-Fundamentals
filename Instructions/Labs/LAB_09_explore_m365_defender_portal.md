@@ -13,10 +13,16 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
 1. Sign in with your admin credentials.
+1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
-    1. In the Sign in window enter **** (where XXXXXX is your unique ID provided on the lab environment page) then select **Next**.
-    2. Enter the admin password which should be provided on the lab environment page. Select **Sign in**.
-    3. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+     ![](../CloudLabs.AI/Images/portal1.png)
+     
+1. Now enter the password and click on Sign in.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+  
+1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Security**.  If you don't see Security listed, select **Show all**, then select **Security**.  A new browser page opens to the welcome page of the Microsoft 365 Defender portal.    
 
@@ -49,7 +55,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
-    ![Picture 1](../Images/sc900-sc.png)
+    ![Picture 1](../Images/sc900sc.png)
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score.  A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score.  Select  **Include** again to close the window.
 
