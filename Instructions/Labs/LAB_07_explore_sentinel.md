@@ -52,7 +52,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
-1 From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
+1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
    ![Picture 2](../Images/7-1.png)
 
