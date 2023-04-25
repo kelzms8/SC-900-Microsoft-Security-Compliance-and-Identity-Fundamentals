@@ -35,9 +35,9 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Verify the information you entered then select **Create**.
 
-1. If you don’t see the new workspace listed, select **Refresh**, then select **Add**.
+1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace and click on **Add**.
 
-     ![Picture 1](../Images/19-1.png)
+    ![Picture 1](../Images/19-1.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
@@ -54,7 +54,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-   ![Picture 2](../Images/7-(1).png)
+    ![Picture 2](../Images/7-(1).png)
 
 1. If the the role is not owner then follow the below steps:
 
@@ -82,7 +82,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
-   ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
+    ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
 
 1. From the Microsoft Defender for Cloud connector page, review the Description on the left side of the window.
 
@@ -96,11 +96,11 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
        
-1. From the left navigation panel, select **Workbooks** and in search bar, under templates tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+1. From the left navigation panel, select **Workbooks** and in search bar, under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
     ![Picture 1](../Images/templates.png)
     
-1. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location.  Now select **View saved workbook**.
+1. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location. Now select **View saved workbook**.
 
    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
@@ -120,17 +120,17 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
    
 1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
 
-   ![Picture 2](../Images/sc900-Mitreattck.png)
+    ![Picture 2](../Images/sc900-Mitreattck.png)
 
 1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen, select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios. Scroll down to the README.md section and review the description. Return to the Azure tab in your browser.
 
 1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.  Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
  
-   ![Picture 1](../Images/sc900-analytics.png)
+    ![Picture 1](../Images/sc900-analytics.png)
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** then select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
  
-   ![Picture 1](../Images/sc900-Automation.png)
+    ![Picture 1](../Images/sc900-Automation.png)
 
 1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
   
