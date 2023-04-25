@@ -58,15 +58,15 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. If the the role is not owner then follow the below steps:
 
-    1. From the Access control page, select **+Add**, then select **Add role assignment**.
-
-    1. The Add role assignment window opens.  Select the drop-down arrow in the Select a role field to display the available roles.  For this lab, select **Owner**.  NOTE:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
-
-    1. From the list of users displayed, select **UserName** given on the lab environment page.
-
-    1. Select **Save** at the bottom of the page.
-
-    1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
+     - From the Access control page, select **+Add**, then select **Add role assignment**.
+     - The Add role assignment window opens.  In **Assignment type** select **Privileged administrator roles** and click on **Next**.
+     - On Add role assignment page, under **Role** tab, select **Owner** click on **Next**.
+     - On Add role assignment page, under **Members** tab, click on **+select menbers**, on select member blade select your useraccount and click on select.
+     - Click on **Review + assign**.
+    
+    >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+   
+1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
 
 1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
