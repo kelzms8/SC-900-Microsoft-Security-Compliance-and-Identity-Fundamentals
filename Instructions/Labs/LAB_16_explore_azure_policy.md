@@ -107,7 +107,7 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 
     ![](../Images/sc-900-lab16-T2-08.png)
 
-1. You're back in the Tags page for Create a resource group.  In the Name field enter Environment and in the Value field, enter **SC900-Labs**, then select **Next: Review + Create >**.
+1. You're back in the Tags page for Create a resource group.  In the Name field enter **Environment** and in the Value field enter **SC900-Labs**, then select **Next: Review + Create >**.
 
     ![](../Images/sc-900-lab16-T2-5.png)
     
