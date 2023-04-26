@@ -1,1 +1,10 @@
-
+[ {
+  "Name": "Explore Insider Risk Management in Microsoft Purview",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/self-paced/Instructions/Labs/LAB_14_explore_insider_risk_mgt.md",
+      "Order": 1
+    }
+  ]
+} ]
