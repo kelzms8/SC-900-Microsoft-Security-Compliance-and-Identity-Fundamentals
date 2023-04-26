@@ -206,4 +206,4 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 
 #### Review
-In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
