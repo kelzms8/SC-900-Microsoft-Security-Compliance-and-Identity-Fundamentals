@@ -1,0 +1,14 @@
+[ {
+  "Name": " Explore the Microsoft Purview compliance center & Compliance Manager",
+  "Language": "English",
+  "Files": [
+    {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-104-MicrosoftAzureAdministrator/prod/Instructions/CloudLabs.AI/LabIntro.md",
+        "Order": 1
+     },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/self-paced/Instructions/Labs/LAB_12_explore_compliance_mgr.md",
+      "Order": 2
+    }
+  ]
+} ]
