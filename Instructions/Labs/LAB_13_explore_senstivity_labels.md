@@ -56,7 +56,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     | -- | -- |
     | **Name** text box | Enter **Confidential-Finance** |
     | **Display name** text box | Enter **Confidential-Finance** |
-    | **Description for users** text box | Enter **Confidential-Finance Demo | 
+    | **Description for users** text box | Enter **Confidential-Finance Demo** | 
 
     ![](../Images/sc-900-lab13-3.png)
 
