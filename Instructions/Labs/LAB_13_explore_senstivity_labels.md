@@ -40,9 +40,9 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
     
     ![](../Images/sc-900-lab13-01.png)
 
-1. From the left navigation panel of the Microsoft Purview, under Solutions, select **Information protection** and in the dropdown select **Overview** and click on **Turn on now**.
+1. From the left navigation panel of the Microsoft Purview, under solutions expand **Information protection** then select **Overview**.
 
-1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
+1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select **Turn on now**.  Once you do this, there can be a delay for the setting to propagate through the system.
 
     ![](../Images/sc-900-lab13-001.png)
 
