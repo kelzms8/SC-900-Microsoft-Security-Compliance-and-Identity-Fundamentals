@@ -5,28 +5,13 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 #### Task 1: Briefly explore the Azure policy page.
 
-1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
+11. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-       ![](../Images/98.png)
-     
-       ![](../Images/module4/lab16/sign-in1.png)
-     
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-       ![](../Images/module4/lab16/sign-in2.png)
-       
-    1. When prompted to protect the account, Please select **Skip for now**.
-
-       ![](../Images/module4/lab12/main-4.png)
-       
-    1. When prompted to Action Required, Please select **Ask later**
-
-        ![](../Images/lab14-1-3.png)        
-     
-    1. When prompted to stay signed- in, select **Yes**.
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1.  You're now in the Azure portal.  In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **policy**, then select **Policy** from the search results. This opens the Policy home page that provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster (ALH). You'll see a policy listed, this is a policy created by the ALH, for use of the Azure subscription.
 
@@ -137,9 +122,9 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
 1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Note that the policy shows as non-compliant.  Select the policy for more information on why the policy is non-compliant. Here you can see that a resource listed as **sc900-module4** is non-compliant.  This is an example of a resource group that was created, previous to the creation of the policy. Select **Details** for more information.  Here you can see the compliance message that an environment tag is required.  Select the **X** on the top right to close the window.
 
 1. Select **sc900-module4**resourcegroup1 then from the top of the page, select **View Resource**.
-    1. Next to where it says Tags, select **edit**
+    1. Next to where it says Tags, select **edit**, expand **Essentials** to see the option.
     1. Place the mouse cursor in the Tag field and select **Environment**.
-    1. Place the mouse cursor in the Value field and select **Labs**, then select **Save**.
+    1. Place the mouse cursor in the Value field and select **SC900-Labs**, then select **Save**.
 
 1. Now return to the policy page.  Place your mouse cursor on the blue search box on the top of the page and select **Policy**.
 
