@@ -88,7 +88,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
      ![](../Images/module4/lab12/sc900-12-18.png)
  
-1. From the included templates list, select any template from the list. From the top right of the page, select **+ Create assessment**. Here you can see the few steps and pieces of information needed to create an assessment from an existing template - identify the product for the assessment, name the assessment, and assign it to a group. Select Cancel from the bottom of the page.
+1. From the included templates list, select any template. From the top right of the page, select **+ Create assessment**. Here you can see the few steps and pieces of information needed to create an assessment from an existing template - identify the product for the assessment, name the assessment, and assign it to a group. Select Cancel from the bottom of the page.
 
      ![](../Images/module4/lab12/sc900-12-1.png)
      
