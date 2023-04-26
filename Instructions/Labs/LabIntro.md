@@ -4,7 +4,7 @@
 
 1. To get the lab environment details, you can select the **Environment Details** tab.
 
-    ![](../images/AZ-900-gettingstarted.png)
+    ![](../images/SC-900-gettingstarted.png)
 
 1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
 
@@ -12,7 +12,7 @@
 
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
-    ![](../images/AZ-900-module-08-resources.png)
+    ![](../images/SC-900-resources.png)
     
 1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
 
@@ -22,7 +22,7 @@
 
 1. In the virtual machine (VM) on the left, click on the Azure Portal as shown below.
 
-    ![](../images/AZ-900-module08-jumpvm.png)
+    ![](../images/sc-900-jumpvm.png)
 
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the following username and click on **Next**.
    * Username: <inject key="AzureAdUserEmail"></inject>
