@@ -5,31 +5,16 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 #### Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
       ![](../Images/module4/lab12/main-1.png)
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-        ![](../Images/module4/lab12/main-4.png)
-        
-    1. When prompted to Action Required, Please select **Ask later**
-
-        ![](../Images/lab14-1-3.png)          
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
-
+1. Now enter the following password and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
     ![](../Images/sc-900-lab15-1-01.png)

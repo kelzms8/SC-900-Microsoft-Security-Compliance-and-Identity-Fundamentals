@@ -156,7 +156,7 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-      ![](/Instructions/Images/lab13-1-5.png) 
+      ![](/Instructions/Images/lab13-1-5(1).png) 
 
 1. Under Create new, select **Blank document**, then enter some text on the page.  On the top of the page, select the down-arrow, next to where it says Document - Saved, and in the File Name box enter, **Test-label** then press **Enter** on your keyboard.
 
