@@ -14,10 +14,6 @@
 
     ![](../Images/image002.jpg)
     
-1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
-
-    ![](../Images/image-901.jpg)
-    
 ### Log in to Microsoft 365 Admin Centre
 
 1. In the virtual machine (VM) on the left, click on Microsoft Edge shortcut as shown below.
@@ -50,3 +46,6 @@
      
 1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
         
+1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
+
+    ![](../Images/image-901.jpg)        
