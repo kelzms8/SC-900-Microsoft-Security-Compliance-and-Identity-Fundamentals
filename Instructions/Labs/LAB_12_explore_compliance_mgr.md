@@ -5,8 +5,6 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
 #### Task 1: Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
-1. Open a new tab in the Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
      ![](../Images/module4/lab12/1-1.png)
