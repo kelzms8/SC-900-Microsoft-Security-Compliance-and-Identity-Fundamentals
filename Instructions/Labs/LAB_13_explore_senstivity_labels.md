@@ -4,16 +4,6 @@
 In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 #### Task 1: In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
-
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
-
-      ![](../Images/module4/lab12/main-1.png)
-
-1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
     
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
