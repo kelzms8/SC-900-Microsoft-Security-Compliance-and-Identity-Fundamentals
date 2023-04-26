@@ -6,17 +6,9 @@ In this lab, you will explore the features and content available from the Servic
 
 #### Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
 
-1. If you are not already signed into the Azure portal, in the lab virtual machine, double click on the Azure portal shortcut on the desktop **https://portal.azure.com/** and sign in with the user credentials.
+1. Open Microsoft edage shortcut (Medge) and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
-1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
-
-1. In the same window open another tab and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
-
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user (i.e. the user account with which we have signed into azure.) with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials. 
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials. 
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
