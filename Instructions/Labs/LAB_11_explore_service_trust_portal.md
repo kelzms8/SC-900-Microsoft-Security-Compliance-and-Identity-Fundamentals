@@ -18,8 +18,6 @@ In this lab, you will explore the features and content available from the Servic
 
 1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user (i.e. the user account with which we have signed into azure.) with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials and, if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
 
-    ![](../Images//sc-900-p2.png)
-
     ![](../Images/sc-900-lab11-3.png)
     
 1. Scroll down on the page and notice the different categories of information available. From the **Certifications, Regulations, and Standards category** Select **ISO/IEC**.
@@ -30,9 +28,9 @@ In this lab, you will explore the features and content available from the Servic
 
    ![](../Images/sc-900-lab11-5-6.png)
    
-   ![](../Images/sc-900-lab11-5-7.png)
+   ![](../Images/sc-900-lab11-5-7-1.png)
    
-   ![](../Images/sc-900-lab11-5-8.png)
+   ![](../Images/sc-900-lab11-5-8-1.png)
 
 1. To verify that the document has been saved, scroll up to the top of the page and select **My Library**, view the document that we have saved.
 
