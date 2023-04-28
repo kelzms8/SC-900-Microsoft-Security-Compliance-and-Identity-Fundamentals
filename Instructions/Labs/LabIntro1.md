@@ -48,4 +48,4 @@
         
 1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
 
-    ![](../Images/image-901.jpg)        
+     ![](../Images/Sc-900-numbering.png)       
