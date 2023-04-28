@@ -47,9 +47,8 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
        
     1. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
     
-        ![Picture 1](../Images/sc900-6-7.png)
- 
-        
+          ![Picture 1](../Images/sc900-6-7.png)
+    
      1. Select the **X** on the top-right corner of the screen to close the page.
      1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
      
