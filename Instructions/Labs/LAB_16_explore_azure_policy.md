@@ -3,7 +3,7 @@
 ## Lab scenario
 Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
-#### Task 1: Briefly explore the Azure policy page.
+## Task 1: Briefly explore the Azure policy page.
 
 11. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
@@ -60,7 +60,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Keep this browser tab (Policy – Microsoft Azure) open for the next task.
 
-### Task 2
+## Task 2
 
 In this task you'll see the impact of the Azure policy assignment, by attempting to create a resource group in Azure that does not have a tag.
 
@@ -111,7 +111,7 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
  
  
-### Task 3 (Optional)
+## Task 3 (Optional)
 
 In this task, you'll walk through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
 
