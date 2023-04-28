@@ -23,43 +23,43 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 
 5. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
+6. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
-2. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
+7. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-3. Now enter the following password and click on **Sign in**.
+8. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-4. Select **Azure Active Directory**.  
+9. Select **Azure Active Directory**.  
 
-5. From the left navigation panel select **Users**.
+10. From the left navigation panel select **Users**.
 
-6. Select **Diego Siciliani** from the list of users.
+11. Select **Diego Siciliani** from the list of users.
 
-7. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+12. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
 
-8. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
-
-
-     ![](../Images/save_img.png)
+13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 
-6. Close the password reset window by selecting the **X** at the top right corner of the page.
+    ![](../Images/save_img.png)
 
-7. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-8. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+14. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-9. Keep the browser page open, as you will in the subsequent tasks.
+15. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-9. Close the password reset window by selecting the **X** at the top right corner of the page.
+16. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
 
-10. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+17. Keep the browser page open, as you will in the subsequent tasks.
 
-11. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+18. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-12. Keep the browser page open, as you will in the subsequent tasks.
+19. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+
+20. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+
+21. Keep the browser page open, as you will in the subsequent tasks.
 
 
 ## Task 2: In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
@@ -186,7 +186,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. You are now back on the Azure Active Directory page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
 1. From the users' list, select **Bianca Pisani**.
 
-   ![](../Images/aad-add-user-2 10.png)
+    ![](../Images/aad-add-user-2 10.png)
 
 1. From the left navigation panel, select **Licenses**.
 
