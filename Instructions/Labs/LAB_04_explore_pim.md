@@ -42,7 +42,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 
-    ![](../Images/save_img.png)
+     ![](../Images/save_img.png)
 
 
 14. Close the password reset window by selecting the **X** at the top right corner of the page.
@@ -186,8 +186,8 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. You are now back on the Azure Active Directory page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
 1. From the users' list, select **Bianca Pisani**.
 
-    ![](../Images/aad-add-user-2 10.png)
-
+   ![](../Images/add-user-2-10.png)
+   
 1. From the left navigation panel, select **Licenses**.
 
 1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
