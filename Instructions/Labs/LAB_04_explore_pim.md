@@ -4,9 +4,8 @@
 ## Lab scenario
 In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Azure AD Premium P2.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more.  Both the admin and the user, Diego, must be configured for the Azure AD Premium P2 license.
 
-**Estimated Time**: 30-45 minutes
 
-#### Task 1: In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
+## Task 1: In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
  
 1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
@@ -43,7 +42,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 8. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 
-   ![](../Images/save_img.png)
+     ![](../Images/save_img.png)
 
 
 6. Close the password reset window by selecting the **X** at the top right corner of the page.
@@ -63,7 +62,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 12. Keep the browser page open, as you will in the subsequent tasks.
 
 
-#### Task 2: In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
+## Task 2: In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
 1. Go to the Azure Active Directory page.  
 
@@ -120,7 +119,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
 
-#### Task 3: Task 3:  In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
+## Task 3: Task 3:  In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
 
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
@@ -203,5 +202,5 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 1. The duration of the user admin role is limited to the time that was configured.
 
-#### Review
+### Review
 In this lab; you explored PIM.  You, as the admin, configured Diego with user admin privileges for a specified amount of time.  Then you, as Diego, walked through the process of activating the user admin privileges and configuring user settings.  Recall that PIM requires an Azure AD Premium P2 license.
