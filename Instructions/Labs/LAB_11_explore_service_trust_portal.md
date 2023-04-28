@@ -4,7 +4,7 @@
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-#### Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
+## Task 1: In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library. 
 
 1. In the virtual machine(VM) on the left, click Microsoft edage shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
@@ -62,7 +62,7 @@ In this lab, you will explore the features and content available from the Servic
 
    ![](../Images/sc-900-lab11-8.png)
     
-#### Task 2: In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
+## Task 2: In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
 1. From the Service Trust Portal home page, scroll down to the **Reports, Whitepapers, and Artifacts** category. Select **Privacy and Data Protection**.  
 
@@ -78,6 +78,6 @@ In this lab, you will explore the features and content available from the Servic
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
-#### Review
+### Review
 
 In this lab you explored some of the options available under the Service Trust Portal, how to access reports, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review Microsoft's Privacy principles.
