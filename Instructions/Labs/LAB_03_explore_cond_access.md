@@ -81,7 +81,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 12. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-   ![](../Images/select-azure.png)
+    ![](../Images/select-azure.png)
 
 13. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -91,7 +91,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 16. AT the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
-   ![](../Images/grant-access.png)
+    ![](../Images/grant-access.png)
 
 17. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
