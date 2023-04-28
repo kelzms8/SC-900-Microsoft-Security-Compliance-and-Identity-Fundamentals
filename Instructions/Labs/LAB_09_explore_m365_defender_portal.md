@@ -5,9 +5,8 @@
 In this lab you will explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
 
-**Estimated Time**: 10-15 minutes
 
-#### Task 1:  Explore the Microsoft 365 Defender landing page.
+## Task 1:  Explore the Microsoft 365 Defender landing page.
 
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
@@ -49,7 +48,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Keep the browser window open.
 
-#### Task 2: In this task, you will explore how Microsoft Secure Score can help an organization improve its security posture.
+## Task 2: In this task, you will explore how Microsoft Secure Score can help an organization improve its security posture.
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
@@ -82,6 +81,6 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
     
 1. Close the browser page.
 
-#### Review
+### Review
 
 In this lab you explored the Microsoft 365 Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly, you explored how Microsoft Secure Score can help an organization improve its security posture.
