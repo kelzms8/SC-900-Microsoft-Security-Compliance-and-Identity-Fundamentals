@@ -41,29 +41,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/aad-password-reset(1)-1.png)
    
-1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section.
-
-1. From the left navigation pane, select **Users**. Click **+ New user** at the top of the page and from dropdown select **Create new user**.
-
-1. On the **Create new user** blade, in basics tab specify the following settings:
-
-    |Setting|Value|
-    |---|---|
-    |User principal name |**Adele**|
-    |Display name |**Adele Vance**|
-    |Password|Ensure that the option **Auto-generate password** is selected |
-    |Account enabled| **Selected**
-   
-    >**Note**: Record the full user name and the password.
-
-1. On the **Create new user** blade, in **Property** tab under settings specify the following settings:
-    |Setting|Value|
-    |---|---|
-    |Usage Location|**United States**|
-
-1. Select **Review + create** and click on **Create**.
-
-1. Verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
