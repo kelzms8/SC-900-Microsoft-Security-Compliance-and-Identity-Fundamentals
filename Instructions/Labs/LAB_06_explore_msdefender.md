@@ -5,7 +5,9 @@
 In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture. NOTE: the Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
 
 
-## Task 1:In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
+## Task 1: Explore on Microsoft Defender for Cloud
+
+In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
 1. In the blue search bar enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 
@@ -53,7 +55,9 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
      
  1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
-## Task 2: Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features that are available through the Microsoft Defender for Cloud plans. In this task, you discover how to enable/disable the various Microsoft Defender for Cloud plans.
+## Task 2: How to enable/disable the various Microsoft Defender for Cloud plans.
+
+Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features that are available through the Microsoft Defender for Cloud plans. In this task, you discover how to enable/disable the various Microsoft Defender for Cloud plans.
 
 1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
 1. Expand the **Azure** list then select the **Existing Subscription** listed next to the yellow key icon.
