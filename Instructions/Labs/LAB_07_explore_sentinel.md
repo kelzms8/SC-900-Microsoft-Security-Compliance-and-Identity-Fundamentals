@@ -41,7 +41,9 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Keep this page open, as you will use it in the next task.
 
-#### Task 2:  With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions.  In this task, you'll view the available, built-in Microsoft Sentinel roles.
+#### Task 2: Built-in Microsoft Sentinel roles
+
+With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
 1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
 
@@ -68,7 +70,9 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
-## Task 3:  In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
+## Task 3: Data connector to your instance of Microsoft Sentinel.
+
+In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
 
 1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
@@ -108,7 +112,9 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 1. Keep this page open, as you'll use it in the next task
     
 
-## Task 4 : In this task, you'll walk through some of the options available in Sentinel.
+## Task 4 : Explore on capabilities available in Sentinel.
+
+In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
