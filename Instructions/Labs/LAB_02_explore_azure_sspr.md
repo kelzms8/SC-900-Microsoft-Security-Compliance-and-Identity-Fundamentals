@@ -100,8 +100,10 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Close the Users window by selecting the **X** at the top right corner of the page.
 
 1. Keep the AAD Overview window open as you will use it in the subsequent task.
+C
+## Task 2: Configure Password reset for users.
 
-## Task 2: In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
+In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
 1. Go to the Azure Active Directory home page
 
@@ -132,7 +134,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 13. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
 
-## Task 3:  In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages or a personal email account that you can access.
+## Task 3: Registration process for a self-service password reset
+
+In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages or a personal email account that you can access.
  
 1. Open Microsoft Edge.
 
@@ -173,7 +177,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 10. Sign out of the Office 365 page and close your browser window.
 
-## Task 4 (Optional): In this task, you, as user Adele Vance, will go through the process of resetting your password.
+## Task 4 (Optional): Process of resetting your password
+
+In this task, you, as user Adele Vance, will go through the process of resetting your password.
 
 1. Open Microsoft Edge.
 
@@ -203,7 +209,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 12. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
-## Task 5 (Optional):  In this task, you, as the administrator, will briefly view the Audit logs and the Usage & insights data associated with password reset.
+## Task 5 (Optional):  View the Audit logs and the Usage & insights data associated with password reset
+
+In this task, you, as the administrator, will briefly view the Audit logs and the Usage & insights data associated with password reset.
 
 1. Open Microsoft Edge.
 
