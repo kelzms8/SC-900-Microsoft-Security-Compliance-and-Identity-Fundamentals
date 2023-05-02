@@ -11,35 +11,27 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
 
-2. if not sign in, sign in with the credentials provided in the **Environment Details** Tab. 
+1. if not sign in, sign in with the credentials provided in the **Environment Details** Tab. 
     1. In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
     1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-3. Select **Azure Active Directory**.  
+1. Select **Azure Active Directory**.  
 
-4. From the left navigation panel select **Users**.
+1. From the left navigation panel select **Users**.
 
-5. Click on **+ New User > Create new user**. **Debra Berger** from the list of users.
+1. Select Debra Berger from the list of users.
 
-    ![](../Images/SC-900-newuser.png)
 
-1. Then in **Create new user** page, on basics tab provide the following credentials, then click on **Review + Create** and **Create**:-
+1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
-    | Setting| Value|
-    |----|----|
-    | User principal name | **Debraberger**|
-    | Display name | **Debra Berger** |
-    | Auto generated password | **unchecked** |
-    | Password | **Give unique password** |
+    ![](../Images/user-debra1.png)
 
-    > **Note**: Copy and paste your password for further use.
-
-1. Now you are able to see the new user on the user's page.
+1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
    > **Note**: make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-1. Select **Debra Berger** from the list of users.
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
 9. Close the Users window by selecting the **X** at the top right corner of the page.
 
@@ -49,56 +41,56 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
  In this task, you will go through the process of creating a conditional access policy in Azure AD. 
 
-2. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
+1. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
  
    ![](../Images/security.png)
 
 
-2. Go back to the Azure Active Directory Home page. From the left navigation panel, select **Security**.
+1. Go back to the Azure Active Directory Home page. From the left navigation panel, select **Security**.
 
    ![](../Images/aad.png)
 
-3. From the left navigation panel, select **Conditional Access**.
+1. From the left navigation panel, select **Conditional Access**.
 
    ![](../Images/conditional-access.png)
 
-4. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
+1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
 
    ![](../Images/SC-900-policy.png)
 
-5. In the Name field, enter **MFA Test Policy**.
+1. In the Name field, enter **MFA Test Policy**.
 
-6. Under Users and groups, select **0 users and groups selected**.
+1. Under Users and groups, select **0 users and groups selected**.
 
-7. You will now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
+1. You will now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
 
-8. Select the option for **Select users and groups** and select **Users and groups**.  The window to select users and groups opens.  
+1. Select the option for **Select users and groups** and select **Users and groups**.  The window to select users and groups opens.  
 
-9. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose of expediency with this lab, we will assign the policy to a specific user. 
+1. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose of expediency with this lab, we will assign the policy to a specific user. 
 
    ![](../Images/select-user.png)
 
-10. Under Cloud apps or actions, select **No cloud apps, actions, or authentication selected**.
+1. Under Cloud apps or actions, select **No cloud apps, actions, or authentication selected**.
 
-11. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
+1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
 
-12. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+1. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
     ![](../Images/select-azure.png)
 
-13. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
+1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
-14. Now you will set the access controls.  Under Grant, select **0 controls selected**.
+1. Now you will set the access controls.  Under Grant, select **0 controls selected**.
 
-15. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multi-factor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
+1. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multi-factor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
 
-16. AT the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
+1. AT the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
     ![](../Images/grant-access.png)
 
-17. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
+1. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
-18. Sign out of Azure and close your browser windows.
+1. Sign out of Azure and close your browser windows.
 
 ## Task 3: Impact of the conditional access policy
 
