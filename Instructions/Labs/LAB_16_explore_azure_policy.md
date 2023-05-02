@@ -5,7 +5,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 ## Task 1: Briefly explore the Azure policy page.
 
-11. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -60,7 +60,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Keep this browser tab (Policy – Microsoft Azure) open for the next task.
 
-## Task 2
+## Task 2: Impact of tag.
 
 In this task you'll see the impact of the Azure policy assignment, by attempting to create a resource group in Azure that does not have a tag.
 
