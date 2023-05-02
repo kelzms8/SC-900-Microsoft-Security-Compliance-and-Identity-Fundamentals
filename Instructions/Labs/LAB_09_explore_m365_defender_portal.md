@@ -48,7 +48,9 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Keep the browser window open.
 
-## Task 2: In this task, you will explore how Microsoft Secure Score can help an organization improve its security posture.
+## Task 2: Explore on Microsoft Secure Score.
+
+In this task, you will explore how Microsoft Secure Score can help an organization improve its security posture.
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
