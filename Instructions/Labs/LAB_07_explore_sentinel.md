@@ -1,5 +1,5 @@
 
-# Lab: Explore Microsoft Sentinel 
+# Lab-07: Explore Microsoft Sentinel 
 
 ## Lab scenario
 In this lab you will walk through the process of creating an  Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support  Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
