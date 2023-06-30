@@ -1,5 +1,5 @@
 
-# Lab: Explore Azure Active Directory
+# Lab-01: Explore Azure Active Directory
 
 ## Lab scenario
 
