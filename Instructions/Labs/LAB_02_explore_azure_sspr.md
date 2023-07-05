@@ -1,5 +1,5 @@
 
-# Lab: Explore Azure AD Authentication with a self-service password reset
+# Lab-02: Explore Azure AD Authentication with a self-service password reset
 
 ## Lab scenario
 

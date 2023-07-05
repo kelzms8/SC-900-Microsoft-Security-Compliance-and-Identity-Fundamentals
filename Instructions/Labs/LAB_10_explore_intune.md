@@ -1,5 +1,5 @@
 
-# Lab: Explore Microsoft Intune
+# Lab-10: Explore Microsoft Intune
 
 ## Lab scenario
 

@@ -1,9 +1,4 @@
----
-lab:
-    title: 'Setup'
----
-
-# Lab: Setup
+# Lab-00: Setup
 
 ### Lab scenario
 
