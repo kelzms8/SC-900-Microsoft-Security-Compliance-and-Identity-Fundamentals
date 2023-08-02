@@ -54,7 +54,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
      - On Add role assignment page, under **Members** tab, click on **+ select members**, on select member blade select your useraccount and click on select.
      - Click on **Review + assign**.
     
-    >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+     >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
    
 1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
 
