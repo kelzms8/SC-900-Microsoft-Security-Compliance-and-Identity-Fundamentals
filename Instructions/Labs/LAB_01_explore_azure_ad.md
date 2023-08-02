@@ -14,11 +14,12 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 1. In the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
 1. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **<inject key="Username" enableCopy="false" />** then select **Next**.
-    1. Enter the admin password: <inject key="Password" enableCopy="false" />. Select **Sign in**.
+   In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
+    1. Enter the admin password: <inject key="AzureAdUserPassword"></inject>.(username that you will find in the Environment Details tab) Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
-   ![](../Images/SC-900-1.1x.png)
+   ![](../Images/Sc-900lab1image1.jpg)
+   
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
