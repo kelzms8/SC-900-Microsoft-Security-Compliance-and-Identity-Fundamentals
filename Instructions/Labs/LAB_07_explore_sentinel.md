@@ -44,7 +44,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-    ![Picture 2](../Images/7-(1).png)
+    ![Picture 2](../Images(3)-lab7.png)
 
 1. If the the role is not owner then follow the below steps:
 
