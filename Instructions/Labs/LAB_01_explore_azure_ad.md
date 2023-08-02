@@ -14,7 +14,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 1. In the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
 1. Sign in with the credentials provided in the **Environment Details** Tab. 
-   In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
+    1. In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
     1. Enter the admin password: <inject key="AzureAdUserPassword"></inject>.(username that you will find in the Environment Details tab) Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**.
 
@@ -25,13 +25,13 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  
 
-   ![](../Images/SC-900-01.1.png)
+   ![](../Images/SC-900lab1-02.jpg)
 
 1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
 1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
-   ![](../Images/Sc-900-2x.png)
+   ![](../Images/sc-900lab01-03.jpg)
  
 1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as <inject key="Username" enableCopy="false" /> and you originally used those same credentials to redeem your Azure pass, you should be logged in as the admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
