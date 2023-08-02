@@ -23,13 +23,13 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-1. Under Admin centers, select **Azure Active Directory** (you may need to scroll down).  
+1. Under Admin centers, select **Identity** (you may need to scroll down).  
 
    ![](../Images/SC-900-01.1.png)
 
 1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
-1. From the left navigation pane, under favorites select **Azure Active Directory**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
+1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
    ![](../Images/Sc-900-2x.png)
  
@@ -108,7 +108,7 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
  3. Next to Roles, select **Add Roles**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
-      ![](../Images/SC-900-xx.png)
+      ![](../Images/Sc-900lab01-04.jpg)
 
 9. From the bottom of the page, select the **Create** button.
 
