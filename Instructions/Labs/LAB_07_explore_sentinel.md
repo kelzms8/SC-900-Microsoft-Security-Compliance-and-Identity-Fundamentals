@@ -7,14 +7,6 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 ## Task 1:  Create an  Microsoft Sentinel instance.
 
-1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
-
-1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
-
 1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
 1. From the Microsoft Sentinel page, select **Create**.
