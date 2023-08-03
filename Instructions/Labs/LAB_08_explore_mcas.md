@@ -39,7 +39,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
 
 1. After the upload completes, click on **snapshot reports** link on Create new Cloud Discovery snapshot report page.
-1. After you upload your log files, it will take some hours for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
+1. After you upload your log files, it will take some minutes for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/readysr.png)
     
@@ -97,7 +97,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
     ![Picture 1](../Images/update.png)
 
-1. Keep this page open, as you will use it in the next task.
+
 
 ## Task 2: Explore the Cloud app catalog
 
@@ -111,8 +111,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 1. Admins can also search for apps by category.  For example, in the search for category field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
     ![Picture 1](../Images/yammer.png)
-  
-1. Keep this page open, as you'll use it in the next task.
+
 
 ## Task 3: Explore the Activity log and Files
 
@@ -127,7 +126,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
 
-1. Keep this page open, as you will use it in the next task.
+
 
 
 ## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security.
