@@ -56,7 +56,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      
 1. From the Customize your navigation pane window, select **Audit (1)**  and **eDiscovery (2)**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
-     ![](../Images/lab12-1.png)
+     ![](../Images/lab12-(1).png)
      
      ![](../Images/lab12-2.png)
      
