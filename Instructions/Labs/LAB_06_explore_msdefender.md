@@ -38,13 +38,13 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
    >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription** then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
 
-     ![Picture 1](../Images/sc900-6-4.png)
+    ![Picture 1](../Images/sc900-6-4.png)
 
-     ![Picture 1](../Images/selectsubinsecpolicy2.png)
+    ![Picture 1](../Images/selectsubinsecpolicy2.png)
      
-     ![Picture 1](../Images/openinazurepolicy3.png)
+    ![Picture 1](../Images/openinazurepolicy3.png)
 
-     ![Picture 1](../Images/sc900-6-3.png)
+    ![Picture 1](../Images/sc900-6-3.png)
      
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
