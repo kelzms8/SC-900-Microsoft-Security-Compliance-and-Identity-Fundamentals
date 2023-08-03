@@ -10,23 +10,21 @@ In this lab you will go through the steps required for setting up Core eDiscover
       ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
+    1. In the Sign in window, enter following username and select **Next**.
 
-        ![](../Images/module4/lab12/main-4.png)
+       * Email/Username: <inject key="AzureAdUserEmail"></inject>
+     
+        ![](../Images/image(1).png)
+     
+    1. Enter the following admin password and Select **Sign in**.
+  
+       * Password: <inject key="AzureAdUserPassword"></inject>
+    
+       ![](../Images/image(2).png)
         
     1. When prompted to Action Required, Please select **Ask later**
 
-        ![](../Images/lab14-1-3.png)          
+        ![](../Images/image(3).png)    
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
