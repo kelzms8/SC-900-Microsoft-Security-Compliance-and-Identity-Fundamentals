@@ -36,7 +36,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
      ![Picture 1](../Images/sc900-cardadded.png)
    
 
-1. Selecting the ellipses on the top-right of any card will provide more actions you can take.  
+1. Selecting the ellipses on the top-right of any card will provide the option to **Remove**.  
 
 1. You can also move the cards around. Hover your mouse cursor over the title bar of any card,  when you will get a cross shaped cursor select the card and move it to your desired location.
    

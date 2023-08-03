@@ -44,8 +44,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
-1. Now go to the **Groups**. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
-
 1. From the left navigation pane, select **Members** under **Manage**.
 
 1. From the top of the page, select **+ Add members**.  

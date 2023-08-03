@@ -121,8 +121,8 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
 
 1. On the top of the page, under Essentials, you can see the name, description, and other essential information.  Note that the policy shows as non-compliant.  Select the policy for more information on why the policy is non-compliant. Here you can see that a resource listed as **sc900-module4** is non-compliant.  This is an example of a resource group that was created, previous to the creation of the policy. Select **Details** for more information.  Here you can see the compliance message that an environment tag is required.  Select the **X** on the top right to close the window.
 
-1. Select **sc900-module4**resourcegroup1 then from the top of the page, select **View Resource**.
-    1. Next to where it says Tags, select **edit**, expand **Essentials** to see the option.
+1. Select **sc900-module4** Resource Group
+    1. Open the **Essentials** under the **+Create**
     1. Place the mouse cursor in the Tag field and select **Environment**.
     1. Place the mouse cursor in the Value field and select **SC900-Labs**, then select **Save**.
 
