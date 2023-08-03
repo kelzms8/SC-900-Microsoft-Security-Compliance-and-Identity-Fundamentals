@@ -1,5 +1,5 @@
 
-# Lab: Explore access management in Azure AD with Conditional
+# Lab3 : Explore access management in Azure AD with Conditional
 
 ## Lab scenario
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin will create a policy that will require a user to go through multi-factor authentication when accessing a cloud-based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
@@ -9,27 +9,21 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. Open Microsoft Edge.  In the address bar enter **portal.azure.com**.
-
-1. if not sign in, sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
-
-1. Select **Azure Active Directory**.  
+1. On the Azure portal locate the search bar at the top of the page. Search for **Azure SQL (1)**. Select the search result for **Azure Active Directory**.
 
 1. From the left navigation panel select **Users**.
 
 1. Select Debra Berger from the list of users.
 
-
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
-    ![](../Images/user-debra1.png)
+    ![](../Images/iamge1.png)
 
-1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+1. When the password reset window opens, select **Reset Password**.
 
-   > **Note**: make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+
+   >**Note**: make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -43,20 +37,17 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
  
-   ![](../Images/security.png)
+   ![](../Images/iamge2.png)
 
+1. Go back to the Azure Active Directory Home page. From the left navigation panel, under **Manage** section, select **Security**.
 
-1. Go back to the Azure Active Directory Home page. From the left navigation panel, select **Security**.
+1. On **Security** page, from the left navigation panel, select **Conditional Access**.
 
-   ![](../Images/aad.png)
-
-1. From the left navigation panel, select **Conditional Access**.
-
-   ![](../Images/conditional-access.png)
+   ![](../Images/image3.png)
 
 1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
 
-   ![](../Images/SC-900-policy.png)
+   ![](../Images/image4.png)
 
 1. In the Name field, enter **MFA Test Policy**.
 
@@ -70,13 +61,13 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
    ![](../Images/select-user.png)
 
-1. Under Cloud apps or actions, select **No cloud apps, actions, or authentication selected**.
+1. Under **Target resources**, select **No target resources are selected**.
 
 1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
 
 1. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-    ![](../Images/select-azure.png)
+    ![](../Images/image5.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -112,7 +103,7 @@ In this task, you will see the impact of the conditional access policy, from the
 
 1. You will see a window indicating, More information required.  Select **Next**.  Note, this will initiate the MFA registration process, as this is the first time you are accessing the cloud app that was identified in the conditional access policy.  This registration process is required only once.   An alternative to having the user go through the registration process is to have the admin configure the authentication method to use.
 
-   ![](../Images/more-info-debrab.png)
+   ![](../Images/more-info-debrab(1).png)
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
