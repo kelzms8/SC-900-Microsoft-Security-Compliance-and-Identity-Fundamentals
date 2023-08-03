@@ -70,8 +70,16 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
-1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
+1. On the **Microsoft Sentinel / | Data connctor** page scroll dowm and select **Go to Content hub**.
 
+1. On **Content hub** page in  the Search box of **Microsoft Defender for Cloud**  and then from the list select **Microsoft Defender for Cloud** and click **Install**
+
+    ![Picture 1](../Images/image5-lab7.png)
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Data connctor** page and refresh the page to get **Microsoft Defender for Cloud** option.
+
+1. On the **Microsoft Sentinel / | Data connctor** page , select **Microsoft Defender for Cloud**.
+   
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
     ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
@@ -88,7 +96,15 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
        
-1. From the left navigation panel, select **Workbooks** and in search bar, under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+1. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
+
+1. On **Content hub** page in  the Search box of **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
+
+   ![Picture 1](../Images/image8-lab7.png) 
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
+
+8. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
     ![Picture 1](../Images/templates.png)
     
