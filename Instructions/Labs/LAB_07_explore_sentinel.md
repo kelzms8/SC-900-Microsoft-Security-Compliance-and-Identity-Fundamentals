@@ -122,7 +122,15 @@ In this task you will walk through the steps involved in setting up a data conne
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
+1. From the left navigation panel, select **Hunting**.  From the **queries** tab, scroll dowm and select **Go to Content hub**.
+
+1. On **Content hub** select **Content title** and select **Install/Upadte**.
+
+    >**Note**: wait till installation process to complete.
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Hunting** page and refresh the page.
+   
+1. Select the **queries** tab which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
     ![Picture 1](../Images/sc900-hunting.png)
    
