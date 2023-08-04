@@ -1,5 +1,5 @@
 
-# Lab3 : Explore access management in Azure AD with Conditional
+# Lab-03 : Explore access management in Azure AD with Conditional
 
 ## Lab scenario
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin will create a policy that will require a user to go through multi-factor authentication when accessing a cloud-based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
