@@ -11,29 +11,16 @@ In this task you will gain an understanding of what sensitivity labels can do by
    ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
+   
 1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
-    
-     ![](../Images/module4/lab12/main-2.png)
 
 1. Now enter the password and click on Sign in.
-
-   * Password: <inject key="AzureAdUserPassword"></inject>
    
-     ![](../Images/module4/lab12/main-3.png)
+   * Password: <inject key="AzureAdUserPassword"></inject>
   
 1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
-   
-1. When prompted to protect the account, Please select **Skip for now**.
-
-        ![](../Images/module4/lab12/main-4.png)
-        
- 1. When prompted to Action Required, Please select **Ask later**
-
-        ![](../Images/lab14-1-3.png)          
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -61,7 +48,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
     | -- | -- |
     | **Name** text box | Enter **Confidential-Finance** |
     | **Display name** text box | Enter **Confidential-Finance** |
-    | **Description for users** text box | Enter **Confidential-Finance Demo | 
+    | **Description for users** text box | Enter **Confidential-Finance Demo** | 
 
     ![](../Images/sc-900-lab13-3.png)
 
@@ -179,7 +166,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential - Finance-Demo**.
+1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
 
       ![](../Images/95.png)      
 
