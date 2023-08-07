@@ -99,7 +99,7 @@ In this task you will walk through the steps involved in setting up a data conne
    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
    1. From the top of the workbook page, select the **Save icon**.
    1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel** and Select **SC900-LogAnalytics-workspace** This returns you to the Overview page.
-   1. On the overview page, select **New overview** toggle and scroll down and select data connector under **Data** section then you should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
+   1. On the Overview page, select **New overview** toggle and scroll down and select **data connectors** under **Data** section then you should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
 
 1. Keep this page open, as you'll use it in the next task
     
