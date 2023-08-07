@@ -64,7 +64,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
-## Task-2: Enable the Audit log search capability(SKIP if you did the setup lab task to enable the audit log): 
+## Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log): 
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you will enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
 1. Select the browser tab labeled, **Microsoft 365 admin center - Home**.  If you previously closed this browser tab, open Microsoft Edge and in the address bar enter **admin.microsoft.com** and sign in with your admin credentials.
