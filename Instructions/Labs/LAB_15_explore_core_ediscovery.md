@@ -80,7 +80,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. You are now in the Microsoft Purview. From the left navigation panel, select **Show all**.
 
-1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
 
 1. From the top of the Core eDiscovery page, select **+ Create a case**.
 
