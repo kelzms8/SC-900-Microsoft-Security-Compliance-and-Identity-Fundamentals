@@ -46,7 +46,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Verify the added members is correct then select **Save**.
 
-    ![](../Images/sc900-14-11.png)
+    ![](../Images/save2.png)
 
 1. From the bottom of the Insider Risk Management window, select **Close**.
 
