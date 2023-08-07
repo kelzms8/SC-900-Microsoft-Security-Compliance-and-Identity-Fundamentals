@@ -170,7 +170,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
     
       ![](../Images/sc-900-lab15-T2-19.png)
       
-1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on the bottom of the page.
+1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** on the bottom of the page.
 
       ![](../Images/sc-900-lab15-T2-20.png)  
     
@@ -178,10 +178,10 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Select **Test Hold - Sales Search_Export**
 
-1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
+1. In the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
 
       ![](../Images/sc-900-lab15-T2-22.png)
-1. From the top of the window, select **Download results.***(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+1. From the top of the window, select **Download results**.(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
       ![](../Images/sc-900-lab15-T2-23.png)
          
