@@ -32,7 +32,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. To add members to this role group, select **Choose users**.
 
-    ![](../Images/chooseusers.png).
+    ![](../Images/chooseuser21.png).
 
 1. Select **+ Add** from the top of the page.
 
