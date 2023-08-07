@@ -23,7 +23,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Verify the information you entered then select **Create**.
 
-1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace and click on **Add**.
+1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **SC900-LogAnalytics-workspace (1)** and click on **Add (2)**.
 
     ![Picture 1](../Images/image2-lab7.png)
 
