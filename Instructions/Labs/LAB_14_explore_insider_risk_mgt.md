@@ -6,30 +6,19 @@ In this lab, you will walk through the process of setting up an insider risk pol
 ## Task 1: Process of setting up an insider risk policy.
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
+1. If you not alredy login to admin center, the address bar of microsoft edge enter **admin.microsoft.com**.
 
-      ![](../Images/module4/lab12/main-1.png)
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
+ 
+    * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
-
-        ![](../Images/module4/lab12/main-4.png)
+      ![](../Images/module4/lab12/main-2.png)
         
-    1. When prompted to Action Required, Please select **Ask later**
+1. On **Enter Password** blade, enter the following password   
 
-        ![](../Images/lab14-1-3.png)          
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
+
+      ![](../Images/module4/lab12/main-3.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
