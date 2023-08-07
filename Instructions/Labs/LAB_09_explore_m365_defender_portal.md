@@ -1,13 +1,10 @@
 
-# Lab: Explore the Microsoft 365 Defender portal
+# Lab-09: Explore the Microsoft 365 Defender portal
 
 ## Lab scenario
 In this lab you will explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
-
-
 ## Task 1:  Explore the Microsoft 365 Defender landing page.
-
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -17,6 +14,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the password and click on Sign in.
+   
    * Password: <inject key="AzureAdUserPassword"></inject>
   
 1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
@@ -76,9 +74,9 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
     ![Picture 1](../Images/sc900-mandt.png)
     
-    >
+    
     >**Note:** If you can't see deatils on the **History** and **Metrics & treads** tabs, this is beacause after making configuration changes. it will take about 24 hours to update.
-    >
+    
     >For more details visit: https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score?view=o365-worldwide
     
 1. Close the browser page.

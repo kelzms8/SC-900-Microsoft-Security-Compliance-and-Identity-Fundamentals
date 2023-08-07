@@ -3,9 +3,31 @@
 ## Lab scenario
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
-## Task 1: Add specific users as members of the eDiscovery Manager role group.
-To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
-   
+## Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+
+1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+
+      ![](../Images/module4/lab12/main-1.png)
+
+1. Sign in with your admin credentials.
+    1. In the Sign in window, enter following username and select **Next**.
+
+       * Email/Username: <inject key="AzureAdUserEmail"></inject>
+     
+        ![](../Images/image(1).png)
+     
+    1. Enter the following admin password and Select **Sign in**.
+  
+       * Password: <inject key="AzureAdUserPassword"></inject>
+    
+       ![](../Images/image(2).png)
+        
+    1. When prompted to Action Required, Please select **Ask later**
+
+        ![](../Images/image(3).png)    
+     
+    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
     ![](../Images/sc-900-lab15-1-01.png)
@@ -28,36 +50,27 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
     
     ![](../Images/sc-900-lab15-1-6.png)
 
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group. Select **Edit**, next to eDiscovery Administrator.  As a general best practice, users should be assigned the least privilege required for their role.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group.
 
-    ![](../Images/sc-900-lab15-1-07.png)
+1. Select **Edit** 
 
-1. To add members to this role group, make sure you are in the  **Choose eDiscovery Administrator** tab then select **Choose eDiscovery Administrator**.
+    ![](../Images/image1.png)
 
-    ![](../Images/sc-900-lab15-1-8.png)
+1. On **eDiscovery Manager** page select **Next** on  **Manager eDiscovery Manager**.
 
-1. Select **+ Add** from the top of the page.
+   ![](../Images/image2.png)
 
-    ![](../Images/sc-900-lab15-1-9.png)
+1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User and Megan Bowen** from the list and click on **select** and **Next**.
 
-1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
+   ![](../Images/image3.png)
 
-    ![](../Images/sc-900-lab15-1-10.png)
-    
-    ![](../Images/sc-900-lab15-1-11.png)
-    
-1. Verify the added members is correct then select **Save**.
+1. On **Review and finish** page, select **Save**.
 
-    ![](../Images/sc-900-lab15-1-12.png)
+   ![](../Images/image4.png)
 
-1. From the bottom of the eDiscovery window, select **Close**.
+1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
-    ![](../Images/sc-900-lab15-1-13.png)
-
-1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
-
-## Task 2:  Create a case to start using Core eDiscovery
-In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
+## Task 2:  In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
 1. Open the Microsoft 365 admin center tab on your browser.
 
@@ -85,8 +98,7 @@ In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery adm
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-## Task 3:  Create an eDiscovery hold.
-Now that you have created a Core eDiscovery case, you can begin to work with the case. In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
+## Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
 
@@ -118,8 +130,7 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-## Task 4:  Create a search query
-With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation. Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+## Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the SC900 Test case tab on your browser.
 

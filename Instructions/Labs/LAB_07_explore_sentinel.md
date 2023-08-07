@@ -1,19 +1,10 @@
 
-# Lab: Explore Microsoft Sentinel 
+# Lab-07 : Explore Microsoft Sentinel 
 
 ## Lab scenario
 In this lab you will walk through the process of creating an  Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support  Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
   
-
 ## Task 1:  Create an  Microsoft Sentinel instance.
-
-1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
-
-1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.  
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
@@ -21,27 +12,25 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
-1. From the basics tab of the Create Log Analytics workspace, enter the following:
+1. From the basics tab of the Create Log Analytics workspace, enter the following and click **Review + Create**.
     1. Subscription:  **Select the given subscription**   
     1. Resource group: select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**.
     1. Name: **SC900-LogAnalytics-workspace**.
     1. Region: **East US** (leave this default)
  
-    ![Picture 1](../Images/update1-01.png)
-
-1. For the Tags, you can leave this blank, then select **Review + Create**.
+    ![Picture 1](../Images/image1-lab7.png)
 
 1. Verify the information you entered then select **Create**.
 
 1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace and click on **Add**.
 
-    ![Picture 1](../Images/19-1.png)
+    ![Picture 1](../Images/image2-lab7.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
 1. Keep this page open, as you will use it in the next task.
 
-#### Task 2: Built-in Microsoft Sentinel roles
+## Task 2: Built-in Microsoft Sentinel roles
 
 With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
@@ -54,7 +43,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-    ![Picture 2](../Images/7-(1).png)
+    ![Picture 2](../Images/image(3)-lab7.png)
 
 1. If the the role is not owner then follow the below steps:
 
@@ -64,7 +53,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
      - On Add role assignment page, under **Members** tab, click on **+ select members**, on select member blade select your useraccount and click on select.
      - Click on **Review + assign**.
     
-    >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+     >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
    
 1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
 
@@ -80,8 +69,16 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
-1. From the Data connectors page, scroll down on the main window to view the extensive list of available connectors. In the Search box of the data connectors page, enter **Microsoft Defender for Cloud** then from the list select **Microsoft Defender for Cloud**.
+1. On the **Microsoft Sentinel / | Data connctor** page scroll dowm and select **Go to Content hub**.
 
+1. On **Content hub** page in  the Search box of **Microsoft Defender for Cloud**  and then from the list select **Microsoft Defender for Cloud** and click **Install**
+
+    ![Picture 1](../Images/image5-lab7.png)
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Data connctor** page and refresh the page to get **Microsoft Defender for Cloud** option.
+
+1. On the **Microsoft Sentinel / | Data connctor** page , select **Microsoft Defender for Cloud**.
+   
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
     ![Picture 1](../Images/sc900-dataconnector-msdefender(1).png)
@@ -98,7 +95,15 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
        
-1. From the left navigation panel, select **Workbooks** and in search bar, under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+1. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
+
+1. On **Content hub** page in  the Search box of **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
+
+   ![Picture 1](../Images/image8-lab7.png) 
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
+
+8. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
     ![Picture 1](../Images/templates.png)
     
@@ -111,12 +116,19 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Keep this page open, as you'll use it in the next task
     
-
 ## Task 4 : Explore on capabilities available in Sentinel.
 
 In this task, you'll walk through some of the options available in Sentinel.
 
-1. From the left navigation panel, select **Hunting**.  From the **queries** tab, which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
+1. From the left navigation panel, select **Hunting**.  From the **queries** tab, scroll dowm and select **Go to Content hub**.
+
+1. On **Content hub** select **Content title** and select **Install/Upadte**.
+
+    >**Note**: wait till installation process to complete.
+
+1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Hunting** page and refresh the page.
+   
+1. Select the **queries** tab which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
     ![Picture 1](../Images/sc900-hunting.png)
    

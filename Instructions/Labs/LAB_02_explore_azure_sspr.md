@@ -1,10 +1,9 @@
 
-# Lab: Explore Azure AD Authentication with a self-service password reset
+# Lab-02: Explore Azure AD Authentication with a self-service password reset
 
 ## Lab scenario
 
 In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin will be able to view audit logs and usage data & insights for SSPR.
-
 
 ## Task 1:  Creating a basic group.
 
@@ -19,7 +18,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
-
 
 1. On the Active Directory page, select **Groups** under **Manage** and then select **New group**.
 
@@ -41,7 +39,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/aad-password-reset(1)-1.png)
    
-
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
 1. From the left navigation pane, select **Members** under **Manage**.
@@ -75,7 +72,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Close the Users window by selecting the **X** at the top right corner of the page.
 
 1. Keep the AAD Overview window open as you will use it in the subsequent task.
-C
+
 ## Task 2: Configure Password reset for users.
 
 In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
@@ -107,7 +104,6 @@ In this task, you, as the admin, will learn how to configure Password reset for 
      ![](../Images/registration-(1).png)
 
 13. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
-
 
 ## Task 3: Registration process for a self-service password reset
 
@@ -217,7 +213,6 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 10. From the top of the page select **Usage** to view the number of Self-service password resets and account unlocks by the method.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the usage data from the previous task.
 
 11. Close the open browser tabs.
-
 
 ### Review
 In this lab, you, as an admin, went through the process of enabling a self-service password reset. With SSPR enabled, you will then assumed the role of a user to go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.

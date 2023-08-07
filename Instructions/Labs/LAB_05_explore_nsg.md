@@ -1,11 +1,9 @@
 
-# Lab: Explore Azure Network Security Groups (NSGs).
+# Lab-05: Explore Azure Network Security Groups (NSGs).
 
 ## Lab scenario
 In this lab, you will explore the function of network security groups in Azure.  You will do this by create the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
   
-
-
 ## Task 1:  In this task you will create a Windows 10 virtual machine.
 
 1. On the main window, under Azure Services, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
@@ -24,13 +22,13 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Region : Leave the default region.
     1. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
     1. Security type : Select **Standard** from the drop-down.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 21H2 – x64 Gen 2**.
+    1. Image:  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**.
     1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
     1. Username:  enter **AzureUser**.
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
        
-       ![Picture 1](../Images/sc900-5-2.png)
+       ![Picture 1](../Images/createvm.png)
        
     1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
    
@@ -201,7 +199,6 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
-
 
 ### Review
 
