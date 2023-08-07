@@ -20,7 +20,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
 
-
 1. On the Active Directory page, select **Groups** under **Manage** and then select **New group**.
 
    ![](../Images/aad-new-group2-upd(1).png)
@@ -107,7 +106,6 @@ In this task, you, as the admin, will learn how to configure Password reset for 
      ![](../Images/registration-(1).png)
 
 13. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
-
 
 ## Task 3: Registration process for a self-service password reset
 
@@ -217,7 +215,6 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 10. From the top of the page select **Usage** to view the number of Self-service password resets and account unlocks by the method.  Note that it may take time to refresh this data, even after you do a refresh, so it may not yet reflect the usage data from the previous task.
 
 11. Close the open browser tabs.
-
 
 ### Review
 In this lab, you, as an admin, went through the process of enabling a self-service password reset. With SSPR enabled, you will then assumed the role of a user to go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.
