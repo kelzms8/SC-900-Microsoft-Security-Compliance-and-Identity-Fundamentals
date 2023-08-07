@@ -31,7 +31,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. Keep this page open, as you will use it in the next task.
 
-#### Task 2: Built-in Microsoft Sentinel roles
+## Task 2: Built-in Microsoft Sentinel roles
 
 With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
