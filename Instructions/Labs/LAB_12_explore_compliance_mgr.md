@@ -10,23 +10,21 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
       ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
+    1. In the Sign in window, enter following username and select **Next**.
 
-        ![](../Images/module4/lab12/main-4.png)
+       * Email/Username: <inject key="AzureAdUserEmail"></inject>
+     
+        ![](../Images/image(1).png)
+     
+    1. Enter the following admin password and Select **Sign in**.
+  
+       * Password: <inject key="AzureAdUserPassword"></inject>
+    
+       ![](../Images/image(2).png)
         
     1. When prompted to Action Required, Please select **Ask later**
 
-        ![](../Images/lab14-1-3.png)  
+        ![](../Images/image(3).png)    
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -56,11 +54,11 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
      ![](../Images/module4/lab12/4.png)
      
-1. From the Customize your navigation pane window, select **Audit**, **Data loss prevention** and **eDiscovery**.  Select **Save** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
+1. From the Customize your navigation pane window, select **Audit (1)**  and **eDiscovery (2)**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
-     ![](../Images/module4/lab12/4-1.png)
+     ![](../Images/lab12-(1).png)
      
-     ![](../Images/module4/lab12/4-2.png)
+     ![](../Images/lab12-2.png)
      
 1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
@@ -107,17 +105,21 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
      ![](../Images/module4/lab12/new3.png)
 
-1. From the top of the page, select **Assessment templates**.  This page lists the available templates. You can create assessments for your organization by using an existing template or you can create a new template.
+1. From the top of the page, select **Regulation**.  This page lists the available templates. You can create assessments for your organization by using an existing template or you can create a new template.
 
-     ![](../Images/module4/lab12/new4.png)
+   ![](../Images/lab12-3.png)
  
-1. From the included templates list, select **ISO/IEC 27001:2013** (**Note:-** Search the template in the filter by pasting the name and then press enter in keyboard) From the top right of the page, select **+ Create assessment**.  Notice on the left side of the screen that there are only two steps to create an assessment from the template.  Select Cancel from the bottom of the page.
+1. From the included templates list, Search and select **ISO/IEC 27001:2013** (**Note:-** Search the template in the filter by pasting the name and then press enter in keyboard) From the top right of the page.
 
-     ![](../Images/module4/lab12/new5.png)
+   ![](../Images/lab12-4.png)
+
+1. select **+ Create assessment**.
+   
+   ![](../Images/lab12-5.png)
+
+1. Notice on the left side of the screen that there are only few steps to create an assessment from the template.  Select Cancel from the bottom of the page.
      
-     ![](../Images/module4/lab12/new6.png)
-     
-     ![](../Images/module4/lab12/new7.png)
+   ![](../Images/lab12-6.png)
 
 1. Close the open browser tabs.
 

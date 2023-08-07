@@ -10,23 +10,21 @@ In this lab you will go through the steps required for setting up Core eDiscover
       ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
+    1. In the Sign in window, enter following username and select **Next**.
 
-        ![](../Images/module4/lab12/main-4.png)
+       * Email/Username: <inject key="AzureAdUserEmail"></inject>
+     
+        ![](../Images/image(1).png)
+     
+    1. Enter the following admin password and Select **Sign in**.
+  
+       * Password: <inject key="AzureAdUserPassword"></inject>
+    
+       ![](../Images/image(2).png)
         
     1. When prompted to Action Required, Please select **Ask later**
 
-        ![](../Images/lab14-1-3.png)          
+        ![](../Images/image(3).png)    
      
     1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
@@ -52,33 +50,25 @@ In this lab you will go through the steps required for setting up Core eDiscover
     
     ![](../Images/sc-900-lab15-1-6.png)
 
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group. Select **Edit**, next to eDiscovery Administrator.  As a general best practice, users should be assigned the least privilege required for their role.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group.
 
-    ![](../Images/sc-900-lab15-1-07.png)
+1. Select **Edit** 
 
-1. To add members to this role group, make sure you are in the  **Choose eDiscovery Administrator** tab then select **Choose eDiscovery Administrator**.
+    ![](../Images/image1.png)
 
-    ![](../Images/sc-900-lab15-1-8.png)
+1. On **eDiscovery Manager** page select **Next** on  **Manager eDiscovery Manager**.
 
-1. Select **+ Add** from the top of the page.
+   ![](../Images/image2.png)
 
-    ![](../Images/sc-900-lab15-1-9.png)
+1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User and Megan Bowen** from the list and click on **select** and **Next**.
 
-1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
+   ![](../Images/image3.png)
 
-    ![](../Images/sc-900-lab15-1-10.png)
-    
-    ![](../Images/sc-900-lab15-1-11.png)
-    
-1. Verify the added members is correct then select **Save**.
+1. On **Review and finish** page, select **Save**.
 
-    ![](../Images/sc-900-lab15-1-12.png)
+   ![](../Images/image4.png)
 
-1. From the bottom of the eDiscovery window, select **Close**.
-
-    ![](../Images/sc-900-lab15-1-13.png)
-
-1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
+1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
 #### Task 2:  In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
