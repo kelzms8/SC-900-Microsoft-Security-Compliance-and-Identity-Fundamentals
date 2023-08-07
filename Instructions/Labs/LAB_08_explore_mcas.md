@@ -97,8 +97,6 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
     ![Picture 1](../Images/update.png)
 
-
-
 ## Task 2: Explore the Cloud app catalog
 
 Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.  In this task, you'll explore the capabilities of the Cloud app catalog.
@@ -115,7 +113,6 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 ## Task 3: Explore the Activity log and Files
 
-
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
 
 1. Select **+ New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window, then select **Leave page**.
@@ -125,9 +122,6 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
     ![Picture 1](../Images/filesad.png)
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
-
-
-
 
 ## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security.
 

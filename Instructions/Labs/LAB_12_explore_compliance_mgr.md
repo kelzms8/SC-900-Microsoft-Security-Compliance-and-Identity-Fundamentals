@@ -3,7 +3,7 @@
 ## Lab scenario
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
-#### Task 1: Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
+## Task 1: Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -66,7 +66,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      
 1. Leave the browser tab open.
 
-#### Task 2: Learn about your organization’s compliance posture through Compliance Manager.
+## Task 2: Learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 
 
@@ -123,6 +123,6 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
 1. Close the open browser tabs.
 
+### Review
 
-#### Review
 In this lab you explored the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
