@@ -30,9 +30,9 @@ In this task you, as the global administrator, will enable permissions for Insid
 
     ![](../Images/sc900-14-6.png)
 
-1. To add members to this role group, select **Choose members**.
+1. To add members to this role group, select **Choose users**.
 
-    ![](../Images/sc900-14-7.png)
+    ![](../Images/chooseusers.png).
 
 1. Select **+ Add** from the top of the page.
 
