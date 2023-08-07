@@ -1,5 +1,5 @@
 
-# Lab: Explore Microsoft Cloud App Security
+# Lab-08: Explore Microsoft Cloud App Security
 
 ## Lab scenario
 In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
@@ -39,7 +39,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
 
 1. After the upload completes, click on **snapshot reports** link on Create new Cloud Discovery snapshot report page.
-1. After you upload your log files, it will take some hours for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
+1. After you upload your log files, it will take some minutes for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/readysr.png)
     
@@ -97,8 +97,6 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
     
     ![Picture 1](../Images/update.png)
 
-1. Keep this page open, as you will use it in the next task.
-
 ## Task 2: Explore the Cloud app catalog
 
 Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cloud Apps cloud app catalog of over 31,000 cloud apps. The apps are ranked and scored based on more than 80 risk factors to provide you with ongoing visibility into cloud use, Shadow IT, and the risk Shadow IT poses to your organization.  In this task, you'll explore the capabilities of the Cloud app catalog.
@@ -111,11 +109,9 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 1. Admins can also search for apps by category.  For example, in the search for category field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
     ![Picture 1](../Images/yammer.png)
-  
-1. Keep this page open, as you'll use it in the next task.
+
 
 ## Task 3: Explore the Activity log and Files
-
 
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
 
@@ -126,9 +122,6 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
     ![Picture 1](../Images/filesad.png)
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
-
-1. Keep this page open, as you will use it in the next task.
-
 
 ## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security.
 

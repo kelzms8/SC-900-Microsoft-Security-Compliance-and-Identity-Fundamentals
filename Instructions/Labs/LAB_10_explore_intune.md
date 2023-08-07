@@ -1,5 +1,5 @@
 
-# Lab: Explore Microsoft Intune
+# Lab-10: Explore Microsoft Intune
 
 ## Lab scenario
 
@@ -7,7 +7,7 @@ In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Not
 
 **Estimated Time**: 10-15 minutes
 
-#### Task: In this task you will explore Microsoft Intune in Microsoft Endpoint Manager
+## Task: In this task you will explore Microsoft Intune in Microsoft Endpoint Manager
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
