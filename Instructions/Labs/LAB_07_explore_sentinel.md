@@ -92,14 +92,13 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
-    ![Picture 1](../Images/templates.png)
-    
 1. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location. Now select **View saved workbook**.
 
    1. In the workspace field, select **SC900-LogAnalytics-workspace**.
    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
    1. From the top of the workbook page, select the **Save icon**.
-   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel**. This returns you to the Overview page. You should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
+   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel** and Select **SC900-LogAnalytics-workspace** This returns you to the Overview page.
+   1. On the Overview page, select **New overview** toggle and scroll down and select **data connectors** under **Data** section then you should now see the number 1 above where it says connected, to indicate one active connector (you may need to select refresh).
 
 1. Keep this page open, as you'll use it in the next task
     
@@ -137,7 +136,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.   NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
   
-    ![Picture 1](../Images/sc900-Workboooks.png)
+    ![Picture 1](../Images/sc900-2.png)
   
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
