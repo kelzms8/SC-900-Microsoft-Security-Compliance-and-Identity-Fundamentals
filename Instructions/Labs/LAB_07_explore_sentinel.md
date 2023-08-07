@@ -85,11 +85,11 @@ In this task you will walk through the steps involved in setting up a data conne
        
 1. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
 
-1. On **Content hub** page in  the Search box of **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
+1. On **Content hub** page in the Search bar, search for **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
 
    ![Picture 1](../Images/image8-lab7.png) 
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
+1. Once installation procees is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
 
 1. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
@@ -115,7 +115,7 @@ In this task, you'll walk through some of the options available in Sentinel.
 
     >**Note**: wait till installation process to complete.
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Hunting** page and refresh the page.
+1. Once installation procees is done, navigate back to **Microsoft Sentinel | Hunting** page and refresh the page.
    
 1. Select the **queries** tab which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
