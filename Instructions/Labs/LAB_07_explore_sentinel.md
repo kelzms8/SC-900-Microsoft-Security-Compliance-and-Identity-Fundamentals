@@ -70,15 +70,15 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
-1. On the **Microsoft Sentinel / | Data connctor** page scroll dowm and select **Go to Content hub**.
+1. On the **Microsoft Sentinel | Data connctor** page scroll dowm and select **Go to Content hub**.
 
 1. On **Content hub** page in  the Search box of **Microsoft Defender for Cloud**  and then from the list select **Microsoft Defender for Cloud** and click **Install**
 
     ![Picture 1](../Images/image5-lab7.png)
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Data connctor** page and refresh the page to get **Microsoft Defender for Cloud** option.
+1. Once installation procees is done, navigate back to **Microsoft Sentinel | Data connctor** page and refresh the page to get **Microsoft Defender for Cloud** option.
 
-1. On the **Microsoft Sentinel / | Data connctor** page , select **Microsoft Defender for Cloud**.
+1. On the **Microsoft Sentinel | Data connctor** page , select **Microsoft Defender for Cloud**.
    
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
@@ -90,10 +90,6 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. From the configuration section, select the empty box next to the listed subscription, select your azure subscription so that a checkmark appears in a blue box, then select **Connect** (the connect option is shown above the search box).  A Connect window will appear, select **OK**.  in the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
    
-1. Scroll down on the page and select **Enable** to create incidents automatically from all alerts generated in the connected service.
-    
-    ![Picture 1](../Images/sc900-dataconnector-msdefender-adding(1).png)
-
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
        
 1. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
