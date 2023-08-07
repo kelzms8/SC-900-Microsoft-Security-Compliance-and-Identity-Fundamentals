@@ -144,7 +144,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-T2-11.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-UserUniqueID** user and click on **Done**. 
+1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Next (3)**. 
 
     ![](../Images/lab15-1-2.png)
 
