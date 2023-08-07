@@ -17,6 +17,14 @@
 1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
 
     ![](../Images/Sc-900-numbering.png)
+   
+### Log in to Microsoft 365 Admin Centre
+
+1. In the virtual machine (VM) on the left, click on Microsoft Edge shortcut as shown below.
+
+    ![](../Images/edgeshortcut.png)
+
+    >**Note**:On the Welcome to Microsoft Edge page, select **Start without your data** and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select **Confirm and start browsing** on the next page
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
 
       ![](../Images/module4/lab12/main-1.png)
