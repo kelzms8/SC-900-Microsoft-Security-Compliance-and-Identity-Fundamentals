@@ -28,7 +28,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. In the window that opens, next to where it says Members, select **Edit**. you may need to scroll to find it.
 
-    ![](../Images/sc900-14-6.png)
+    ![](../Images/insiderriskmanagementedit1.png)
 
 1. To add members to this role group, select **Choose users**.
 
