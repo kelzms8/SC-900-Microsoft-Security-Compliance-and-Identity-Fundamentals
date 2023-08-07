@@ -3,7 +3,7 @@
 ## Lab scenario
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
-#### Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+## Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
 1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -70,7 +70,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
-#### Task 2:  In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
+## Task 2:  In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
 1. Open the Microsoft 365 admin center tab on your browser.
 
@@ -98,7 +98,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
+## Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
 
@@ -130,7 +130,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-#### Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+## Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the SC900 Test case tab on your browser.
 
@@ -200,6 +200,6 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Check the location of your download to verify the download was successfully completed. 
 
-#### Review
+### Review
 
 In this lab you went through the steps required to get started with core eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query and then you read on the process of exporting the results of the search to use further investigation.
