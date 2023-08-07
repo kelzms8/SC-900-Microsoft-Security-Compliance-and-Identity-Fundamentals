@@ -52,25 +52,21 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 1. In the window that opens, next to where it says Members, select **Edit**. you may need to scroll to find it.
 
-    ![](../Images/sc-900-lab14-5.png)
+    ![](../Images/insiderriskmanagementedit1.png)
 
-1. To add members to this role group, select **Choose members**.
+1. To add members to this role group, select **Choose users**.
 
-    ![](../Images/sc-900-lab14-6.png)
-
-1. Select **+ Add** from the top of the page.
-
-    ![](../Images/sc-900-lab14-7.png)
+    ![](../Images/chooseuser21.png).
 
 1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
-    ![](../Images/sc-900-lab14-8.png)
-    
-    ![](../Images/sc-900-lab14-9.png)
+    ![](../Images/chooseusers31.png)
+
+    ![](../Images/sc-900-lab14-6.png)
 
 1. Verify the added members is correct then select **Save**.
 
-    ![](../Images/sc-900-lab14-10.png)
+    ![](../Images/save2.png)
 
 1. From the bottom of the Insider Risk Management window, select **Close**.
 
