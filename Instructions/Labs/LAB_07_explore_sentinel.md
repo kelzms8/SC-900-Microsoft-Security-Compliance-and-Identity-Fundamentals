@@ -64,7 +64,7 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. On the **Microsoft Sentinel | Data connctor** page scroll down and select **Go to Content hub**.
 
-1. On **Content hub** page in  the Search box of **Microsoft Defender for Cloud**  and then from the list select **Microsoft Defender for Cloud** and click **Install**
+1. On **Content hub** page in  the Search bar, search for **Microsoft Defender for Cloud** and then from the list select **Microsoft Defender for Cloud** and click **Install**
 
     ![Picture 1](../Images/image5-lab7.png)
 
