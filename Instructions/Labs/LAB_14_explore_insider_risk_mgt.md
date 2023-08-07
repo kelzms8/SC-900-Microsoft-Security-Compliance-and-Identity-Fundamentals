@@ -40,7 +40,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
-    ![](../Images/chooseusers3.png)
+    ![](../Images/chooseusers31.png)
     
     ![](../Images/sc900-14-10.png)
 
