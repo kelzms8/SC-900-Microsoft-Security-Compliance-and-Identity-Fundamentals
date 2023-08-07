@@ -8,9 +8,9 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 
 After completing this lab, you will be able to:
 
-- Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel. 
+- Explore the Microsoft Purview compliance center
 
-- Learn about your organization’s compliance posture through Compliance Manager.
+- Compliance posture through Compliance Manager.
 
 ## Architecture Diagram
 

@@ -13,7 +13,6 @@ After completing this lab, you will be able to:
 
 - Explore on Microsoft Secure Score.
 
-
 ## Architecture Diagram
 
 ![](../images/preview09.png)
