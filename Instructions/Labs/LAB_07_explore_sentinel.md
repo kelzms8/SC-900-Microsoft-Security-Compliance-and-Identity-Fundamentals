@@ -45,14 +45,6 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
 
     ![Picture 2](../Images/image(3)-lab7.png)
-
-1. If the the role is not owner then follow the below steps:
-
-     - From the Access control page, select **+Add**, then select **Add role assignment**.
-     - The Add role assignment window opens.  In **Assignment type** select **Privileged administrator roles** and click on **Next**.
-     - On Add role assignment page, under **Role** tab, select **Owner** click on **Next**.
-     - On Add role assignment page, under **Members** tab, click on **+ select members**, on select member blade select your useraccount and click on select.
-     - Click on **Review + assign**.
     
      >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
    
