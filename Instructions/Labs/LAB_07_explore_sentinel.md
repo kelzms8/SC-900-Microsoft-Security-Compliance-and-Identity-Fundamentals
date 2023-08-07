@@ -39,7 +39,6 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
 
-
 1. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
 1. From the Access control page, select **View my access**. For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as shown in the description. It is important, however, to understand the available Sentinel specific roles. **Note the current role is Owner.** Close the assignments window by selecting the **X** on the top-right corner of the window.
@@ -92,7 +91,7 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. Once installation procees is done, navigate back to **Microsoft Sentinel / | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
 
-8. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+1. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
     ![Picture 1](../Images/templates.png)
     
