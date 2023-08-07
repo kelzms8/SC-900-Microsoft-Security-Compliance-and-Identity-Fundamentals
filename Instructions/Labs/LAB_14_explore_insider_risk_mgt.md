@@ -34,10 +34,6 @@ In this task you, as the global administrator, will enable permissions for Insid
 
     ![](../Images/chooseuser21.png).
 
-1. Select **+ Add** from the top of the page.
-
-    ![](../Images/sc900-14-8.png)
-
 1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
     ![](../Images/chooseusers31.png)
