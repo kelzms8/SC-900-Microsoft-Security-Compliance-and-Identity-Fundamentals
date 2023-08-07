@@ -5,7 +5,6 @@
 
 In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin will be able to view audit logs and usage data & insights for SSPR.
 
-
 ## Task 1:  Creating a basic group.
 
 In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will be resetting the user’s password so that you can do the first-time login, as the user, and register for SSPR.
@@ -40,7 +39,6 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/aad-password-reset(1)-1.png)
    
-
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
 1. From the left navigation pane, select **Members** under **Manage**.
@@ -74,7 +72,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Close the Users window by selecting the **X** at the top right corner of the page.
 
 1. Keep the AAD Overview window open as you will use it in the subsequent task.
-C
+
 ## Task 2: Configure Password reset for users.
 
 In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
