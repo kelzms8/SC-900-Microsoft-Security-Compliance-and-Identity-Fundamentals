@@ -12,13 +12,10 @@ In this task you, as the global administrator, will enable permissions for Insid
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-      ![](../Images/module4/lab12/main-2.png)
         
 1. On **Enter Password** blade, enter the following password   
 
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
-
-      ![](../Images/module4/lab12/main-3.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -52,8 +49,6 @@ In this task you, as the global administrator, will enable permissions for Insid
 
     ![](../Images/chooseusers31.png)
 
-    ![](../Images/sc-900-lab14-6.png)
-
 1. Verify the added members is correct then select **Save**.
 
     ![](../Images/save2.png)
@@ -78,8 +73,6 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 1. Verify that the **Search** tab is selected (underlined).
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
-
-      ![](../Images/97.png)
 
 1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
 
