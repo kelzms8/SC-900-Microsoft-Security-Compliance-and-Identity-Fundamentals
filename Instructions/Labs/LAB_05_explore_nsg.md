@@ -167,7 +167,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Keep the browser tab open you'll use it the next task.
 
-## Task 4:  The default outbound rules for NSG allow outbound internet traffic so you will validate that you can connect to the internet. In this You will then go through the process of creating a custom outbound rule to block outgoing internet traffic and test that rule.
+## Task 4: Allow outbound internet traffic to validate that you can connect to the internet.
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
 
