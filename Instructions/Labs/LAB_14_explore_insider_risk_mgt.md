@@ -6,30 +6,16 @@ In this lab, you will walk through the process of setting up an insider risk pol
 ## Task 1: Process of setting up an insider risk policy.
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
+1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
 
-      ![](../Images/module4/lab12/main-1.png)
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
+ 
+    * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
-     
-        ![](../Images/98.png)
-     
-        ![](../Images/module4/lab12/main-2.png)
-    
-    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
-    
-        ![](../Images/module4/lab12/main-3.png)
-     
-    1. When prompted to protect the account, Please select **Skip for now**.
-
-        ![](../Images/module4/lab12/main-4.png)
         
-    1. When prompted to Action Required, Please select **Ask later**
+1. On **Enter Password** blade, enter the following password   
 
-        ![](../Images/lab14-1-3.png)          
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -63,8 +49,6 @@ In this task you, as the global administrator, will enable permissions for Insid
 
     ![](../Images/chooseusers31.png)
 
-    ![](../Images/sc-900-lab14-6.png)
-
 1. Verify the added members is correct then select **Save**.
 
     ![](../Images/save2.png)
@@ -75,7 +59,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
-## Task-2: Enable the Audit log search capability(SKIP if you did the setup lab task to enable the audit log): 
+## Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log): 
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you will enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
 1. Select the browser tab labeled, **Microsoft 365 admin center - Home**.  If you previously closed this browser tab, open Microsoft Edge and in the address bar enter **admin.microsoft.com** and sign in with your admin credentials.
@@ -89,8 +73,6 @@ Insider risk management uses Microsoft 365 audit logs for user insights and acti
 1. Verify that the **Search** tab is selected (underlined).
 
 1. Once you land on the Audit page, wait 2-3 minutes.  If Auditing is NOT enabled, you will see a blue bar on the top of the page that says start recording user and admin activity.  Select **Start recording user and admin activity**.  Once auditing is enabled, the blue bar disappears.  If the blue bar is not present then auditing is already enabled, and no further action is required.
-
-      ![](../Images/97.png)
 
 1. Return to the home page of the Microsoft 365 compliance center by selecting **Home** from the left navigation panel.
 

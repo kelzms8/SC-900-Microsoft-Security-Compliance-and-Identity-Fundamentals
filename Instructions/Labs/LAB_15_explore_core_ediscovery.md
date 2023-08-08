@@ -3,30 +3,22 @@
 ## Lab scenario
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
-## Task 1:  To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
+## Task 1: Add specific users as members of the eDiscovery Manager role group.
+To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
-1.	Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
 
-      ![](../Images/module4/lab12/main-1.png)
+1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
+ 
+    * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-1. Sign in with your admin credentials.
-    1. In the Sign in window, enter following username and select **Next**.
-
-       * Email/Username: <inject key="AzureAdUserEmail"></inject>
-     
-        ![](../Images/image(1).png)
-     
-    1. Enter the following admin password and Select **Sign in**.
-  
-       * Password: <inject key="AzureAdUserPassword"></inject>
-    
-       ![](../Images/image(2).png)
+      ![](../Images/module4/lab12/main-2.png)
         
-    1. When prompted to Action Required, Please select **Ask later**
+1. On **Enter Password** blade, enter the following password   
 
-        ![](../Images/image(3).png)    
-     
-    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
+
+      ![](../Images/module4/lab12/main-3.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -70,7 +62,8 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Close all the tabs except the **admin.microsoft.com** and then **sign out** from the admin center page and **sign-in** back again to reflect the permissions added for users faster.
 
-## Task 2:  In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
+## Task 2: Create a case to start using Core eDiscovery
+In this task you, as an eDiscovery Administrator (ODL admin is an eDiscovery administrator), will create a case to start using Core eDiscovery.
 
 1. Open the Microsoft 365 admin center tab on your browser.
 
@@ -80,7 +73,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. You are now in the Microsoft Purview. From the left navigation panel, select **Show all**.
 
-1. From the left navigation panel, under Solutions, select **eDiscovery** then select **Standard**.
+1. From the left navigation panel, under Solutions, expand **eDiscovery** then select **Standard**.
 
 1. From the top of the Core eDiscovery page, select **+ Create a case**.
 
@@ -98,7 +91,8 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-## Task 3:  Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the the exchange mailbox belonging to ODL-User.
+## Task 3: Create an eDiscovery hold.
+Now that you have created a Core eDiscovery case, you can begin to work with the case.  In this task, you will create an eDiscovery hold for the case for you just created.  Specifically, you will crate a hold for the exchange mailbox belonging to ODL-User.
 
 1. Open the Core eDiscovery tab on your browser.
 
@@ -112,12 +106,10 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-T2-5.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-UserUniqueID** user and click on **Done**
+1. In the Choose locations page, select toggle switch next to Exchange mailboxes to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** user and click on **Done**, select **Next**, for expediency with the lab, no other locations will be included in this hold.
     
     ![](../Images/lab15-1-1.png)
     
-1. From the Choose locations page, select **Next**.  For expediency with the lab, no other locations will be included in this hold.
-
 1. The Query conditions page enables you to create a hold, based on specific Keywords or Conditions that are satisfied, select **+Add condition** to view the available options.  Select **Next**. Without any conditions, the hold will preserve all content in the specified location.
 
     ![](../Images/sc-900-lab15-T2-7.png)
@@ -130,7 +122,8 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
-## Task 4:  With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+## Task 4: Create a search query
+With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the SC900 Test case tab on your browser.
 
@@ -144,11 +137,9 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
     ![](../Images/sc-900-lab15-T2-11.png)
 
-1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams** and select the **ODL-UserUniqueID** user and click on **Done**. 
+1. In the Choose locations page, select toggle switch next to Exchange mailbox to set the status to **On**, select **Choose users, groups, or teams (1)** and select the **ODL-User-<inject key="DeploymentID" enableCopy="false" />** (2)** user and click on **Done (3)**, select **Next**.  
 
     ![](../Images/lab15-1-2.png)
-
-1. From the Choose locations page, select **Next**.  
 
 1. The Query conditions page enables you to create a search, based on specific Keywords or Conditions that are satisfied, In the keyword field enter **Sales** select **Next**.
 
@@ -170,7 +161,7 @@ In this lab you will go through the steps required for setting up Core eDiscover
     
       ![](../Images/sc-900-lab15-T2-19.png)
       
-1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the "Test Hold - Sales search" window. Select **close** on the bottom of the page.
+1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** on the bottom of the page.
 
       ![](../Images/sc-900-lab15-T2-20.png)  
     
@@ -178,10 +169,10 @@ In this lab you will go through the steps required for setting up Core eDiscover
 
 1. Select **Test Hold - Sales Search_Export**
 
-1. In the window that opens, "Test Hold - Sales Search_Export", you will see an Export key, select **Copy to clipboard**.
+1. In the window that opens, **Test Hold - Sales Search_Export**, you will see an Export key, select **Copy to clipboard**.
 
       ![](../Images/sc-900-lab15-T2-22.png)
-1. From the top of the window, select **Download results.***(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
+1. From the top of the window, select **Download results**.(**Note**: You must use Microsoft Edge or Internet Explorer to download). A new browser page opens and a pop-up window displays asking if you want to open this file, select **Open**.
 
       ![](../Images/sc-900-lab15-T2-23.png)
          
