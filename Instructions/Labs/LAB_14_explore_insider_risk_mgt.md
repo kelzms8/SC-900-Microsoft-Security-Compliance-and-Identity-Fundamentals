@@ -12,13 +12,10 @@ In this task you, as the global administrator, will enable permissions for Insid
  
     * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
 
-      ![](../Images/module4/lab12/main-2.png)
         
 1. On **Enter Password** blade, enter the following password   
 
     * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
-
-      ![](../Images/module4/lab12/main-3.png)
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -51,8 +48,6 @@ In this task you, as the global administrator, will enable permissions for Insid
 1. From the list of names, select **Megan Bowen** and your account ie. name with **ODL_User uniqueID** then select **Add** at the bottom of the page, then select **Done** at the bottom of the page.
 
     ![](../Images/chooseusers31.png)
-
-    ![](../Images/sc-900-lab14-6.png)
 
 1. Verify the added members is correct then select **Save**.
 
