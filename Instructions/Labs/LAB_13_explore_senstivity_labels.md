@@ -8,7 +8,6 @@ In this lab you will explore the capabilities of sensitivity labels.  You will g
 In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
 1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
-   ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
    
@@ -106,7 +105,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
 1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
 
-     ![](../Images/lab13-1-3.png)
+     ![](../Images/border.png)
      
 1. Under the Sensitivity labels to publish.  Don’t change any settings.  Select **Next** on the bottom of the page.
 

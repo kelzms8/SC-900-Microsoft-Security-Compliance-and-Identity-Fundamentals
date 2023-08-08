@@ -7,14 +7,17 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 ## Task 1: Explore Cloud Discovery.
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
+   
 
 1. Sign in with your admin credentials.
 
     * In the Sign in window, enter  Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**.
+      
 
 1. Enter the admin * Password: <inject key="AzureAdUserPassword"></inject> and  select **Sign in**.
 
     * Password: <inject key="AzureAdUserPassword"></inject>
+   
 
 1. Under **Discover** select **Create snapshot report**. 
   
