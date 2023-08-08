@@ -8,13 +8,13 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 After completing this lab, you will be able to:
 
-- You will create a Windows 10 virtual machine.
+- Create a Windows 10 virtual machine.
 
 - Create a network security group and assign the network interface of the VM to that NSG.nd create a new inbound rule for RDP traffic.
 
-- You will test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM.  
+- Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM. 
 
-- The default outbound rules for NSG allow outbound internet traffic so you will validate that you can connect to the internet. In this You will then go through the process of creating a custom outbound rule to block outgoing internet traffic and test that rule. 
+- Allow outbound internet traffic to validate that you can connect to the internet.
 
 ## Architecture Diagram
 
