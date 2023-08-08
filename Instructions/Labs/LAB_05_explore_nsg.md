@@ -81,7 +81,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 22. Leave this browser tab open.
 
-## Task 2:  Create a network security group and assign the network interface of the VM to that NSG.nd create a new inbound rule for RDP traffic.
+## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic.
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.
 
@@ -137,7 +137,8 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
-## Task 3: In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
+## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.
+In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
