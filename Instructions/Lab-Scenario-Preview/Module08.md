@@ -9,13 +9,9 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 After completing this lab, you will be able to:
  
 - Explore Cloud Discovery.
-
 - Explore the Cloud app catalog.
-
 - Explore the Activity log and Files.
-
 - Explore the policies and alerts pages in Microsoft Cloud app security.
-
 
 ## Architecture Diagram
 
