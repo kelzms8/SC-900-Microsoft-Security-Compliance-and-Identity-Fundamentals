@@ -109,7 +109,8 @@ In this task you will walk through the settings associated with the Insider Risk
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-## Task 4:  In this task you will walk through the creation of a policy.
+## Task-4: Create policy.
+In this task, you will walk through the creation of a policy.
 
 1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
 
