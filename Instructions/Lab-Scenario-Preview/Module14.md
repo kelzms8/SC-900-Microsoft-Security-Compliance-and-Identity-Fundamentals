@@ -9,16 +9,12 @@ In this lab, you will walk through the process of setting up an insider risk pol
 After completing this lab, you will be able to: 
 
 - Process of setting up an insider risk policy.
-
-- Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log)
-
+- Enable the Audit log search capability.
 - Apply to all insider risk management policies.
-
 - You will walk through the creation of a policy.
-
 
 ## Architecture Diagram
 
 ![](../Images/preview14.png)
 
-Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here] (https://experience.cloudlabs.ai/#/labguidepreview/522bab3c-a6e7-4fe0-bb4f-1434ee6019a5)  if you want to go through a detailed guide prior to launching the lab environment.
+Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/522bab3c-a6e7-4fe0-bb4f-1434ee6019a5)  if you want to go through a detailed guide prior to launching the lab environment.
