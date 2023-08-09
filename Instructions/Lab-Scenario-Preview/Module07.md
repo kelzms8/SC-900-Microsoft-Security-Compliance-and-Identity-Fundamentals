@@ -8,12 +8,9 @@ In this lab you will walk through the process of creating an Microsoft Sentinel 
 
 After completing this lab, you will be able to:
 
-- Create an Microsoft Sentinel instance.
-
+- Create a Microsoft Sentinel instance.
 - Built-in Microsoft Sentinel roles
-
 - Data connector to your instance of Microsoft Sentinel.
-
 - Explore on capabilities available in Sentinel.
 
 ## Architecture Diagram
