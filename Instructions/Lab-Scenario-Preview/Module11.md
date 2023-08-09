@@ -9,7 +9,6 @@ In this lab, you will explore the features and content available from the Servic
 After completing this lab, you will be able to:
 
 - Explore the Service Trust portal.
-
 - Explore on Trust Center and navigate to Microsoft’s six, key privacy principles.
 
 ## Architecture Diagram
