@@ -9,9 +9,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 After completing this lab, you will be able to:
 
 - Reset the password for the user.
-
 - Assign an Azure AD role in Privileged Identity Management.
-
 - Sign in to the Azure Portal, to access the Privileged Identity Management.
 
 ## Architecture Diagram
