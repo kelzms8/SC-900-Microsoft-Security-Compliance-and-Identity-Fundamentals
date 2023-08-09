@@ -10,13 +10,9 @@ In this lab you will go through the steps required for setting up Core eDiscover
 After completing this lab, you will be able to:
  
 - Add specific users as members of the eDiscovery Manager role group.
-
 - Create a case to start using Core eDiscovery.
-
 - Create an eDiscovery hold.
-
 - Create a search query.
-
 
 ## Architecture Diagram
 
