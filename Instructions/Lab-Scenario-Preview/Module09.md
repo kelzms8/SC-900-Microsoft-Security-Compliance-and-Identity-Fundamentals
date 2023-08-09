@@ -10,7 +10,6 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 After completing this lab, you will be able to:
 
 - Explore the Microsoft 365 Defender landing page.
-
 - Explore on Microsoft Secure Score.
 
 ## Architecture Diagram
