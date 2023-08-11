@@ -84,21 +84,19 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
    ![](../Images/Sc-900-10x.png)
 
-5. Populate the **Identity** fields as follows:
+5. Populate the **Identity** fields as follows and select **Next: Properties >**.
 
-    1. User principal name: **sara**.
+    1. User principal name: **sara**
 
-    2. Display Name : **Sara Perez**.
+    1. Display Name : **Sara Perez**
 
- 6. Populate the **Password** fields as follows:
+    1. Uncheck **Auto generate password**
 
-    1. Uncheck **Auto generate password**.
-
-    1. Initial password: **Naja8996**. When Sara signs in for the first time, she will be prompted to change her password.
+    1. Initial password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
 
       ![](../Images/Sc-900-05.png)
 
-7. In the  **Properties** under settings:
+7. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
    1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
 
@@ -116,11 +114,11 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
       ![](../Images/Sc-900lab01-04.jpg)
 
-9. From the bottom of the page, select the **Create** button.
+9. From the bottom of the page, select the **Review + create** button.
 
-10. Verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
+10. Navigate back to **Azure active dircotry** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
-11. From the user list select the user you just created, **Sara Perez**.  The profile page opens.
+11. From the user list select the user you just created, **Sara Perez**, the profile page opens.
 
      ![](../Images/SC-900-13x.png)
 
