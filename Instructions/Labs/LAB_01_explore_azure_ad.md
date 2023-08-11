@@ -80,11 +80,11 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
 1. In Azure Active Directory Overview page, from the left navigation select **Users** under the **Manage** section.
 
-2. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
+1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
     ![](../Images/sc900-image10.png)
    
-5. Populate the **Identity** fields as follows and select **Next: Properties >**.
+1. Populate the **Identity** fields as follows and select **Next: Properties >**.
 
     1. User principal name: **sara**
 
@@ -96,13 +96,13 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
       ![](../Images/sc900-image(10).png)
 
-7. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
+1. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
    1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
 
      ![](../Images/sc900-image(11).png)
    
-8.  In the **Assignments** tab :
+1. In the **Assignments** tab :
 
     1. Click **Add Group**,this displays the available groups.  Notice the list of available groups.
 
@@ -110,43 +110,43 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
       ![](../Images/sc900-image12.png)
 
- 3. Next to Roles, select **Add Roles**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
+1. Next to Roles, select **Add Roles**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
       ![](../Images/sc900-image13.png)
 
-9. From the bottom of the page, select the **Review + create** button.
+1. From the bottom of the page, select the **Review + create** button.
 
-10. Navigate back to **Azure active dircotry** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
+1. Navigate back to **Azure active dircotry** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
-11. From the user list select the user you just created, **Sara Perez**, the profile page opens.
+1. From the user list select the user you just created, **Sara Perez**, the profile page opens.
 
       ![](../Images/sc900-image14.png)
 
-12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  
+1. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  
 
     ![](../Images/sc900-image15.png)
     
-14. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
+1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
 
-15. To add a license select **+ Assignments** from the top of the main window.
+1. To add a license select **+ Assignments** from the top of the main window.
 
      ![](../Images/sc900-image16.png)
 
-16. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
     ![](../Images/sc900-image17-1.png)
     
-18. Select the **X** on the top right of the screen to close the License assignments window.
+1. Select the **X** on the top right of the screen to close the License assignments window.
 
-19. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
 
-20. Return to the Azure Active Directory Overview page
+1. Return to the Azure Active Directory Overview page
 
-21. You have successfully created and configured a user in Azure Active Directory.
+1. You have successfully created and configured a user in Azure Active Directory.
 
-22. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
+1. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
 
-20. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
@@ -160,27 +160,28 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-2. In the address bar enter **login.microsoft.com**.
+1. In the address bar enter **login.microsoft.com**.
 
-3. Sign in as **sara@azureholxxxx.onmicrosoft.com**.
+1. Sign in as **sara@azureholxxxx.onmicrosoft.com**.
 
-4. Enter the temporary password **Naja8996**.
+   ![](../Images/sc900-image18.png)
 
-     ![](../Images/SC-900-16x.png)
+1. Enter the temporary password **Naja8996**.
 
-5. You are now prompted to Update your password. In the Current password field, enter **Naja8996**.
+    ![](../Images/sc900-image19.png)
 
-6. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
+1. You are now prompted to Update your password. In the Current password field, enter **Naja8996**.
 
-      ![](../Images/SC-900-17x.png)
+1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
-7. You should now be successfully signed in to Microsoft 365.
+     ![](../Images/sc900-image20.png)
 
-      ![](../Images/SC-900-18x.png)
+1. You should now be successfully signed in to Microsoft 365.
 
-8. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+     ![](../Images/sc900-image21.png)
 
- 
+1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+
 ### Review
 In this lab, you started your initial exploration of Azure AD. Since subscribers to Microsoft 365 are automatically using Azure AD, you found that you access Azure AD features and services through either the Microsoft 365 admin portal or through the Azure portal.  Whichever approach you prefer to get to the same place.  You also walked through the process of creating a new user and the different settings that can be configured, including groups to which the user can be assigned, the availability of roles, and assigning of user licenses.
 
