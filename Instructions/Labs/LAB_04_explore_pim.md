@@ -1,11 +1,11 @@
 
-# Lab-04: Explore identity governance in Azure AD with Privileged Identity management.
+# Lab-04: Explore identity governance in Azure AD with Privileged Identity management
 
 ## Lab scenario
 In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Azure AD Premium P2.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Azure AD Premium P2 license.
 
 
-## Task 1: Reset the password for the user.
+## Task 1: Reset the password for the user
 
 In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
  
@@ -28,7 +28,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/save_img.png)
+     ![](../Images/lab4sss11.png)
               
 14. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -38,7 +38,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 17. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Assign an Azure AD role in Privileged Identity Management.
+## Task 2: Assign an Azure AD role in Privileged Identity Management
 
 In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
@@ -96,8 +96,18 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
+  > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
 
-## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management.
+ 
+ 
+
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
+## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
 In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
 
@@ -181,6 +191,16 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 1. The duration of the user admin role is limited to the time that was configured.
+
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+ 
+
+ 
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab; you explored PIM.  You, as the admin, configured Diego with user admin privileges for a specified amount of time.  Then you, as Diego, walked through the process of activating the user admin privileges and configuring user settings.  Recall that PIM requires an Azure AD Premium P2 license.
