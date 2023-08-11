@@ -20,9 +20,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
     1. Enter the admin following password and select **Sign in**.
 
        * Password : **<inject key="AzureAdUserPassword"></inject>** 
-         
-   ![](../Images/Sc-900lab1image1.jpg)
-   
+          
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -40,7 +38,11 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
    ![](../Images/SC-900-4x.png)
 
-1. The Azure portal’s landing page shows Azure services, including Azure Active Directory, VMs, storage accounts, databases, and much more.Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select it from there.
+1. The Azure portal’s landing page shows Azure services, including Virtual Machine, storage accounts, databases, and much more,
+
+   ![](../Images/SC-900-05x.png)
+
+1. Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select Azure Active Directory from result list.
 
    ![](../Images/SC-900-05x.png)
 
@@ -52,11 +54,9 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 ## Task 2: Creating a basic group
 
-1. On the Active Directory page, select **Groups** and then select **New group**.
+1. On the Active Directory page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
-   ![](../Images/Sc-900-07x.png)
-
-1. Populate the **New Group** fields as follows and Select Create
+1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Microsoft 365**.
 
@@ -66,18 +66,21 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
     4. Group description: **Add an optional description to your group**.
 
-   ![](../Images/Sc-900-08x.png)
-   
+    ![](../Images/Sc-900-08x.png)
+    
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
+    > - Hit the Validate button for the corresponding task.
+    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 3: Create a new user in the Azure Active Directory and explore some of the services
 
 In this task, you’ll learn how to create a new user in the Azure Active Directory and explore some of the services that can be managed at the user level.
 
-1. In Azure Active Directory Overview page, click on the **Users** blade under the manage section
+1. In Azure Active Directory Overview page, from the left navigation select **Users** under the **Manage** section.
 
-   ![](../Images/SC-900-09x.png)
-
-2. From the left navigation pane, select **Users**. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page.And select **create new user**.
+2. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
    ![](../Images/Sc-900-10x.png)
 
