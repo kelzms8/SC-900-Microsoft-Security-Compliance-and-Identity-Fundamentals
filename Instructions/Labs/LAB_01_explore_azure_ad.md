@@ -42,7 +42,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 1. The Azure portal’s landing page shows Azure services, including Virtual Machine, storage accounts, databases, and much more.
 
-  ![](../Images/sc900-image7.png)
+   ![](../Images/sc900-image7.png)
 
 1. Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select Azure Active Directory from result list.
 
