@@ -9,15 +9,18 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
 
-1. Open Microsoft Edge.
+1. Open another tab in Microsoft Edge, in the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
-1. In the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
+1. If prompted Sign in with the following credentials.
+    
+    1. In the Sign in window enter following email  then select **Next**.
 
-1. Sign in with the credentials provided in the **Environment Details** Tab. 
-    1. In the Sign in window enter **<inject key="AzureAdUserEmail"></inject>** (username that you will find in the Environment Details tab) then select **Next**.
-    1. Enter the admin password: <inject key="AzureAdUserPassword"></inject>.(username that you will find in the Environment Details tab) Select **Sign in**.
-    1. When prompted to stay signed- in, select **Yes**.
+       * Email : **<inject key="AzureAdUserEmail"></inject>**
+     
+    1. Enter the admin following password and select **Sign in**.
 
+       * Password : **<inject key="AzureAdUserPassword"></inject>** 
+         
    ![](../Images/Sc-900lab1image1.jpg)
    
 
