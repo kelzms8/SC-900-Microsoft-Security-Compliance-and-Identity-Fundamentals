@@ -8,18 +8,18 @@ In this lab, you will explore the features and content available from the Servic
 
 In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library.
 
-1. In the virtual machine(VM) on the left, click Microsoft edage shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
+1. Within the virtual machine(VM) on the left, click Microsoft edage shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in.  **Sign in**, using your admin credentials. 
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in, select **Sign in**.
+
+    ![](../Images/sc-900-lab11-3.png) 
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
-
-    ![](../Images/sc-900-lab11-3.png)
-    
+   
 1. if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
     
 1. Scroll down on the page and notice the different categories of information available. From the **Certifications, Regulations, and Standards category** Select **ISO/IEC**.
