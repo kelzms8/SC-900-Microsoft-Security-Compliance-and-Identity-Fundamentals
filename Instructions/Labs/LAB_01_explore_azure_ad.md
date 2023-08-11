@@ -132,9 +132,9 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
      ![](../Images/sc900-image16.png)
 
-16. Under Select licenses, select **Office 365 E5** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+16. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-    ![](../Images/sc900-image17.png)
+    ![](../Images/sc900-image17-1.png)
     
 18. Select the **X** on the top right of the screen to close the License assignments window.
 
