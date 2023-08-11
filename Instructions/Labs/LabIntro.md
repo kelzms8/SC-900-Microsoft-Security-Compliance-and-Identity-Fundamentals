@@ -14,10 +14,6 @@
 
    ![](../Images/sc900-image2.png)
     
-1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
-
-   ![](../Images/sc900-image(3).png)
-
 ### Log in to Azure Portal and verify the pre-deployed resources.
 
 1. In the virtual machine (VM) on the left, click on the Azure Portal as shown below.
@@ -27,16 +23,17 @@
 1. On the **Sign in to Microsoft Azure** window, you will see the login screen, enter the following username and click on **Next**.
    * Username: <inject key="AzureAdUserEmail"></inject>
 
-    ![](../Images/portal1.png)
+     ![](../Images/sc900-image-1.png)
      
 1. Now enter the password and click on Sign in.
    * Password: <inject key="AzureAdUserPassword"></inject>
   
-    ![](../Images/portal2.png)
+     ![](../Images/sc900-image-2.png)
 
 1. First-time users are often prompted to Stay Signed In, if you see any such pop-up, click on No.
 
-    ![](../Images/portal3.png)
-
 1. If a **Welcome to Microsoft Azure** popup window appears, click Maybe Later to skip the tour.
     
+1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
+
+   ![](../Images/sc900-image(3).png)
