@@ -96,7 +96,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
-  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+  > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
 
  
  
