@@ -5,7 +5,7 @@
 
 In this lab, you'll access Azure Active Directory. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
-## Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
+## Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
 
 As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
 
@@ -66,7 +66,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
    ![](../Images/Sc-900-08x.png)
    
 
-## Task 3: Create a new user in the Azure Active Directory and explore some of the services.
+## Task 3: Create a new user in the Azure Active Directory and explore some of the services
 
 In this task, you’ll learn how to create a new user in the Azure Active Directory and explore some of the services that can be managed at the user level.
 
@@ -144,7 +144,7 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
 20.   Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
-## Task 4: Sign in to the user first time.
+## Task 4: Sign in to the user first time
 
 In this task, you will sign in as Sara Perez, for the first time.
 
