@@ -107,7 +107,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 
-## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management.
+## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
 In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
 
