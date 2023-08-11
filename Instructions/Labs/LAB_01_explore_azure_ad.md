@@ -11,7 +11,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 1. Open another tab in Microsoft Edge, in the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
-1. If prompted Sign in with the following credentials.
+1. Sign in with the following credentials.
     
     1. In the Sign in window enter following email  then select **Next**.
 
