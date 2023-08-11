@@ -24,31 +24,31 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
+   ![](../Images/sc900-image4.png)
+
 1. Under Admin centers, select **Identity** (you may need to scroll down).  
 
-   ![](../Images/SC-900lab1-02.jpg)
+   ![](../Images/sc900-image5.png)
 
 1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
 1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
-   ![](../Images/sc-900lab01-03.jpg)
+   ![](../Images/sc900-image6.png)
  
 1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as <inject key="Username" enableCopy="false" /> and you originally used those same credentials to redeem your Azure pass, you should be logged in as the admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
    ![](../Images/SC-900-4x.png)
 
-1. The Azure portal’s landing page shows Azure services, including Virtual Machine, storage accounts, databases, and much more,
+1. The Azure portal’s landing page shows Azure services, including Virtual Machine, storage accounts, databases, and much more.
 
-   ![](../Images/SC-900-05x.png)
+  ![](../Images/sc900-image7.png)
 
 1. Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select Azure Active Directory from result list.
 
-   ![](../Images/SC-900-05x.png)
-
 1. You are now seeing the Azure Active Directory for your Microsoft 365 tenant. Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Azure Active Directory where you can administer all the Azure AD services.
 
-   ![](../Images/Sc-900-06x.png)
+   ![](../Images/sc900-image8.png)
    
 1. Keep this browser page open for the next task.
 
@@ -66,8 +66,8 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
     4. Group description: **Add an optional description to your group**.
 
-    ![](../Images/Sc-900-08x.png)
-    
+    ![](../Images/sc900-image9.png)
+   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
     > - Hit the Validate button for the corresponding task.
@@ -82,8 +82,8 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
 2. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
-   ![](../Images/Sc-900-10x.png)
-
+    ![](../Images/sc900-image10.png)
+   
 5. Populate the **Identity** fields as follows and select **Next: Properties >**.
 
     1. User principal name: **sara**
@@ -94,13 +94,13 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
     1. Initial password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
 
-      ![](../Images/Sc-900-05.png)
+      ![](../Images/sc900-image(10).png)
 
 7. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
    1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
 
-     ![](../Images/SC-900-03.png)
+     ![](../Images/sc900-image(11).png)
    
 8.  In the **Assignments** tab :
 
@@ -108,11 +108,11 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
     2. Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 group selected.  
 
-      ![](../Images/SC-900-xx1.png)
+      ![](../Images/sc900-image12.png)
 
  3. Next to Roles, select **Add Roles**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
-      ![](../Images/Sc-900lab01-04.jpg)
+      ![](../Images/sc900-image13.png)
 
 9. From the bottom of the page, select the **Review + create** button.
 
@@ -120,31 +120,31 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
 11. From the user list select the user you just created, **Sara Perez**, the profile page opens.
 
-     ![](../Images/SC-900-13x.png)
+      ![](../Images/sc900-image14.png)
 
 12. The left navigation panel shows the various options that can be configured for the user.  Select **Groups**.  Here you can see additional information about the group.  Verify the Operations group is listed (it may take several minutes for the group assignment to show up).  
 
-     ![](../Images/SC-900-14x.png)
+    ![](../Images/sc900-image15.png)
+    
+14. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
 
-13. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
+15. To add a license select **+ Assignments** from the top of the main window.
 
-14. To add a license select **+ Assignments** from the top of the main window.
+     ![](../Images/sc900-image16.png)
 
-     ![](../Images/SC-900-15x.png)
+16. Under Select licenses, select **Office 365 E5** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-15. Under Select licenses, select **Office 365 E5** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+    ![](../Images/sc900-image17.png)
+    
+18. Select the **X** on the top right of the screen to close the License assignments window.
 
-     ![](../Images/SC-900-02.png)
+19. Select the **Refresh icon** at the top of the page to confirm the license assignments.
 
-16. Select the **X** on the top right of the screen to close the License assignments window.
+20. Return to the Azure Active Directory Overview page
 
-17. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+21. You have successfully created and configured a user in Azure Active Directory.
 
-18. Return to the Azure Active Directory Overview page
-
-19. You have successfully created and configured a user in Azure Active Directory.
-
-20. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
+22. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
 
 20.   Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
