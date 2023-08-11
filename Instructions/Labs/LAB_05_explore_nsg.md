@@ -103,7 +103,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
 
-   ![Picture 1](../Images/sc900nsgessensial.png)
+   ![Picture 1](../Images/sc900nsgessensiall.png)
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
@@ -212,13 +212,14 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-### Review
-
-In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
-
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
 - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+### Review
+
+In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
+
