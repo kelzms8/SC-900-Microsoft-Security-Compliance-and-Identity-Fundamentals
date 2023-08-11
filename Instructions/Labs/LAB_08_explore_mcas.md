@@ -4,24 +4,20 @@
 ## Lab scenario
 In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
 
-## Task 1: Explore Cloud Discovery.
+## Task 1: Explore Cloud Discovery
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
    
 
-1. Sign in with your admin credentials.
+1. Sign in with your admin credentials. In the Sign in window,
 
-    * In the Sign in window, enter  Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**.
+1. Enter Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**.
       
-
 1. Enter the admin * Password: <inject key="AzureAdUserPassword"></inject> and  select **Sign in**.
-
-    * Password: <inject key="AzureAdUserPassword"></inject>
    
-
-1. Under **Discover** select **Create snapshot report**. 
+1. On the left menu Under **Discover** select **Create snapshot report**. 
   
-    **Note**: if could not found under **Discover** then select **Settings(1)** in the top right corner and click **settings(2)**, Under **Cloud Discovery(3)** select **Snapsnot Reports(4)**, and click **+Create Snapsnot Report(5)**.
+>- **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
    
     
    ![Picture 1](../Images/setting.png)
@@ -46,11 +42,11 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
     ![Picture 1](../Images/readysr.png)
     
-1. In the New tab  enter **admin.microsoft.com**.
+1. In the New tab  enter **admin.microsoft.com**
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter * Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
-    1. Enter the admin password * Password: <inject key="AzureAdUserPassword"></inject>
+    1. In the Sign in window enter Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
+    1. Enter the admin password  Password: <inject key="AzureAdUserPassword"></inject>
     1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
@@ -73,14 +69,23 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
  
      ![Picture 1](../Images/moreop.png)
 
-1. Selecting a specific line item opens a details page for the specific app. Select an item from the list and review the information available on the overview page.  For the selected item, select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.  If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
-  
+1. Selecting a specific line item opens a details page for the specific app. Select an item from the list and review the information available on the overview page.  For the selected item,
+
+1. select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**.
+
+1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
+
+1. If you select Cloud discovery from the left navigation panel, it will take you back to the dashboard view.
  
-1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).  Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or export the data for further analysis.
+1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
+
+>- Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or    export the data for further analysis.
 
    ![Picture 1](../Images/ipadd.png)
   
-1. From the top of the page (or the left navigation pane) select **Users**.  This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and export data for further analysis.
+1. From the top of the page (or the left navigation pane) select **Users**.
+
+>- This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and      export data for further analysis.
    
    1. Click on view all discovered app to view the detailed information.
 
@@ -92,11 +97,19 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.
     
-1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft 365**.  From the Microsoft Azure pop-up window, select **Connect Microsoft 365** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft 365**.
+
+1. From the Microsoft Azure pop-up window, select **Connect Microsoft 365** then select **Done**.
+
+1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
     
     ![Picture 1](../Images/updated1.png)
     
-1. Now you'll set up a another new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.  From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+1. Now you'll set up a another new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.
+
+1. From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.
+  
+1. Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
     
     ![Picture 1](../Images/update.png)
 
@@ -107,7 +120,9 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/appcatalog.png)
 
-1. The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
+>- The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
+
+1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
 1. Admins can also search for apps by category.  For example, in the search for category field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
@@ -118,19 +133,28 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
 
-1. Select **+ New policy from search**.  Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.  Select **Cancel** to exit of the policy creation window, then select **Leave page**.
+1. Select **+ New policy from search**.
 
-   >**Note**: If you don't find above option click on **Enable file monitoring** link and select the **Enable file monitoring** checkbox click on save and perform the above task.
+>- Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to Power Automate.
+
+1. Select **Cancel** to exit of the policy creation window, then select **Leave page**.
+
+   >**Note**: If you don't find above option click on **Enable file monitoring** link and select the **Enable file monitoring** checkbox click on save and perform the above               task.
 
     ![Picture 1](../Images/filesad.png)
 
-1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
+1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps.
 
-## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security.
+1. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
 
-1. From the left navigation panel, select **Policies** then select **Policy management**.  The listed policies provide information on the number of alerts generated by the policy, severity, etc. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e., **Risky sign-in**. 
+## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security
 
- 1. Note that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
+1. From the left navigation panel, select **Policies** then select **Policy management**.  The listed policies provide information on the number of alerts generated by the     policy, severity, etc.
+
+1. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e., **Risky sign-in**. 
+
+ 1. Note that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different 
+    options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
  
      ![Picture 1](../Images/sc900-managepolicy.png)
      
@@ -143,6 +167,13 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
    ![Picture 1](../Images/sc900-policytemplate.png)
 
 1. Close the browser window.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+      - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+      - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+      - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+      - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you explored the capabilities of Microsoft Cloud App Security.  You walked through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control the impact to your organization through policies.
