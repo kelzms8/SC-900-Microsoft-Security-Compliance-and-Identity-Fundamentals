@@ -28,7 +28,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/lab4sss1.png)
+     ![](../Images/lab4sss11.png)
               
 14. Close the password reset window by selecting the **X** at the top right corner of the page.
 
