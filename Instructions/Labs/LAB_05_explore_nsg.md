@@ -65,7 +65,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
 
-1. From the top of the page, select **Connect** then from the drop-down select **RDP**. 
+1. From the top of the page, select **Connect** then select **RDP**. 
 
 1. Verify the IP address is set to Public IP address, leave the default port number and select **Download RDP file**. 
 
@@ -103,6 +103,8 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
 
+   ![Picture 1](../Images/sc900nsgessensial.png)
+
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
 
@@ -135,12 +137,14 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 1. Select **Add**
 
-1. Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
+>- **Note** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning         sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
-1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
+1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab,
+
+1. select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**.
 
 1.  From the top of the page, select **Connect** then select **RDP**.
 
@@ -157,8 +161,9 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. After a few seconds on the Welcome screen you'll see a window to Choose privacy settings for your device, select **Accept**.  On the Networks window, select **No**.
 
 1. With the VM up and running, test outbound connectivity to the internet from the VM.
-    1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
- 1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
+    1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start       
+    without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
+    1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
     1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
 1. Minimize the VM, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM | Connect page. 
@@ -171,7 +176,10 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
 
-1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.  Note the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by creating a rule with higher priority. From the right side of the page, select **Add outbound port rule**.
+1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.
+   >- **Note** the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by 
+      creating a rule with higher priority. From the right side of the page,
+1. Select **Add outbound port rule**.
 
    ![Picture 1](../Images/sc900-5-9.png)
 
@@ -195,7 +203,10 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Return to your VM (the icon for the VM should be shown on the task bar on the bottom of the page).
 
-1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.  Note: if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Note:  Azure subscriptions in the lab environment may experience longer than normal delays.
+1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
+
+    >- **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes         a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
+    >- Azure subscriptions in the lab environment may experience longer       than normal delays.
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
@@ -204,3 +215,10 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 ### Review
 
 In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
