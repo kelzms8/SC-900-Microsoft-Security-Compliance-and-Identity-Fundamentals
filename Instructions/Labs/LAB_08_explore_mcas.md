@@ -8,7 +8,6 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
    
-
 1. Sign in with your admin credentials. In the Sign in window,
 
 1. Enter Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**.
@@ -17,14 +16,14 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
    
 1. On the left menu Under **Discover** select **Create snapshot report**. 
   
->- **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
+    **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
    
     
-   ![Picture 1](../Images/setting.png)
+     ![Picture 1](../Images/setting.png)
    
-   ![Picture 1](../Images/createsnapst.png)
+     ![Picture 1](../Images/createsnapst.png)
     
-
+    
 1. Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
 
 1. If you don't have a log file follow the below steps to download a sample log file.
@@ -79,17 +78,17 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
  
 1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
 
->- Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or    export the data for further analysis.
+   **Note:** Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP address or    export the data for further analysis.
 
-   ![Picture 1](../Images/ipadd.png)
+    ![Picture 1](../Images/ipadd.png)
   
 1. From the top of the page (or the left navigation pane) select **Users**.
 
->- This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and      export data for further analysis.
+   **Note:** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user and      export data for further analysis.
    
-   1. Click on view all discovered app to view the detailed information.
+1. Click on view all discovered app to view the detailed information.
 
-       ![Picture 1](../Images/sc900-users.png)
+   ![Picture 1](../Images/sc900-users.png)
     
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
