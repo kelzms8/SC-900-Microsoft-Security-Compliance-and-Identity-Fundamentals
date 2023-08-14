@@ -8,12 +8,11 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 After completing this lab, you will be able to:
 
-- Briefly explore the Azure policy page
-- Impact of tag
--  Steps to remediate a non-compliant resource group
+- Briefly explore the Azure policy page and impact of tag
+- Steps to remediate a non-compliant resource group
 
 ## Architecture Diagram
 
-![](./Images/preview16.png)
+![](./Images/sc900lab16.png)
 
 Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/3b9f8604-b20c-4ebd-a9a7-09d37946cefd) if you want to go through a detailed guide prior to launching the lab environment.
