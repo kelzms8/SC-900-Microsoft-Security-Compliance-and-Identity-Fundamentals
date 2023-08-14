@@ -27,14 +27,15 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Username:  enter **AzureUser**.
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
+    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
        
        ![Picture 1](../Images/createvm.png)
        
-    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+       1. Select **Next: Disks**. 
    
        ![Picture 1](../Images/sc900-5-3.png)
 
-    1. Select **Next: Disks**. 
+
     
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
@@ -51,15 +52,15 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. You are now in the Monitoring tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
 
-3. You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
+1. You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
 
-4. You are now in the Tags tab for the VM configuration.  Leave all settings to the default and select **Next: Review + Create>**.
+1. You are now in the Tags tab for the VM configuration.  Leave all settings to the default and select **Next: Review + Create>**.
 
-5. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
+1. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
 
-6. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
+1. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
 
-7. Once the VM deployment is complete, select **Go to resource**.
+1. Once the VM deployment is complete, select **Go to resource**.
    
     ![Picture 1](../Images/4.png)
 
@@ -75,11 +76,11 @@ In this lab, you will explore the function of network security groups in Azure. 
 
    ![Picture 1](../Images/08.png)
    
-21. From the left navigation panel, select **Networking**.  
-    1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-    1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+18. From the left navigation panel, select **Networking**.  
+     1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
+     1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
-22. Leave this browser tab open.
+19. Leave this browser tab open.
 
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 
@@ -93,8 +94,8 @@ In this lab, you will explore the function of network security groups in Azure. 
     
     1. Subscription: Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
      1. Resource group: Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**
-    3. Name:  **NSG-SC900**
-    4. Region:  leave the default value
+    1. Name:  **NSG-SC900**
+    1. Region:  leave the default value
     5. Select **Review + create** then select **Create**.
     
      ![Picture 1](../Images/sc900-5-5.png)
@@ -103,7 +104,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
 
-   ![Picture 1](../Images/sc900nsgessensiall.png)
+   ![Picture 1](../Images/sc900nsgessensiallch.png)
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
@@ -131,11 +132,12 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
    1. Priority:  **1000**. Note: rules with lower numbers have higher priority and are processed first.
    1. Name:  Leave the default name or create your own descriptive name.
    1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
+   1. Select **Add**
 
-       ![Picture 1](../Images/sc900-5-8.png)
+      ![Picture 1](../Images/sc900-5-8.png)
 
 
-1. Select **Add**
+
 
 >- **Note** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning         sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
