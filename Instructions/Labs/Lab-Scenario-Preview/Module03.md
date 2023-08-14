@@ -15,6 +15,6 @@ After completing this lab, you will be able to:
 
 ## Architecture Diagram
 
- ![](./Images/preview03.png)
+ ![](./Images/sc900lab3.png)
 
 Once you understand the lab's content, you can start the Hands-on Lab by clicking the **Launch** button located in the top right corner. This will lead you to the lab environment and guide. You can also preview the full lab guide [here](https://experience.cloudlabs.ai/#/labguidepreview/fcb8bece-08ef-48f6-bf70-e41aa00227e2) if you want to go through a detailed guide prior to launching the lab environment. 
