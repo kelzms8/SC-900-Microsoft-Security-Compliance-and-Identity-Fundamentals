@@ -4,7 +4,7 @@
 ## Lab scenario
 In this lab you will explore the Microsoft 365 Defender portal by walking through the content displayed on the landing page. You will also explore the options on the navigation panel which provide quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution: Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly you will also explore how Microsoft Secure Score can help an organization improve its security posture.
 
-## Task 1:  Explore the Microsoft 365 Defender landing page.
+## Task 1:  Explore the Microsoft 365 Defender landing page
 
 1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
 
@@ -29,7 +29,7 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
    
-     ![Picture 1](../Images/sc900addcard.png)
+     ![Picture 1](../Images/sc-900-lab-9-1.png)
    
      ![Picture 1](../Images/sc900-cardadded.png)
    
@@ -46,17 +46,17 @@ In this lab you will explore the Microsoft 365 Defender portal by walking throug
 
 1. Keep the browser window open.
 
-## Task 2: Explore on Microsoft Secure Score.
+## Task 2: Explore on Microsoft Secure Score
 
 In this task, you will explore how Microsoft Secure Score can help an organization improve its security posture.
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
-     ![Picture 1](../Images/sc900sc.png)
+     ![Picture 1](../Images/sc-900-lab-9-2.png)
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score.  A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score.  Select  **Include** again to close the window.
 
-     ![Picture 1](../Images/sc900-include.png)
+     ![Picture 1](../Images/sc-900-lab-9-3.png)
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 

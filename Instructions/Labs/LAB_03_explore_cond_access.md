@@ -8,15 +8,13 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. On the Azure portal locate the search bar at the top of the page. Search for **Azure SQL (1)**. Select the search result for **Azure Active Directory**.
+1. On the Azure portal locate the search bar at the top of the page. Select the search result for **Azure Active Directory**.
 
 1. From the left navigation panel select **Users**.
 
 1. Select Debra Berger from the list of users.
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
-
-    ![](../Images/iamge1.png)
 
 1. When the password reset window opens, select **Reset Password**.
 
@@ -36,17 +34,15 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
  
-   ![](../Images/iamge2.png)
-
 1. Go back to the Azure Active Directory Home page. From the left navigation panel, under **Manage** section, select **Security**.
 
 1. On **Security** page, from the left navigation panel, select **Conditional Access**.
 
-   ![](../Images/image3.png)
+   ![](../Images/sc-900-1.png)
 
 1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
 
-   ![](../Images/image4.png)
+   ![](../Images/sc-900-2.png)
 
 1. In the Name field, enter **MFA Test Policy**.
 
@@ -54,11 +50,13 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. You will now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
 
-1. Select the option for **Select users and groups** and select **Users and groups**.  The window to select users and groups opens.  
+1. Select the option for **Select users and groups** and select **Users and groups**.  The window to select users and groups opens.
+
+   ![](../Images/sc-900-3.png)
 
 1. In the Search bar, enter **Debra**.  Select **Debra Berger** from beneath the search bar, then press the **Select** button on the bottom of the page.  Note, a common practice is to assign the policy to users in a group.  For the purpose of expediency with this lab, we will assign the policy to a specific user. 
 
-   ![](../Images/select-user.png)
+   ![](../Images/sc-900-4.png)
 
 1. Under **Target resources**, select **No target resources are selected**.
 
@@ -66,7 +64,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-    ![](../Images/image5.png)
+    ![](../Images/sc-900-task-2-step-12.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -89,14 +87,14 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
-    1. In the Sign in window enter **DebraB@WWLxxxxx.onmicrosoft.com** (where xxxxxx is your unique tenant ID provided by your lab hosting provider) then select **Next**.
+    1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tabin the Lab Guide section) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of MFA).  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**
 
 1. You should be successfully logged in to your Microsoft 365 account.  MFA was not required for this application as it is not part of the policy.
 
-   ![](../Images/office.com.png)
+   ![](../Images/sc-900-5.png)
 
 1. Now you will attempt to sign in to an application that meets the criteria for MFA.  Open Microsoft Edge and in the address bar, enter https://portal.azure.com.
 
@@ -127,6 +125,15 @@ In this task, you will see the impact of the conditional access policy, from the
 1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Azure Management application and therefore requires multi-factor authentication, per the conditional access policy that was created.  
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting Sign out. Then the close all the browser windows.
+   
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 
+ 
+
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
 ### Review
 In this lab, you went through the process of setting up a conditional access policy that requires users to go through MFA when they access the Microsoft Azure Management cloud application.  Then, as a user, you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.

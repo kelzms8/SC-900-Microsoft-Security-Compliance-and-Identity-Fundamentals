@@ -5,7 +5,7 @@
 
 In this lab, you, as an admin, will walk through the process of enabling self-service password reset. With SSPR enabled, you will then assume the role of a user and go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin will be able to view audit logs and usage data & insights for SSPR.
 
-## Task 1:  Creating a basic group.
+## Task 1:  Creating a basic group
 
 In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will be resetting the user’s password so that you can do the first-time login, as the user, and register for SSPR.
 
@@ -20,9 +20,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
 
 1. On the Active Directory page, select **Groups** under **Manage** and then select **New group**.
-
-   ![](../Images/aad-new-group2-upd(1).png)
-
+   
 1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Security**.
@@ -30,6 +28,8 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
     2. Group name: **SSPRSecurityGroupUsers**.
 
     4. Group description: **Add an optional description to your group**.
+       
+    ![](../Images/sc-900lab-02.png)
 
 1. On the **Azure Active Directory** home page, select **Password reset**.
 
@@ -73,7 +73,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. Keep the AAD Overview window open as you will use it in the subsequent task.
 
-## Task 2: Configure Password reset for users.
+## Task 2: Configure Password reset for users
 
 In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
@@ -147,6 +147,12 @@ In this task, you, as user Adele Vance, will go through the registration process
 9. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
 10. Sign out of the Office 365 page and close your browser window.
+
+**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 4 (Optional): Process of resetting your password
 

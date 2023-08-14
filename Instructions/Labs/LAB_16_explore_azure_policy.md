@@ -3,7 +3,7 @@
 ## Lab scenario
 Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
-## Task 1: Briefly explore the Azure policy page.
+## Task 1: Briefly explore the Azure policy page
 
 1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
 
@@ -60,7 +60,7 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 1. Keep this browser tab (Policy – Microsoft Azure) open for the next task.
 
-## Task 2: Impact of tag.
+## Task 2: Impact of tag
 
 In this task you'll see the impact of the Azure policy assignment, by attempting to create a resource group in Azure that does not have a tag.
 
@@ -127,7 +127,17 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
 
 1. Now return to the policy page.  Place your mouse cursor on the blue search box on the top of the page and select **Policy**.
 
-1. From the left navigation panel, select **Compliance**.  As with the overview page, here you can view the compliance state of the listed policies and/or initiatives.  NOTE: although you've added the tag to the resource group, it will take time for the status to update.  Azure subscriptions used for lab purposes may experience longer than normal delays. If you wish you to wait for the compliance status for this resource to update, do not end the lab. Depending on the lab environment, it can take an hour or more to update.  
+1. From the left navigation panel, select **Compliance**.  As with the overview page, here you can view the compliance state of the listed policies and/or initiatives.  NOTE: although you've added the tag to the resource group, it will take time for the status to update.  Azure subscriptions used for lab purposes may experience longer than normal delays. If you wish you to wait for the compliance status for this resource to update, do not end the lab. Depending on the lab environment, it can take an hour or more to update.
+ > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+ 
+
+
+
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 
