@@ -8,11 +8,11 @@ In this lab, you, as an admin, will walk through the process of enabling self-se
 
 After completing this lab, you will be able to:
 
-- Creating a basic group.
-- Configure Password reset for users.
-- Registration process for a self-service password reset.
-- Process of resetting your password.
-- View the Audit logs and the Usage & insights data associated with password reset. 
+- Creating a basic group
+- Configure Password reset for users
+- Registration process for a self-service password reset
+- Process of resetting your password
+- View the Audit logs and the Usage & insights data associated with password reset
 
 ## Architecture Diagram
 

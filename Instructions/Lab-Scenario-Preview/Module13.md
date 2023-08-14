@@ -8,9 +8,9 @@ In this lab, you will explore the capabilities of sensitivity labels. You will g
 
 After completing this lab, you will be able to:
 
-- Explore the capabilities of sensitivity labels.
-- How to apply a label.
-- Impact of that label.
+- Explore the capabilities of sensitivity labels
+- How to apply a label
+- Impact of that label
 
 ## Architecture Diagram
 

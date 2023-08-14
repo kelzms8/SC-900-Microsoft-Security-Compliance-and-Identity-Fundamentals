@@ -8,9 +8,9 @@ Azure Policy helps to enforce organizational standards and to assess compliance 
 
 After completing this lab, you will be able to:
 
-- Briefly explore the Azure policy page.
-- Impact of tag.
--  Steps to remediate a non-compliant resource group.
+- Briefly explore the Azure policy page
+- Impact of tag
+- Steps to remediate a non-compliant resource group
 
 ## Architecture Diagram
 

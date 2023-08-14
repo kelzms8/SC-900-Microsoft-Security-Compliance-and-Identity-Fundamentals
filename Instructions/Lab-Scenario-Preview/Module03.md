@@ -9,9 +9,9 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 
 After completing this lab, you will be able to:
 
-- Reset the password for the user.
-- Process of creating a conditional access policy in Azure AD.
-- Impact of the conditional access policy.
+- Reset the password for the user
+- Process of creating a conditional access policy in Azure AD
+- Impact of the conditional access policy
 
 ## Architecture Diagram
 

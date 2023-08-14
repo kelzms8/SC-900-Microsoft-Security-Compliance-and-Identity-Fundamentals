@@ -8,10 +8,10 @@ In this lab, you will walk through the process of setting up an insider risk pol
 
 After completing this lab, you will be able to: 
 
-- Process of setting up an insider risk policy.
-- Enable the Audit log search capability.
-- Apply to all insider risk management policies.
-- You will walk through the creation of a policy.
+- Process of setting up an insider risk policy
+- Enable the Audit log search capability
+- Apply to all insider risk management policies
+- You will walk through the creation of a policy
 
 ## Architecture Diagram
 

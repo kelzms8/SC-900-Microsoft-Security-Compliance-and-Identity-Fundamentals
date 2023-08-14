@@ -9,7 +9,7 @@ In this lab, you will explore Microsoft Defender for Cloud and learn how Azure S
 After completing this lab, you will be able to:
 
 - Explore on Microsoft Defender for Cloud
-- How to enable/disable the various Microsoft Defender for Cloud plans.
+- How to enable/disable the various Microsoft Defender for Cloud plans
 
 ## Architecture Diagram
 

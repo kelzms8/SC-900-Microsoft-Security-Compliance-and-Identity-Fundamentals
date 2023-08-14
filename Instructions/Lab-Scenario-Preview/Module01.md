@@ -8,10 +8,10 @@ In this lab, you'll access Azure Active Directory. Additionally, you'll create a
 
 After completing this lab, you will be able to:
 
-- Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
-- Creating a basic group.
-- Create a new user in the Azure Active Directory and explore some of the services.
-- Sign in to the user first time.
+- Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
+- Creating a basic group
+- Create a new user in the Azure Active Directory and explore some of the services
+- Sign in to the user first time
 
 
 ## Architecture Diagram
