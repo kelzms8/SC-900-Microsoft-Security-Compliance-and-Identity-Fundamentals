@@ -27,7 +27,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/lab4sss11.png)
+     ![](../Images/ss1.png)
               
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -45,13 +45,13 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 2. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance10.png)
+   ![](../Images/ss2.png)
 
 3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
    ![](../Images/identity10.png)
 
-4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage Access**.
+4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under Manage Access.
 
    ![](../Images/manage-role10.png)
 
@@ -73,7 +73,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
-     ![](../Images/membership10.png)
+     ![](../Images/ss4.png)
 
 12. You are now on the Setting page.  Leave the Assignment type to the default setting, Eligible.
 
@@ -121,7 +121,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance100.png)
+   ![](../Images/ss3.png)
 
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
