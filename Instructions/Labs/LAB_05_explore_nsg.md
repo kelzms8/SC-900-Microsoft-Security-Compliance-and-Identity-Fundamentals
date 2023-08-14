@@ -104,7 +104,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
 
-   ![Picture 1](../Images/sc900nsgessensiall.png)
+   ![Picture 1](../Images/sc900nsgessensiallch.png)
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
