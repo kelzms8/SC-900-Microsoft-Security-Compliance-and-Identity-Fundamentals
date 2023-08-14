@@ -59,7 +59,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      
 1. Leave the browser tab open.
 
-## Task 2: Compliance posture through Compliance Manager.
+## Task 2: Compliance posture through Compliance Manager
  In this tak you will learn about your organization’s compliance posture through Compliance Manager.
 
 1. From the left navigation panel of the Microsoft Purview compliance center, select **Compliance Manager**.  Alternatively, you can select Compliance Manager on the title bar of the Compliance Manager card. Select **Show all** , if the options are not seen in the left navigation pane. 

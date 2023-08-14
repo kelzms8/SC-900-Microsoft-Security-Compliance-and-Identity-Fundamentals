@@ -1,11 +1,11 @@
 
-# Lab-04: Explore identity governance in Azure AD with Privileged Identity management.
+# Lab-04: Explore identity governance in Azure AD with Privileged Identity management
 
 ## Lab scenario
 In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Azure AD Premium P2.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Azure AD Premium P2 license.
 
 
-## Task 1: Reset the password for the user.
+## Task 1: Reset the password for the user
 
 In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
  
@@ -19,26 +19,25 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
    
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure Active Directory** and press the **Enter** key.  
 
+1. From the left navigation panel select **Users**.
 
-2. From the left navigation panel select **Users**.
+1. Select **Diego Siciliani** from the list of users.
 
-3. Select **Diego Siciliani** from the list of users.
+1. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
 
-4. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
-
-     ![](../Images/save_img.png)
+     ![](../Images/ss1.png)
               
-14. Close the password reset window by selecting the **X** at the top right corner of the page.
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-15. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+1. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-16. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
 
-17. Keep the browser page open, as you will in the subsequent tasks.
+1. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Assign an Azure AD role in Privileged Identity Management.
+## Task 2: Assign an Azure AD role in Privileged Identity Management
 
 In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
@@ -46,13 +45,13 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 2. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance10.png)
+   ![](../Images/ss2.png)
 
 3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
    ![](../Images/identity10.png)
 
-4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage Access**.
+4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under Manage Access.
 
    ![](../Images/manage-role10.png)
 
@@ -74,7 +73,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
-     ![](../Images/membership10.png)
+     ![](../Images/ss4.png)
 
 12. You are now on the Setting page.  Leave the Assignment type to the default setting, Eligible.
 
@@ -96,8 +95,18 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
+  > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
 
-## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management.
+ 
+ 
+
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
+## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
 In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
 
@@ -112,7 +121,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
 1. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/identity-governance100.png)
+   ![](../Images/ss3.png)
 
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
@@ -181,6 +190,16 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 1. The duration of the user admin role is limited to the time that was configured.
+
+  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+
+ 
+
+ 
+- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab; you explored PIM.  You, as the admin, configured Diego with user admin privileges for a specified amount of time.  Then you, as Diego, walked through the process of activating the user admin privileges and configuring user settings.  Recall that PIM requires an Azure AD Premium P2 license.
