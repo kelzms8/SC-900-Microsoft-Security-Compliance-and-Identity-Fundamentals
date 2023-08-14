@@ -34,11 +34,12 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
     1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
+       
     
         ![Picture 1](../Images/sc900-6-5.png)
         
          >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
-    2. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
+    3. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
        ![Picture 1](../Images/recommendation01.png)
     4. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
     5. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
