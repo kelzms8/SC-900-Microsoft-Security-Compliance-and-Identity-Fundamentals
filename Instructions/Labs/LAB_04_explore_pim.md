@@ -19,24 +19,23 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
    
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure Active Directory** and press the **Enter** key.  
 
+1. From the left navigation panel select **Users**.
 
-2. From the left navigation panel select **Users**.
+1. Select **Diego Siciliani** from the list of users.
 
-3. Select **Diego Siciliani** from the list of users.
+1. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
 
-4. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
-
-13. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
      ![](../Images/lab4sss11.png)
               
-14. Close the password reset window by selecting the **X** at the top right corner of the page.
+1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-15. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
+1. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-16. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
 
-17. Keep the browser page open, as you will in the subsequent tasks.
+1. Keep the browser page open, as you will in the subsequent tasks.
 
 ## Task 2: Assign an Azure AD role in Privileged Identity Management
 
