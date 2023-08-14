@@ -34,8 +34,6 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Under Manage, select **Properties**, Click on **Manage Security defaults** Set the Security defaults to disabled and click on save.
  
-   ![](../Images/iamge2.png)
-
 1. Go back to the Azure Active Directory Home page. From the left navigation panel, under **Manage** section, select **Security**.
 
 1. On **Security** page, from the left navigation panel, select **Conditional Access**.
