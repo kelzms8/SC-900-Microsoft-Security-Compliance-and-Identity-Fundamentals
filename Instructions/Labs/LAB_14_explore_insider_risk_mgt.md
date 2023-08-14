@@ -3,7 +3,7 @@
 ## Lab scenario
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
 
-## Task 1: Process of setting up an insider risk policy.
+## Task 1: Process of setting up an insider risk policy
 In this task you, as the global administrator, will enable permissions for Insider Risk Management.  Specifically, you will add users to the Insider Risk Management role group to ensure that designated users can access and manage insider risk management features.  It may take up to 30 minutes for the role group permissions to apply to users across the organization. 
 
 1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
@@ -59,7 +59,7 @@ In this task you, as the global administrator, will enable permissions for Insid
 
 1. Close all the tabs except the **admin.microsoft.com** and then sign out from the admin center page and sign-in back again to reflect the permissions added for users faster.
 
-## Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log): 
+## Task-2: Enable the Audit log search capability (SKIP if you did the setup lab task to enable the audit log)
 Insider risk management uses Microsoft 365 audit logs for user insights and activities identified in policies and analytics insights. In this task, you will enable the Audit log search capability. Note:  It may take several hours after you turn on audit log search before you can return results when you search the audit log.  Although it can take several hours before you can search the audit log, it will not impact the ability to complete other tasks in this lab.
 
 1. Select the browser tab labeled, **Microsoft 365 admin center - Home**.  If you previously closed this browser tab, open Microsoft Edge and in the address bar enter **admin.microsoft.com** and sign in with your admin credentials.
@@ -109,7 +109,7 @@ In this task you will walk through the settings associated with the Insider Risk
 
 1. Keep this browser tab open, as you will use it in the next task.
 
-## Task-4: Create policy.
+## Task-4: Create policy
 In this task, you will walk through the creation of a policy.
 
 1. You should be on the Insider risk management page.  If not already there, open the browser tab labeled, **Insider risk management - Microsoft 365 compliance**.
