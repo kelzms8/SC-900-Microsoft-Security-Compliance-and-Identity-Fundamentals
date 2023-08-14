@@ -64,7 +64,7 @@ In this task you will explore the Service Trust portal and the different types o
 
    ![](../Images/sc-900-lab11-8.png)
     
-## Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles.
+## Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
 
 In this task you will visit the Trust Center and navigate to Microsoft’s six, key privacy principles.
 
