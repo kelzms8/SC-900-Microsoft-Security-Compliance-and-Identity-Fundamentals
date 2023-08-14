@@ -54,7 +54,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
      
     ![Picture 1](../Images/openinazurepolicy3.png)
 
-    ![Picture 1](../Images/sc900-6-3.png)
+    ![Picture 1](../Images/scope.png)
      
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
