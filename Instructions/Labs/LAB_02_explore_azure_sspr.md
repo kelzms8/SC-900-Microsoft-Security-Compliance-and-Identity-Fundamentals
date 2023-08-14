@@ -20,9 +20,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
 
 1. On the Active Directory page, select **Groups** under **Manage** and then select **New group**.
-
-   ![](../Images/aad-new-group2-upd(1).png)
-
+   
 1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Security**.
@@ -30,6 +28,8 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
     2. Group name: **SSPRSecurityGroupUsers**.
 
     4. Group description: **Add an optional description to your group**.
+       
+    ![](../Images/sc-900lab-02.png)
 
 1. On the **Azure Active Directory** home page, select **Password reset**.
 
