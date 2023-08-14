@@ -50,7 +50,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1.Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-    ![Picture 2](../Images/image(3)-lab7.png)
+  ![Picture 1](../Images/image(3)-lab7.png)
     
      >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
    
