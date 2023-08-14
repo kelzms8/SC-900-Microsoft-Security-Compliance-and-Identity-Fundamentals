@@ -17,7 +17,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
    
 1. On the left menu Under **Discover** select **Create snapshot report**. 
   
-   >- **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
+     **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
    
     
    ![Picture 1](../Images/setting.png)
@@ -83,14 +83,14 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
  
 1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
 
-    >- Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
-       address or    export the data for further analysis.
+       >- Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
+          address or    export the data for further analysis.
 
    ![Picture 1](../Images/ipadd.png)
   
 1. From the top of the page (or the left navigation pane) select **Users**.
 
-   >- This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific user 
+    **Note** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific               user 
       and export data for further analysis.
    
 1. Click on view all discovered app to view the detailed information.
