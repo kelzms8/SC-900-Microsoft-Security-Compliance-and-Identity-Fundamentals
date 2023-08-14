@@ -64,7 +64,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-    ![](../Images/image5.png)
+    ![](../Images/sc-900-task-2-step-12.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
