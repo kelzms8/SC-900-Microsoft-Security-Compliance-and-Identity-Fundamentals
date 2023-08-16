@@ -37,13 +37,16 @@ Create a Microsoft Sentinel instance
 1. From the Add Microsoft Sentinel to a workspace page, select **Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following:
-    1. Subscription: leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
-    1. Resource group: select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
-    1. Name: **SC900-LogAnalytics-workspace**.
-    1. Region: **East US** (A different default region may be selected based on your location)
-    1. Select **Review + Create** (no tags will be configured).
-    1. Verify the information you entered then select **Create**.
-    1. It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**.
+
+    | Setting | Action |
+    | -- | -- |
+    | Subscription | leave the default, this is the Azure subscription provided by the Authorized Lab Hoster (ALH).
+    | Resource group | select **Create New**, then enter the name **SC900-Sentinel-RG** then select **OK**.
+    | Name | **SC900-LogAnalytics-workspace**.
+    | Region | **East US** (A different default region may be selected based on your location)
+    | | Select  **Review + Create** (no tags will be configured).|
+    | | Verify the information you entered then select  **Create**. |
+    | | It may take a minute or two for the ne workspace to be listed, if you still don't see it, select **Refresh**, then select **Add**. |
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, indicating that the Microsoft Sentinel free trial is activated.  Select **OK**.  Note the three steps listed on the Get started page.
 
