@@ -8,11 +8,11 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the main window, under Azure Services, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
 
-   ![Picture 1](../Images/sc900-5-12.png)
+     ![Picture 1](../Images/sc900-5-12.png)
 
 1. From the top left of the page, select **+Create** then select **Azure Virtual machine**.
 
-   ![Picture 1](../Images/sc900-5-1.png)
+     ![Picture 1](../Images/sc900-5-1.png)
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
@@ -28,18 +28,17 @@ In this lab, you will explore the function of network security groups in Azure. 
     1. Password:  enter **SC900AzureLabs**.
     1. Public inbounds ports:  select **None**.
     1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+    1. Select **Next: Disks**.  
        
        ![Picture 1](../Images/createvm.png)
        
-       1. Select **Next: Disks**. 
-   
        ![Picture 1](../Images/sc900-5-3.png)
 
 
     
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
-      ![Picture 1](../Images/sc900-5-4.png)
+   ![Picture 1](../Images/sc900-5-4.png)
       
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
     1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
@@ -72,7 +71,7 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. Open the downloaded file and select **Connect**. 
 
-**Note: The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.**
+> **Note:** The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be               configured.  You'll do that in the next task, when you create a network security group.
 
    ![Picture 1](../Images/08.png)
    
@@ -139,7 +138,7 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
 
 
 
->- **Note** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning         sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
+> **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning                sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
@@ -207,8 +206,8 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
 
-    >- **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes         a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
-    >- Azure subscriptions in the lab environment may experience longer       than normal delays.
+    > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
+                Azure subscriptions in the lab environment may experience longer       than normal delays.
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
