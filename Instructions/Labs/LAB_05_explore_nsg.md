@@ -16,25 +16,25 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
-    | Setting | Action |
-    | -- | -- |
-    | **Subscription** |  Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
-    | **Resource group** |  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**. |
-    | **Virtual machines name** |  enter **SC900-WinVM**. |
-    | **Region** |  Leave the default region. |
-    | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
-    | **Security type** |  Select **Standard** from the drop-down.
-    | **Image** |  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**. |
-    | **Size** |  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page. |
-    | **Username** |  enter **AzureUser**. |
-    | **Password** |  enter **SC900AzureLabs**. |
-    | **Public inbounds ports** |  select **None**. |
-    | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
-    | **Select** | **Next: Disks**. | 
+   | Setting | Action |
+   | -- | -- |
+   | **Subscription** |  Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+   | **Resource group** |  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**. |
+   | **Virtual machines name** |  enter **SC900-WinVM**. |
+   | **Region** |  Leave the default region. |
+   | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
+   | **Security type** |  Select **Standard** from the drop-down.
+   | **Image** |  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**. |
+   | **Size** |  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page. |
+   | **Username** |  enter **AzureUser**. |
+   | **Password** |  enter **SC900AzureLabs**. |
+   | **Public inbounds ports** |  select **None**. |
+   | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
+   | **Select** | **Next: Disks**. | 
        
-  ![Picture 1](../Images/createvm.png)
+    ![Picture 1](../Images/createvm.png)
        
-  ![Picture 1](../Images/sc900-5-3.png)
+    ![Picture 1](../Images/sc900-5-3.png)
     
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
@@ -90,12 +90,14 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. From the top of Network security groups page, select **+ Create**.
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    
-     | Subscription | Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
-     | Resource group | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>** |
-     | Name |  **NSG-SC900** |
-     | Region |  leave the default value |
-     | Select | **Review + create** then select **Create**. |
+
+   | Setting | Action |
+   | -- | -- |
+   | **Subscription** | Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+   | **Resource group** | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>** |
+   | **Name** |  **NSG-SC900** |
+   | **Region** |  leave the default value |
+   | **Select** | **Review + create** then select **Create**. |
     
      ![Picture 1](../Images/sc900-5-5.png)
 
@@ -123,17 +125,20 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
     
-   1. Source:  **Any**
-   1. Source port ranges: **\***
-   1. Destination:  **Any**
-   1. Service:  **RDP**
-   1. Action:  **Allow**
-   1. Priority:  **1000**. Note: rules with lower numbers have higher priority and are processed first.
-   1. Name:  Leave the default name or create your own descriptive name.
-   1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
-   1. Select **Add**
+  | Setting | Action |
+  | -- | -- |
+  | **Source** |  **Any** |
+  | Source port ranges | **\*** |
+  | Destination |  **Any** |
+  | Service |  **RDP** |
+  | Action |  **Allow** |
+  | Priority |  **1000**. Note: rules with lower numbers have higher priority and are processed first. |
+  | Name |  Leave the default name or create your own descriptive name. |
+  | Select **Add** |
 
-      ![Picture 1](../Images/sc900-5-8.png)
+  > **Note:** the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
+
+    ![Picture 1](../Images/sc900-5-8.png)
 
 
 
@@ -185,18 +190,20 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
    ![Picture 1](../Images/sc900-5-9.png)
 
 1. On the Add outbound security rule page, specify the following settings:
-    
-    1. Source:  **Any**
-    1. Source port ranges:  **\***
-    1. Destination:  **Service Tag**
-    1. Destination service tag:  **Internet**
-    1. Service:  **Custom** (leave the default)
-    1. Destination port ranges:  * (be sure to put an asterisk in the destination port ranges field)
-    1. Protocol: **Any**
-    1. Action: **Deny**
-    1. Priority:  **4000**
-    1. Name:  **DenyInternet**
-    1. Select **Add**
+
+    | Setting | Action |
+    | -- | -- |
+    | Source |  **Any** |
+    | Source port ranges |  **\*** |
+    | Destination |  **Service Tag** |
+    | Destination service tag |  **Internet** |
+    | Service |  **Custom** (leave the default) |
+    | Destination port ranges |  * (be sure to put an asterisk in the destination port ranges field) |
+    | Protocol | **Any** |
+    | Action | **Deny** |
+    | Priority |  **4000** |
+    | Name |  **DenyInternet** |
+    | Select | **Add** |
     
    ![Picture 1](../Images/sc900-5-10.png)
 
