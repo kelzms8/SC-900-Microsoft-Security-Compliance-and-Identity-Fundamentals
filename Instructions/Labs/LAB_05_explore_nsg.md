@@ -207,7 +207,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
 
     > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
-                Azure subscriptions in the lab environment may experience longer       than normal delays.
+                Azure subscriptions in the lab environment may experience longer than normal delays.
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
