@@ -20,8 +20,6 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
    >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-   >**Note**: make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
-
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
 9. Close the Users window by selecting the **X** at the top right corner of the page.
