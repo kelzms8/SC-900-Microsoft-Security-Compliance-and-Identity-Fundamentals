@@ -4,15 +4,15 @@
 
 1. To get the lab environment details, you can select the **Environment Details** tab.
 
-    ![](../Images/sc900-image1.png)
+    ![](../Images/sc900-image(1)1.png)
 
 1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
 
-   ![](../Images/sc900-image(2).png)
+   ![](../Images/sc900-image(2)1.png)
    
 1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
 
-   ![](../Images/sc900-image2.png)
+   ![](../Images/sc900-image(3)1.png)
     
 ### Log in to Azure Portal and verify the pre-deployed resources.
 
