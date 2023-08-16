@@ -8,7 +8,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.  
 
-1. From the Microsoft Sentinel page, select **Create**.
+1. From the Microsoft Sentinel page, select **+ Create**.
 
 1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
@@ -18,15 +18,13 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
     1. Name: **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**
     1. Region: leave this default
  
-    ![Picture 1](../Images/image1-lab7.png)
+    ![Picture 1](../Images/SC-900-mod-7-2.png)
    
 1. click **Review + Create**.   
 
 1. Verify the information you entered then select **Create**.
 
 1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **SC900-LogAnalytics-workspace (1)** and click on **Add (2)**.
-
-    ![Picture 1](../Images/image2-lab7.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
@@ -36,25 +34,25 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 
 With the Microsoft Sentinel instance created, it is important that users that will have responsibility to support Microsoft Sentinel have the necessary permissions.  This is done by assigning the designated user the required role permissions. In this task, you'll view the available, built-in Microsoft Sentinel roles.
 
-1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
+1. In the **Search resources, services, and docs** search for **resource groups** then select **Resource groups** from the search results. 
 
 2. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.
 
-  >- Note: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance              that was created in the previous task.
+   >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance   that was created in the previous task.
 
 3. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
 4. From the Access control page, select **View my access**.
-   >- Note: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as             shown in the description. It is important, however, to understand the available Sentinel specific roles.
-   >- **Note the current role is Owner.**
-
-5.Close the assignments window by selecting the **X** on the top-right corner of the window.
-
-  ![Picture 1](../Images/image(3)-lab7.png)
-    
-     >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
    
-6. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
+   >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as             shown in the description. It is important, however, to understand the available Sentinel specific roles.
+   
+   >**Note the current role is Owner.**
+
+5. Close the assignments window by selecting the **X** on the top-right corner of the window.
+
+    ![Picture 1](../Images/image(3)-lab7.png)
+    
+     >**Note**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
 7. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
@@ -62,9 +60,9 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 In this task you will walk through the steps involved in setting up a data connector to your instance of Microsoft Sentinel and selecting a built-in workbook templates to allow you to quickly gain insights across your data as soon as you connect a data source. Note: Azure lab subscriptions may experience greater than normal delays in connecting to a data source and/or visualizing data.
 
-1. In the search box, in the blue bar on the top of the page next to where it says Microsoft Azure, enter **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
+1. In the **Search resources, services, and docs** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results.
 
-2. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+2. From the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
 
 3. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
@@ -94,13 +92,13 @@ In this task you will walk through the steps involved in setting up a data conne
 
 14. In the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left      side of the page, do NOT refresh the browser.
    
-15. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace**.
+15. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
        
 16. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
 
 17. On **Content hub** page in the Search bar, search for **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
 
-   ![Picture 1](../Images/image8-lab7.png) 
+    ![Picture 1](../Images/image8-lab7.png) 
 
 18. Once installation procees is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
 
@@ -108,10 +106,10 @@ In this task you will walk through the steps involved in setting up a data conne
 
 20. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location. Now select **View saved workbook**.
 
-   1. In the workspace field, select **SC900-LogAnalytics-workspace**.
+   1. In the workspace field, select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
    1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
    1. From the top of the workbook page, select the **Save icon**.
-   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel** and Select **SC900-LogAnalytics-workspace** This returns 
+   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel** and Select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** This returns 
       you to the Overview page.
    1. On the Overview page, select **New overview** toggle and scroll down and select **data connectors** under **Data** section then you should now see the number 1 above 
       where it says connected, to indicate one active connector (you may need to select refresh).
@@ -148,21 +146,17 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.
 
->- Note the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
- 
-![Picture 1](../Images/sc900-analytics.png)
+    >**Note**: the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
 
-10. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create**
-
-11. select **Automation rule**.  Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
+10. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** dropdown, and then select **Automation rule**. Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
  
-![Picture 1](../Images/sc900-Automation.png)
+    ![Picture 1](../Images/sc900-Automation.png)
 
 12. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.
   
-  >- NOTE: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
+    >**Note**: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal delays in collecting data that can be visualized in the workbook.
   
-  ![Picture 1](../Images/sc900-2.png)
+    ![Picture 1](../Images/sc900-2.png)
   
 13. Close the window by selecting the **X** on the top-right corner of the window.
 
@@ -172,7 +166,6 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
 - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
 - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
