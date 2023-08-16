@@ -16,25 +16,25 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
-    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-    1. Resource group:  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**.
-    1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Region : Leave the default region.
-    1. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
-    1. Security type : Select **Standard** from the drop-down.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**.
-    1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. Username:  enter **AzureUser**.
-    1. Password:  enter **SC900AzureLabs**.
-    1. Public inbounds ports:  select **None**.
-    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
-    1. Select **Next: Disks**.  
+    | Setting | Action |
+    | -- | -- |
+    | **Subscription** |  Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+    | **Resource group** |  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**. |
+    | **Virtual machines name** |  enter **SC900-WinVM**. |
+    | **Region** |  Leave the default region. |
+    | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
+    | **Security type** |  Select **Standard** from the drop-down.
+    | **Image** |  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**. |
+    | **Size** |  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page. |
+    | **Username** |  enter **AzureUser**. |
+    | **Password** |  enter **SC900AzureLabs**. |
+    | **Public inbounds ports** |  select **None**. |
+    | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
+    | **Select** | **Next: Disks**. | 
        
-       ![Picture 1](../Images/createvm.png)
+  ![Picture 1](../Images/createvm.png)
        
-       ![Picture 1](../Images/sc900-5-3.png)
-
-
+  ![Picture 1](../Images/sc900-5-3.png)
     
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
@@ -91,11 +91,11 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
     
-    1. Subscription: Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-     1. Resource group: Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**
-    1. Name:  **NSG-SC900**
-    1. Region:  leave the default value
-    5. Select **Review + create** then select **Create**.
+     | Subscription | Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+     | Resource group | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>** |
+     | Name |  **NSG-SC900** |
+     | Region |  leave the default value |
+     | Select | **Review + create** then select **Create**. |
     
      ![Picture 1](../Images/sc900-5-5.png)
 
