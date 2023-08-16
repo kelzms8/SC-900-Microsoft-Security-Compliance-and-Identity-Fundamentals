@@ -13,20 +13,23 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 1. From Add Microsoft Sentinel to a workspace, select **+ Create a new workspace**.
 
 1. From the basics tab of the Create Log Analytics workspace, enter the following
-    1. Subscription:  **Select the given subscription (1)**   
-    1. Resource group: select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**.
-    1. Name: **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**
-    1. Region: leave this default
- 
-    ![Picture 1](../Images/image1-lab7.png)
-   
+
 1. click **Review + Create**.   
 
 1. Verify the information you entered then select **Create**.
 
 1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **SC900-LogAnalytics-workspace (1)** and click on **Add (2)**.
 
-    ![Picture 1](../Images/image2-lab7.png)
+  | Setting | Action |
+  | -- | -- |
+  | Subscription |  **Select the given subscription (1)**  |
+  | Resource group | select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**. |
+  | Name | **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** |
+  | Region | leave this default |
+ 
+  ![Picture 1](../Images/image1-lab7.png)
+
+  ![Picture 1](../Images/image2-lab7.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
@@ -38,25 +41,28 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. In the blue search box, enter **resource groups** then select **Resource groups** from the search results. 
 
-2. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.
+1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.
 
-  >- Note: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance              that was created in the previous task.
+    > Note: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance              that was created in the previous task.
 
-3. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
+1. From the SC900-ResourceGroup page, select **Access control (IAM)** from the left navigation panel.
 
-4. From the Access control page, select **View my access**.
-   >- Note: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as             shown in the description. It is important, however, to understand the available Sentinel specific roles.
-   >- **Note the current role is Owner.**
+1. From the Access control page, select **View my access**.
 
-5.Close the assignments window by selecting the **X** on the top-right corner of the window.
+   > Note: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources as              shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
 
-  ![Picture 1](../Images/image(3)-lab7.png)
+
+       
+1. Close the assignments window by selecting the **X** on the top-right corner of the window.
+
+    ![Picture 1](../Images/image(3)-lab7.png)
     
-     >**NOTE**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
+    **NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:      
+               https://docs.microsoft.com/en-us/azure/sentinel/roles
    
-6. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
+1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
 
-7. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
+1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
 ## Task 3: Data connector to your instance of Microsoft Sentinel
 
