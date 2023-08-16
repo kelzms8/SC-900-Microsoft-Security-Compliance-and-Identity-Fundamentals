@@ -112,16 +112,16 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
 
-     ![Picture 1](../Images/sc900-5-6.png)
-
 1. Once the interface is associated to the NSG, it will show up on the list.
 
 1. Navigate to SC900-WinVM Overview page, select **Networking** from the left navigation pane and then select **Add inbound port rule**.
+
+1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP 
+    traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
+
+     ![Picture 1](../Images/sc900-5-6.png)
   
      ![Picture 1](../Images/sc900-5-7.png)
-
-
-1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
 
 From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
     
@@ -136,12 +136,9 @@ From the top of the page, select **Add**. On the Add inbound security rule windo
   | Name |  Leave the default name or create your own descriptive name. |
   | Select **Add** |
 
-  > **Note:** the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
+> **Note:** the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
 
-    ![Picture 1](../Images/sc900-5-8.png)
-
-
-
+  ![Picture 1](../Images/sc900-5-8.png)
 
 > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning                sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
@@ -213,8 +210,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
 
-    > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
-                Azure subscriptions in the lab environment may experience longer than normal delays.
+     **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience                   longer than normal delays.   
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
