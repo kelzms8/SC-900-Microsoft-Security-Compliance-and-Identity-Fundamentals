@@ -8,16 +8,12 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
    
-1. Sign in with your admin credentials. In the Sign in window,
-
-1. Enter Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**.
-      
-1. Enter the admin * Password: <inject key="AzureAdUserPassword"></inject> and  select **Sign in**.
+1. Sign in with your admin credentials. In the Sign in window, Enter Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**. Enter the admin * Password: <inject key="AzureAdUserPassword"></inject> and  select **Sign in**.
    
 1. On the left menu Under **Discover** select **Create snapshot report**. 
   
 
-    **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot           Reports**, and click **+Create Snapsnot Report**.
+    **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot  Reports**, and click **+ Create Snapshot Report**.
 
    
     
@@ -76,7 +72,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 
 1. Selecting a specific line item opens a details page for the specific app. Select an item from the list and review the information available on the overview page.  For the selected item,
 
-1. select the **Cloud app usage** tab to see more detailed information, including  **Usage**, **Users, IP**, **Addresses**, and **Alerts**.
+1. select the **IP Addresses**, **Users**, and **Discovered resources** tab to see more detailed information.
 
 1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
 
@@ -85,7 +81,7 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
 1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
 
 
-   **Note:** Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
+   >**Note:** Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
    address or    export the data for further analysis.
 
 
@@ -100,23 +96,21 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
    
 1. Click on view all discovered app to view the detailed information.
 
-   ![Picture 1](../Images/sc900-users.png)
-    
-
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
    
-
 1. You can connect to apps directly by setting up app connectors that will provide you with greater visibility and control over your cloud apps. From the top right corner of the screen, select **Actions** then select **Cloud Discovery Settings**.  From the left side of the screen, under Connected apps, select **App connectors**.
-    
-1. Now you'll set up a new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft 365**.
 
-1. From the Microsoft Azure pop-up window, select **Connect Microsoft 365** then select **Done**.
+    ![Picture 1](../Images/sc900-users.png)
+    
+1. Now you'll set up a new app connector.  Select **+ Connect an app** and from the drop-down list select **Microsoft 365**.
+
+1. From the Microsoft Azure pop-up window, select **Connect Office 365** then select **Done**.
 
 1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
     
     ![Picture 1](../Images/updated1.png)
     
-1. Now you'll set up a another new app connector.  Select **+Connect an app** and from the drop-down list select **Microsoft Azure**.
+1. Now you'll set up a another new app connector.  Select **+ Connect an app** and from the drop-down list select **Microsoft Azure**.
 
 1. From the Microsoft Azure pop-up window, select **Connect Microsoft Azure** then select **Done**.  You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.
   
@@ -132,13 +126,12 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/appcatalog.png)
 
-    >- The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the        page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example,          
-       filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 
+    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the        page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example,         filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 
        27001, SOC 2, and PCI-DSS.
 
 1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
-1. Admins can also search for apps by category.  For example, in the search for category field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
+1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
     ![Picture 1](../Images/yammer.png)
 
@@ -147,15 +140,15 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
 
+    >**Note**: On the Files page, if it says For Defender for Cloud Apps to monitor files in your SaaS apps, go to Settings and Enable file monitoring, select **Enable file monitoring**, then select the check box for enabling file monitoring, and select **Save**.
+
 1. Select **+ New policy from search**.
 
-   >- Note how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to         Power Automate.
+   >**Note**: how you can create a policy based on a template, select a policy severity & category, create filters for the policy, create alerts, and even send the alerts to    Power Automate.
+
+   ![Picture 1](../Images/filesad.png)
 
 1. Select **Cancel** to exit of the policy creation window, then select **Leave page**.
-
-   >**Note**: If you don't find above option click on **Enable file monitoring** link and select the **Enable file monitoring** checkbox click on save and perform the above               task.
-
-    ![Picture 1](../Images/filesad.png)
 
 1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps.
 
@@ -165,10 +158,9 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. From the left navigation panel, select **Policies** then select **Policy management**.  The listed policies provide information on the number of alerts generated by the     policy, severity, etc.
 
-1. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e., **Risky sign-in**. 
+1. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e. **Risky sign-in**. 
 
-    >- Note that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different 
-       options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
+    >**Note**: that you can also create a policy. Select **+ Create policy** to view the types of policies you can create.  Select **Activity policy** to view the different options available for creating the policy.  Select **Cancel** to exit out of the configuration window.
  
      ![Picture 1](../Images/sc900-managepolicy.png)
      
