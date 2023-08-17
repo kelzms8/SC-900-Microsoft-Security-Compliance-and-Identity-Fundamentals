@@ -166,6 +166,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. After a few seconds on the Welcome screen you'll see a window to Choose privacy settings for your device, select **Accept**.  On the Networks window, select **No**.
 
 1. With the VM up and running, test outbound connectivity to the internet from the VM.
+    
     - From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start       
     without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
     - Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
